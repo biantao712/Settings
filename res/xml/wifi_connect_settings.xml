@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        android:title="@string/wifi_add_network"
+        settings:keywords="@string/keywords_wifi">
+        
+    <PreferenceCategory
+        android:key="ssid_category"
+        android:layout="@layout/asusres_preference_category_material_nodivider">
+        <com.android.settings.wifi.EditTextPreference
+            android:key="ssid"
+	         />
+    </PreferenceCategory>
+        
+    <PreferenceCategory
+        android:key="security_category"
+        android:title="@string/wifi_ap_security_info"
+        >
+        <ListPreference
+        android:key="security"
+        android:title="@string/wifi_security"
+        android:dialogTitle="@string/wifi_security"
+        android:entries="@array/wifi_security"
+        android:entryValues="@array/wifi_eap_method_values"
+        android:layout="@layout/cnasusres_preference_parent" />
+        
+        <ListPreference
+        android:key="security_eap_method"
+        android:title="@string/wifi_eap_method"
+        android:dialogTitle="@string/wifi_eap_method"
+        android:entries="@array/wifi_eap_method"
+        android:entryValues="@array/wifi_eap_method_values"
+        android:layout="@layout/cnasusres_preference_parent" />
+        <ListPreference
+        android:key="security_eap_phase2"
+        android:title="@string/please_select_phase2"
+        android:dialogTitle="@string/please_select_phase2"
+        android:entries="@array/wifi_phase2_entries"
+        android:entryValues="@array/wifi_eap_method_values"
+        android:layout="@layout/cnasusres_preference_parent" />
+        <ListPreference
+        android:key="security_eap_ca_cert"
+        android:title="@string/wifi_eap_ca_cert"
+        android:dialogTitle="@string/wifi_eap_ca_cert"
+        android:entries="@array/wifi_ca_cert_entries"
+        android:entryValues="@array/wifi_eap_method_values"
+        android:layout="@layout/cnasusres_preference_parent" />
+        
+        <com.android.settings.wifi.EditTextPreference
+            android:key="security_eap_domain"
+	         />
+        <ListPreference
+        android:key="security_eap_user_cert"
+        android:title="@string/wifi_eap_user_cert"
+        android:dialogTitle="@string/wifi_eap_user_cert"
+        android:entries="@array/wifi_user_cert_entries"
+        android:entryValues="@array/wifi_eap_method_values"
+        android:layout="@layout/cnasusres_preference_parent" />
+        
+        <com.android.settings.wifi.EditTextPreference
+            android:key="security_eap_identity"
+	         />
+        <com.android.settings.wifi.EditTextPreference
+            android:key="security_eap_anonymous"
+	         />
+        
+        <com.android.settings.wifi.EditTextPreference
+            android:key="password"
+	         />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="wifi_advanced_category"
+        android:title="@string/wifi_ap_advanced_settings_info">
+        
+        <SwitchPreference
+        android:key="enable_advanced"
+        android:title="@string/wifi_ap_advanced_settings" />
+        <ListPreference
+        android:key="proxy_settings"
+        android:title="@string/proxy_settings_title"
+        android:dialogTitle="@string/proxy_settings_title"
+        android:entries="@array/wifi_proxy_settings"
+        android:entryValues="@array/wifi_eap_method_values"
+        android:dependency="enable_advanced"
+        android:layout="@layout/cnasusres_preference_parent" />
+        
+        <com.android.settings.wifi.EditTextPreference
+            android:key="proxy_pac"
+	        android:dependency="enable_advanced"/>
+        <com.android.settings.wifi.EditTextPreference
+            android:key="proxy_hostname"
+	        android:dependency="enable_advanced"/>
+        <com.android.settings.wifi.EditTextPreference
+            android:key="proxy_port"
+	        android:dependency="enable_advanced"/>
+        <com.android.settings.wifi.EditTextPreference
+            android:key="proxy_exclusionlist"
+	        android:dependency="enable_advanced"/>
+        
+        <ListPreference
+        android:key="ip_settings"
+        android:title="@string/wifi_ip_settings"
+        android:dialogTitle="@string/wifi_ip_settings"
+        android:entries="@array/wifi_ip_settings"
+        android:entryValues="@array/wifi_eap_method_values"
+        android:dependency="enable_advanced"
+        android:layout="@layout/cnasusres_preference_parent_nodivider" />
+        <com.android.settings.wifi.EditTextPreference
+            android:key="ipaddress"
+	        android:dependency="enable_advanced"/>
+        <com.android.settings.wifi.EditTextPreference
+            android:key="gateway"
+	        android:dependency="enable_advanced"/>
+        <com.android.settings.wifi.EditTextPreference
+            android:key="network_prefix_length"
+	        android:dependency="enable_advanced"/>
+        <com.android.settings.wifi.EditTextPreference
+            android:key="dns1"
+	        android:dependency="enable_advanced"/>
+        <com.android.settings.wifi.EditTextPreference
+            android:key="dns2"
+	        android:dependency="enable_advanced"
+	         />
+        
+    </PreferenceCategory>
+</PreferenceScreen>

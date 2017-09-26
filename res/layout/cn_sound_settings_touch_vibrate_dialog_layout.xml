@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dip"
+        android:text="@string/cn_sound_setting_vibrate_on_touch"
+        android:textSize="16sp"
+        android:textColor="@color/cn_dialog_title_text_color"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/cn_dialog_divider_line_color"/>
+		
+	<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RadioGroup
+		android:id="@+id/vibrate_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">	
+        <RadioButton
+			android:id="@+id/close_radiobtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/cn_sound_settings_vibrate_intensity_close_radiobtn"
+			style="@style/CNZenModeWhiteListDialog.RadioButtonText"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@color/cn_dialog_list_line_color"/>
+        <RadioButton
+			android:id="@+id/week_radiobtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/cn_sound_settings_vibrate_intensity_week_radiobtn"
+			style="@style/CNZenModeWhiteListDialog.RadioButtonText"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@color/cn_dialog_list_line_color"/>
+        <RadioButton
+			android:id="@+id/normal_radiobtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/cn_sound_settings_vibrate_intensity_normal_radiobtn"
+			style="@style/CNZenModeWhiteListDialog.RadioButtonText"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@color/cn_dialog_list_line_color"/>
+        <RadioButton
+			android:id="@+id/strong_radiobtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/cn_sound_settings_vibrate_intensity_strong_radiobtn"
+			style="@style/CNZenModeWhiteListDialog.RadioButtonText"/>
+    </RadioGroup>
+	</ScrollView>
+</LinearLayout>

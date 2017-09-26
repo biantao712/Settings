@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="hardware_info"
+        android:title="@string/hardware_info">
+
+        <!-- Device max CPU freq -->
+        <!--jack_qi, move to device info settings-->
+<!--        <Preference android:key="cpu_frequency"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/cpu_frequency_title"
+                android:summary="@string/device_info_default"/>-->
+        <!-- Device Memory size -->
+        <!--jack_qi, move to device info settings-->
+<!--        <Preference android:key="memory_size"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/memory_size_title"
+                android:summary="@string/device_info_default"/>-->
+        <!-- Device FCC equipment id -->
+        <Preference android:key="fcc_equipment_id"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/fcc_equipment_id"
+                android:summary="@string/device_info_default"/>
+        <!-- Device GPS version -->
+        <Preference android:key="gps_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/gps_version"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Device wifi version -->
+        <Preference android:key="wifi_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/wifi_version"
+                android:summary="@string/device_info_default"/>
+
+         <!-- Device Bluetooth version -->
+         <Preference android:key="bt_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/bt_version"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Javid Shu, Detailed build version -->
+        <Preference android:key="touch_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/touch_version_title"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Quinton_Cheng add for Hedes used only panel initial code-->
+        <Preference android:key="panel_init_version"
+                    style="?android:preferenceInformationStyle"
+                    android:title="@string/panel_init_title"
+                    android:summary="@string/device_info_default"/>
+
+        <Preference android:key="battery_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/battery_version_title"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Mist Liao, Camer ISP version -->
+        <Preference android:key="camera_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/camera_version_title"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Mist Liao, pad EC version -->
+        <Preference android:key="pad_ec_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/pad_ec_version_title"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Mist Liao, Dock EC version -->
+        <Preference android:key="dock_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/dock_version"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Jim3 Chen, Scalar version -->
+        <Preference android:key="scalar_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/scalar_version"
+                android:summary="@string/device_info_default"/>
+
+        <!-- tsungching_lin, Detailed paddock build version -->
+        <Preference android:key="padfone_station_pad_ec_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/padfone_station_pad_ec_version"
+                android:summary="@string/dock_not_available"/>
+
+        <Preference android:key="padfone_station_touch_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/padfone_station_touch_version"
+                android:summary="@string/dock_not_available"/>
+
+        <Preference android:key="padfone_station_camera_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/padfone_station_camera_version"
+                android:summary="@string/dock_not_available"/>
+
+        <!-- Tony Hsu, Stylus version -->
+        <Preference android:key="stylus_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/stylus_version"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Tony Hsu, IAFW version -->
+        <Preference android:key="iafw_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/iafw_version"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Tony Hsu, KBCFW version -->
+        <Preference android:key="kbcfw_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/kbcfw_version"
+                android:summary="@string/device_info_default"/>
+
+        <!-- Verizon Device hardware version -->
+        <Preference android:key="device_hardware_version"
+                    style="?android:preferenceInformationStyle"
+                    android:title="@string/hardware_version"
+                    android:summary="@string/device_info_default"/>
+
+        <Preference android:key="fingerprint_version"
+                    style="?android:preferenceInformationStyle"
+                    android:title="@string/asus_fingerprint_version"
+                    android:summary="@string/device_info_default"/>
+
+</PreferenceScreen>

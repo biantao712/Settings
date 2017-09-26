@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- extra space height of easy mode description -->
+    <dimen name="desc_title_margin_top">20dp</dimen>
+    <dimen name="desc_title_margin_bottom">20dp</dimen>
+    <dimen name="text_extra_space">4dp</dimen>
+    <dimen name="desc_margin_top">9dp</dimen>
+
+</resources>

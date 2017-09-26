@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        android:title="@string/wifi_tether_configure_ap_text"
+        settings:keywords="@string/keywords_wifi">
+        
+    <PreferenceCategory
+        android:layout="@layout/asusres_preference_category_material_nodivider">
+        <com.android.settings.wifi.EditTextPreference
+            android:key="ssid"
+	        android:title="@string/wifi_ssid"
+	         />
+    </PreferenceCategory>
+        
+    <PreferenceCategory
+        android:title="@string/wifi_ap_security_info"
+        >
+        <ListPreference
+        android:key="security"
+        android:title="@string/wifi_security"
+        android:dialogTitle="@string/wifi_security"
+        android:entries="@array/wifi_ap_security"
+        android:entryValues="@array/wifi_ap_security_values"
+        android:layout="@layout/asusres_preference_material_parent" />
+        <com.android.settings.wifi.EditTextPreference
+            android:key="password"
+	        android:title="@string/wifi_password"
+	         />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/wifi_ap_advanced_settings_info"
+        android:key="wifi_ap_advanced_category">
+        
+        <SwitchPreference
+        android:key="enable_advanced"
+        android:title="@string/wifi_ap_advanced_settings" />
+        <ListPreference
+        android:key="choose_channel"
+        android:title="@string/wifi_ap_band_config"
+        android:dialogTitle="@string/wifi_ap_band_config"
+        android:entries="@array/wifi_ap_band_config_full"
+        android:entryValues="@array/wifi_ap_band_config_full_values"
+        android:dependency="enable_advanced"
+        android:layout="@layout/asusres_preference_material_parent" />
+        <ListPreference
+        android:key="disable_hotspot_policy"
+        android:title="@string/wifi_disable_hotspot"
+        android:dialogTitle="@string/wifi_disable_hotspot"
+        android:entries="@array/wifi_disable_hotspot_entries"
+        android:entryValues="@array/wifi_ap_disable_hotspot_policy_values"
+        android:dependency="enable_advanced" 
+        android:layout="@layout/asusres_preference_material_parent_nodivider"/>
+        
+    </PreferenceCategory>
+</PreferenceScreen>

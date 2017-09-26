@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout used for PreferenceCategory in a PreferenceActivity. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+	
+    <TextView
+        android:id="@+android:id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:minHeight="65dp"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textSize="15sp"
+        android:textColor="@color/cnasusres_general_normal_assist"
+        android:gravity="center_vertical"
+		android:background="@color/cnasusres_general_secondary_divider"/>
+
+</LinearLayout>

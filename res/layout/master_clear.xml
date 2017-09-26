@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:id="@+id/master_clear_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+            android:background="#f7f7f7">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:paddingEnd="0dp"
+                android:background="#eaeaea"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="34dp"
+                android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"
+                android:includeFontPadding="false"
+                android:textSize="15sp"
+                android:textColor="#9e9e9e"
+                android:gravity="center_vertical"
+                android:text="@string/asus_master_clear_title_desc"  />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"
+                android:paddingEnd="0dp"
+                android:background="#d4d4d4"/>
+            <TextView android:id="@+id/also_erases_external"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:lineSpacingExtra="6dp"
+                android:includeFontPadding="false"
+                android:textSize="15sp"
+                android:textColor="#0c0c0c"
+                android:text="@string/asus_master_clear_content_desc" />
+            <!-- BEGIN channing_yeh@asus.com -->
+            <!-- For feature: Erase SD card -->
+            <LinearLayout
+                android:id="@+id/erase_mircosd_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:focusable="true"
+                android:clickable="true" >
+
+                <CheckBox
+                    android:id="@+id/erase_mircosd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingRight="8dp"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:duplicateParentState="true" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:textSize="18sp"
+                        android:text="@string/erase_mircosd_storage" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4sp"
+                        android:textSize="14sp"
+                        android:text="@string/erase_mircosd_storage_description" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- END channing_yeh@asus.com -->
+            <TextView android:id="@+id/accounts_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textSize="18sp"
+                android:text="@string/master_clear_accounts" />
+            <LinearLayout android:id="@+id/accounts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+                <!-- Do not add any children here as they will be removed in the MasterClear.java
+                    code. A list of accounts will be inserted programmatically. -->
+            </LinearLayout>
+            <TextView android:id="@+id/other_users_present"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textSize="18sp"
+                android:text="@string/master_clear_other_users_present" />
+            <TextView android:id="@+id/erase_external_option_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/master_clear_desc_erase_external_storage" />
+            <LinearLayout android:id="@+id/erase_external_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:focusable="true"
+                    android:clickable="true">
+                <CheckBox android:id="@+id/erase_external"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingEnd="8dp"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:duplicateParentState="true" />
+                <LinearLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:textSize="18sp"
+                        android:text="@string/erase_external_storage" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4sp"
+                        android:textSize="14sp"
+                        android:text="@string/erase_external_storage_description" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingEnd="0dp"
+        android:background="#eaeaea"/>
+    <Button
+        android:id="@+id/initiate_master_clear"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dip"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/asus_master_clear_button_text"
+        android:gravity="center" />
+
+</LinearLayout>

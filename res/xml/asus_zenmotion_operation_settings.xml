@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/zen_motion_settings_title" >
+
+        <com.android.settings.zenmotion.ZenTouchGestureSwitchPreference
+        android:key="asus_touch_gesture"
+        android:title="@string/touch_gesture_category_title"
+        android:fragment="com.android.settings.zenmotion.AsusTouchSettings"
+        android:persistent="false" >
+    </com.android.settings.zenmotion.ZenTouchGestureSwitchPreference>
+
+    <com.android.settings.zenmotion.ZenMotionGestureSwitchPreference
+        android:key="asus_motion_gesture"
+        android:title="@string/motion_gesture_category_title"
+        android:fragment="com.android.settings.zenmotion.AsusMotionSettings"
+        android:persistent="false" >
+    </com.android.settings.zenmotion.ZenMotionGestureSwitchPreference>
+
+    <PreferenceScreen
+            android:key="asus_onehand_mode"
+            android:title="@string/asus_onehand_ctrl_title_string"
+            android:fragment="com.android.settings.zenmotion.OneHandModeSettings">
+    </PreferenceScreen>
+
+</PreferenceScreen>

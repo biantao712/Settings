@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/inspire_asus_title">
+
+    <CheckBoxPreference
+        android:key="asus_analytics"
+        android:summary="@string/asus_analytics_summary"
+        android:title="@string/inspire_asus_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        android:title="@string/vpn_add_title"
+        settings:keywords="@string/vpn_title">
+        
+    <!-- info -->
+    <PreferenceCategory
+        android:key="vpn_category_info"
+        android:title="@string/vpn_category_info" >
+        <com.android.settings.wifi.EditTextPreference
+            android:key="vpn_name"
+            android:title="@string/vpn_name" />
+        <com.android.settings.wifi.EditTextPreference
+            android:key="vpn_server"
+            android:title="@string/vpn_server" />
+    </PreferenceCategory>
+    
+    <!-- user info -->
+    <PreferenceCategory
+        android:key="vpn_category_user"
+        android:title="@string/vpn_category_user" >
+        <com.android.settings.wifi.EditTextPreference
+            android:key="vpn_username"
+            android:title="@string/vpn_username" />
+        <com.android.settings.wifi.EditTextPreference
+            android:key="vpn_password"
+            android:title="@string/vpn_password" />
+    </PreferenceCategory>
+    
+    <!-- type info -->
+    <PreferenceCategory
+        android:key="vpn_category_type"
+        android:title="@string/vpn_category_type" >
+        <ListPreference
+	        android:key="vpn_type"
+	        android:title="@string/vpn_type"
+	        android:dialogTitle="@string/vpn_type"
+	        android:entries="@array/vpn_types"
+	        android:entryValues="@array/vpn_types_values"
+	        android:layout="@layout/cnasusres_preference_parent" />
+        
+        <!-- PPTP -->
+        <SwitchPreference
+	        android:key="vpn_mppe"
+	        android:title="@string/vpn_mppe"
+	        android:layout="@layout/asusres_preference_material_nodivider" />
+        
+        <!-- PSK -->
+        <com.android.settings.wifi.EditTextPreference
+            android:key="vpn_l2tp_secret"
+            android:title="@string/vpn_l2tp_secret" />
+        <com.android.settings.wifi.EditTextPreference
+            android:key="vpn_ipsec_identifier"
+            android:title="@string/vpn_ipsec_identifier" />
+        <com.android.settings.wifi.EditTextPreference
+            android:key="vpn_ipsec_secret"
+            android:title="@string/vpn_ipsec_secret" />
+        
+        <!-- RSA -->
+        <ListPreference
+	        android:key="vpn_ipsec_user_cert"
+	        android:title="@string/vpn_ipsec_user_cert"
+	        android:dialogTitle="@string/vpn_ipsec_user_cert"
+	        android:entries="@array/vpn_user_cert_entries"
+	        android:entryValues="@array/vpn_user_cert_entries_values"
+	        android:layout="@layout/cnasusres_preference_parent" />
+        
+        <ListPreference
+	        android:key="vpn_ipsec_ca_cert"
+	        android:title="@string/vpn_ipsec_ca_cert"
+	        android:dialogTitle="@string/vpn_ipsec_ca_cert"
+	        android:entries="@array/vpn_ca_cert_entries"
+	        android:entryValues="@array/vpn_user_cert_entries_values"
+	        android:layout="@layout/cnasusres_preference_parent" />
+        
+        <ListPreference
+	        android:key="vpn_ipsec_server_cert"
+	        android:title="@string/vpn_ipsec_server_cert"
+	        android:dialogTitle="@string/vpn_ipsec_server_cert"
+	        android:entries="@array/vpn_server_cert_entries"
+	        android:entryValues="@array/vpn_user_cert_entries_values"
+	        android:layout="@layout/cnasusres_preference_parent_nodivider" />
+        
+    </PreferenceCategory>
+    
+    <!-- advanced info -->
+    <PreferenceCategory
+        android:key="vpn_category_advanced"
+        android:title="@string/vpn_category_advanced" >
+        <com.android.settings.wifi.EditTextPreference
+            android:key="vpn_search_domains"
+            android:title="@string/vpn_search_domains" />
+        <com.android.settings.wifi.EditTextPreference
+            android:key="vpn_dns_servers"
+            android:title="@string/vpn_dns_servers" />
+        <com.android.settings.wifi.EditTextPreference
+            android:key="vpn_routes"
+            android:title="@string/vpn_routes" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    android:title="@string/Gestures_Quick_Start_Applications_title"
+    android:summary="@string/Gestures_Quick_Start_Applications_summary_off">
+    </PreferenceCategory>
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:gesture="http://schemas.android.com/apk/res/com.android.settings"
+	android:layout="@layout/cnasusres_preference_parent_nodivider"
+    android:key="asus_gesture_quick_start_app">
+    
+    <SwitchPreference
+        android:key="asus_zenmotion2_touch_gesture_sleep_category"
+        android:title="@string/Gestures_Quick_Start_Applications_title"
+        android:summary="@string/Gestures_Quick_Start_Applications_summary_2"
+        android:layout="@layout/asusres_preference_material_nodivider"
+        android:defaultValue="true">
+    </SwitchPreference>
+
+    <PreferenceCategory android:key="asus_gesture_app"
+	    android:title=""
+        android:dependency="asus_zenmotion2_touch_gesture_sleep_category"
+        android:layout="@layout/asusres_preference_category_material_nodivider">
+        <com.android.settings.zenmotion2.GesturePreference
+            android:key="v_launch"
+            android:defaultValue="true"
+            android:title="@string/V_launch_title"
+            gesture:PackageName="com.asus.contacts"
+            gesture:Enabled="true"
+            >
+        </com.android.settings.zenmotion2.GesturePreference>
+        <com.android.settings.zenmotion2.GesturePreference
+            android:key="c_launch"
+            android:defaultValue="true"
+            android:title="@string/C_launch_title"
+            gesture:PackageName="com.asus.contacts"
+            gesture:Enabled="true"
+            >
+        </com.android.settings.zenmotion2.GesturePreference>
+        <com.android.settings.zenmotion2.GesturePreference
+            android:key="e_launch"
+            android:defaultValue="true"
+            android:title="@string/E_launch_title"
+            gesture:PackageName="com.asus.contacts"
+            gesture:Enabled="true"
+            >
+        </com.android.settings.zenmotion2.GesturePreference>
+        <com.android.settings.zenmotion2.GesturePreference
+            android:key="w_launch"
+            android:defaultValue="true"
+            android:title="@string/W_launch_title"
+            gesture:PackageName="com.asus.contacts"
+            gesture:Enabled="false"
+            >
+        </com.android.settings.zenmotion2.GesturePreference>
+        <com.android.settings.zenmotion2.GesturePreference
+            android:key="s_launch"
+            android:defaultValue="true"
+            android:title="@string/S_launch_title"
+            gesture:PackageName="com.asus.contacts"
+            gesture:Enabled="false"
+            >
+        </com.android.settings.zenmotion2.GesturePreference>
+        <com.android.settings.zenmotion2.GesturePreference
+            android:key="z_launch"
+            android:defaultValue="true"
+            android:title="@string/Z_launch_title"
+            gesture:PackageName="com.asus.contacts"
+            gesture:Enabled="false"
+            android:layout="@layout/asusres_preference_material_nodivider"
+            >
+        </com.android.settings.zenmotion2.GesturePreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+			android:title=""
+			android:layout="@layout/asusres_preference_category_material_nodivider"
+			android:key="gesture_tutorial_group">
+	    <PreferenceScreen
+	        android:layout="@layout/cnasusres_preference_parent_nodivider" 
+	    	android:title="@string/Gestures_Quick_Start_Applications_Tutorial_title"
+	        android:key="gesture_tutorial">
+	        <intent android:action="android.settings.TOUCHTUTORIAL2" />
+	    </PreferenceScreen>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+    </PreferenceCategory>
+<!--    
+    <PreferenceCategory
+    	android:layout="@layout/asusres_preference_material_nodivider_with_bg"
+		android:title=""
+		android:key="gesture_empty_group">
+	</PreferenceCategory>
+-->
+</PreferenceScreen>

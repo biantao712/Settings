@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    android:title="@string/Gestures_Quick_Start_Applications_title"
+    android:summary="@string/Gestures_Quick_Start_Applications_summary_off">
+    </PreferenceCategory>
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:gesture="http://schemas.android.com/apk/res/com.android.settings"
+	android:layout="@layout/cnasusres_preference_parent_nodivider"
+    android:key="asus_gesture_quick_start_app">
+          
+    <SwitchPreference
+        android:key="asus_zenmotion2_touch_gesture_sleep_category"
+        android:title="@string/Gestures_Quick_Start_Applications_title"
+        android:summary="@string/Gestures_Quick_Start_Applications_summary_2"
+        android:layout="@layout/asusres_preference_material_nodivider"
+        android:defaultValue="false">
+    </SwitchPreference>
+    
+    <PreferenceCategory
+			android:title=""
+			android:layout="@layout/asusres_preference_category_material_nodivider"
+			android:key="gesture_tutorial_group">
+	    <PreferenceScreen
+	        android:layout="@layout/cnasusres_preference_parent_nodivider" 
+	    	android:title="@string/Gestures_Quick_Start_Applications_Tutorial_title"
+	        android:key="gesture_tutorial">
+	        <intent android:action="android.settings.TOUCHTUTORIAL2" />
+	    </PreferenceScreen>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+		<Preference
+			android:layout="@layout/asusres_preference_material_nodivider_with_bg">
+		</Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

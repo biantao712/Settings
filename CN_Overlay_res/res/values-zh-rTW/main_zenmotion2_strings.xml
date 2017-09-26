@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="zenmotion_tutorial_title">說明</string>
+    <string name="tutorial_w_launch_summary">"螢幕關閉時，於螢幕上寫”W”啟動應用程式。"</string>
+    <string name="tutorial_s_launch_summary">"螢幕關閉時，於螢幕上寫”S”啟動應用程式。"</string>
+    <string name="tutorial_e_launch_summary">"螢幕關閉時，於螢幕上寫”e”啟動應用程式。"</string>
+    <string name="tutorial_c_launch_summary">"螢幕關閉時，於螢幕上寫”C”啟動應用程式。"</string>
+    <string name="tutorial_z_launch_summary">"螢幕關閉時，於螢幕上寫”Z”啟動應用程式。"</string>
+    <string name="tutorial_v_launch_summary">"螢幕關閉時，於螢幕上寫”V”啟動應用程式。"</string>
+    <string name="tutorial_double_click_summary">"來電時，雙擊裝置機身進入靜音模式。"</string>
+    <string name="tutorial_flip_down_title">"翻轉(向下翻轉)"</string>
+    <string name="tutorial_flip_up_title">"翻轉(向下與向上翻轉)"</string>
+    <string name="tutorial_flip_down_summary">"來電時，翻轉裝置螢幕朝下進入靜音模式。"</string>
+    <string name="tutorial_flip_up_summary">"聆聽音樂或是播放媒體時，翻轉裝置螢幕朝下暫停音樂；播放暫停時，翻轉手機螢幕朝上繼續播放。"</string>
+    <string name="tutorial_hands_up_summary">"來電時，手持裝置，舉起手臂並將裝置靠近耳朵以自動接聽來電。"</string>
+    <string name="tutorial_moving_summary">"裝置偵測得知目前正在行走或移動中，若有來電，加大來電鈴聲。"</string>
+    <string name="app_asus_front_camera_name">相機 - 前鏡頭</string>
+    <string name="app_asus_smartlauncher_weather_name">省事兒 - 天氣</string>
+    <string name="wake_up_touch_gesture_category_title">"螢幕醒著"</string>
+    <string name="sleep_touch_gesture_category_title">"螢幕休眠"</string>
+    <string name="shake_summary">"使用應用程式時，搖兩下即可截圖，並在Do It Later建立一個新的工作。"</string>
+    <string name="motion_flip_title">"翻轉"</string>
+    <string name="motion_flip_summary">"翻轉裝置機身。"</string>
+    <string name="motion_hand_up_title">"智慧接聽"</string>
+    <string name="motion_hand_up_summary">"手持裝置，舉起手臂並將裝置靠近耳朵。"</string>
+    <string name="motion_double_click_title">"雙擊"</string>
+    <string name="motion_double_click_summary">"雙擊裝置機身。"</string>
+    <string name="motion_walking_title">"移動中"</string>
+    <string name="motion_walking_summary">"當裝置握在手中或置於背包內，讓裝置偵測目前正在行走或移動中。"</string>
+    <string name="zen_motion_settings_title">ZenMotion</string>
+    <string name="motion_gesture_category_title">動作手勢</string>
+    <string name="touch_gesture_category_title">觸控手勢</string>
+    <string name="shake_title">搖一搖</string>
+    <string name="shake_sensitivity_title">靈敏度</string>
+    <string name="doubletap_on_setting_title">開螢幕</string>
+    <string name="doubletap_off_setting_title">關螢幕</string>
+    <string name="doubletap_on_setting_summary">雙擊喚醒</string>
+    <string name="doubletap_off_setting_summary">雙擊睡眠</string>
+    <string name="w_launch_title">“W” 啟動應用程式</string>
+    <string name="s_launch_title">“S” 啟動應用程式</string>
+    <string name="e_launch_title">“e” 啟動應用程式</string>
+    <string name="c_launch_title">“C” 啟動應用程式</string>
+    <string name="z_launch_title">“Z” 啟動應用程式</string>
+    <string name="v_launch_title">“V” 啟動應用程式</string>
+    <string name="shake_sensitivity_entries_high">高</string>
+    <string name="shake_sensitivity_entries_normal">中</string>
+    <string name="shake_sensitivity_entries_low">低</string>
+    <string name="app_disable">不使用</string>
+    <string name="app_asus_boost_name">系統優化</string>
+    <string name="swipe_up_to_wake_up_title">"向上滑動喚醒"</string>
+    <string name="swipe_up_to_wake_up_summary">"向上滑動螢幕，從待機模式喚醒裝置。"</string>
+    <string name="gesture_wake_up_screen">"喚醒螢幕"</string>
+    <string name="double_tap_on_confirm_dialog_title">雙擊喚醒</string>
+    <string name="double_tap_on_confirm_dialog_message">螢幕關閉時，雙擊螢幕同一個地方可以開啟螢幕。</string>
+    <string name="double_tap_off_confirm_dialog_title">雙擊睡眠</string>
+    <string name="double_tap_off_confirm_dialog_message">在滑動解鎖畫面，雙擊螢幕空白處可以關閉螢幕。在資訊列與桌面畫面，雙擊螢幕空白處可以關閉螢幕。</string>
+    <string name="double_tap_mode_confirm_dialog_checkbox_message">不再提醒</string>
+    <string name="doubletap_mode_setting_title">開/關螢幕</string>
+    <string name="doubletap_mode_setting_summary">雙擊喚醒/雙擊睡眠</string>
+    <string name="double_tap_mode_confirm_dialog_title">雙擊喚醒/雙擊睡眠</string>
+    <string name="double_tap_mode_confirm_dialog_message">螢幕睡眠時, 雙擊螢幕同一個地方, 可以喚醒螢幕. 在解鎖畫面時, 雙擊螢幕, 可以讓螢幕睡眠.</string>
+    <!--new UI -->
+    <!-- Gesture and Motion-->
+    <string name="Gesture_Motion_title">手勢與感應</string>
+    <string name="Touch_Gesture_title">手勢操作</string>
+    <string name="Gestures_Quick_Start_Applications_title">手勢快啟應用</string>
+    <string name="Gestures_Quick_Start_Applications_summary">關閉</string>
+    <string name="Gestures_Quick_Start_Applications_summary_off">關閉</string>
+    <string name="Gestures_Quick_Start_Applications_summary_on">開啟</string>
+    <string name="Gestures_Quick_Start_Applications_summary_2">開啟後,關閉螢幕狀態下,在屏幕上滑動對應手勢以啟動應用.</string>
+    <string name="Gestures_Quick_Start_Applications_Tutorial_title">說明</string>
+    <string name="Motion_Gesture_title">動作感應</string>
+    <string name="Auto_Answer_title">自動接聽</string>
+    <string name="Auto_Answer_summary">來電時，手機靠近耳朵自動接聽來電。</string>
+    <string name="Flip_to_mute_title">翻轉靜音</string>
+    <string name="flip_to_mute_summary">翻轉設備至螢幕朝下以靜音來電鈴聲。</string>
+    <string name="One_Hand_Mode_title">單手模式</string>
+    <string name="Quick_trigger_title">快速切換</string>
+    <string name="Quick_trigger_summary">雙擊home鍵切換單手操作</string>
+    <!--Gesture Quick Start Application -->
+    <string name="V_launch_title">"V 手勢"</string>
+    <string name="C_launch_title">"C 手勢"</string>
+    <string name="E_launch_title">"e 手勢"</string>
+    <string name="W_launch_title">"W 手勢"</string>
+    <string name="S_launch_title">"S 手勢"</string>
+    <string name="Z_launch_title">"Z 手勢"</string>
+    <string name="no_selected">未配置</string>
+    <string name="new_text">New Text</string>
+    <string name="info">INFO</string>
+    <string name="dilplay_list">Display the list</string>
+    <string name="index_A">A</string>
+    <!-- Gesture App List-->
+    <string name="Application_list_title">應用選擇</string>
+    <string name="not_enabled">不啟用</string>
+    <!-- Tutorial-->
+    <string name="zenmotion2_tutorial_title">手勢教程</string>
+    <!--new UI end -->
+</resources>

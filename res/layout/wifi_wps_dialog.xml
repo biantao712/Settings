@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/cnasusres_alertdialog_content_padding"
+        android:paddingEnd="@dimen/cnasusres_alertdialog_content_padding" >
+
+        <TextView
+        android:id="@+id/alertdialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cnasusres_alertdialog_content_padding"
+        android:layout_marginBottom="@dimen/cnasusres_alertdialog_title_padding_bottom"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:includeFontPadding="false"
+        android:text="@string/wifi_menu_wps_pbc"
+        android:textColor="@color/cnasusres_general_important_info"/>
+        
+        <TextView
+                android:id="@+id/wps_dialog_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="7dp"
+                android:includeFontPadding="false"
+                android:textSize="15sp"
+                android:textColor="@color/cnasusres_general_normal_icon"
+                android:layout_marginBottom="21dp" />
+
+        <ImageView
+                android:id="@+id/wps_dialog_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="?attr/ic_wps" />
+
+        <ProgressBar
+                android:id="@+id/wps_timeout_bar"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="7dp"
+                style="?android:attr/progressBarStyleHorizontal" />
+
+        <ProgressBar
+                android:id="@+id/wps_progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="7dp"
+                style="?android:attr/progressBarStyle" />
+
+        <TextView
+            android:id="@+id/wps_timeout_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="7dp"
+            android:includeFontPadding="false"
+            android:textSize="12sp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="21dp"/>
+
+        <!-- <RelativeLayout
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/wps_dialog_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancel" />
+        </RelativeLayout> -->
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+
+	<string name="ringtone_picker_title">Ringtone Picker</string>
+
+    <string name="internal_tag">Internal Ringtones</string>
+
+    <string name="external_tag">External Ringtones</string>
+
+    <string name="ringtone_none">None</string>
+
+    <string name="ringtone_default">Default Ringtone</string>
+	
+	<string name="external_ringtone_no_data">No Data</string>
+
+</resources>

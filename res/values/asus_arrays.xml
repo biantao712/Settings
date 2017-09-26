@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- touchpad/mouse right button mapping -->
+    <string-array name="right_button_mapping_selector_entries" translatable="false">
+        <item><![CDATA[@string/button_secondary]]></item>
+        <item><![CDATA[@string/button_back]]></item>
+    </string-array>
+
+    <!-- touchpad/mouse right button mapping -->
+    <string-array name="right_button_mapping_selector_values" translatable="false">
+        <item>"2"</item>
+        <item>"8"</item>
+    </string-array>
+
+    <!-- touchpad/mouse right button mapping -->
+    <string-array name="middle_button_mapping_selector_entries" translatable="false">
+        <item><![CDATA[@string/button_tertiary]]></item>
+        <item><![CDATA[@string/button_menu]]></item>
+    </string-array>
+
+    <!-- touchpad/mouse right button mapping -->
+    <string-array name="middle_button_mapping_selector_values" translatable="false">
+        <item>"4"</item>
+        <item>"1073741824"</item>
+    </string-array>
+
+    <string-array name="indark_entries" translatable="false">
+        <item><![CDATA[@string/auto_brightness_settings_indark_slow]]></item>
+        <item><![CDATA[@string/auto_brightness_settings_indark_immediate]]></item>
+        <item><![CDATA[@string/auto_brightness_settings_indark_dynamic]]></item>
+    </string-array>
+
+    <string-array name="indark_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+
+    <string-array name="screenshot_format_entries" translatable="false">
+        <item><![CDATA[@string/jpeg_tag]]></item>
+        <item><![CDATA[@string/png_tag]]></item>
+    </string-array>
+
+    <string-array name="screenshot_format_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+
+    <!--Sunny_Yuan, Zen motion setting-->
+    <string-array name="shake_sensitivity_entries" translatable="false">
+        <item><![CDATA[@string/shake_sensitivity_entries_high]]></item>
+        <item><![CDATA[@string/shake_sensitivity_entries_normal]]></item>
+        <item><![CDATA[@string/shake_sensitivity_entries_low]]></item>
+    </string-array>
+
+       <!--Sunny_Yuan, Zen motion setting-->
+    <string-array name="shake_sensitivity_values" translatable="false">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+
+    <string-array name="country_code" translatable="false">
+        <item>"00001"</item>
+        <item>"00002"</item>
+        <item>"00003"</item>
+        <item>"00004"</item>
+        <item>"00005"</item>
+        <item>"00006"</item>
+        <item>"00007"</item>
+        <item>"00008"</item>
+        <item>"00009"</item>
+        <item>"00010"</item>
+        <item>"00011"</item>
+        <item>"00012"</item>
+        <item>"00013"</item>
+        <item>"00014"</item>
+        <item>"00015"</item>
+        <item>"00016"</item>
+        <item>"00017"</item>
+    </string-array>
+
+    <string-array name="country_table" translatable="false">
+        <item>"WW"</item>
+        <item>"US"</item>
+        <item>"TW"</item>
+        <item>"JP"</item>
+        <item>"CN"</item>
+        <item>"ID"</item>
+        <item>"RU"</item>
+        <item>"BH"</item>
+        <item>"BR"</item>
+        <item>"TR"</item>
+        <item>"HK"</item>
+        <item>"SG"</item>
+        <item>"KR"</item>
+        <item>"IN"</item>
+        <item>"TH"</item>
+        <item>"DE"</item>
+        <item>"PH"</item>
+    </string-array>
+
+    <string-array name="cid_code" translatable="false">
+        <item>"00001"</item>
+        <item>"00002"</item>
+        <item>"00003"</item>
+        <item>"00004"</item>
+        <item>"00005"</item>
+        <item>"00006"</item>
+        <item>"00007"</item>
+        <item>"00008"</item>
+        <item>"00009"</item>
+        <item>"00010"</item>
+        <item>"00011"</item>
+        <item>"00012"</item>
+        <item>"00013"</item>
+        <item>"00014"</item>
+        <item>"00015"</item>
+        <item>"00016"</item>
+        <item>"00017"</item>
+        <item>"00018"</item>
+        <item>"00019"</item>
+        <item>"00020"</item>
+        <item>"00021"</item>
+        <item>"00022"</item>
+        <item>"00023"</item>
+        <item>"00024"</item>
+        <item>"00025"</item>
+        <item>"00026"</item>
+        <item>"00027"</item>
+        <item>"00028"</item>
+        <item>"00029"</item>
+        <item>"00030"</item>
+        <item>"00031"</item>
+        <item>"00032"</item>
+        <item>"00033"</item>
+        <item>"00034"</item>
+        <item>"00035"</item>
+        <item>"00036"</item>
+        <item>"00037"</item>
+        <item>"00038"</item>
+        <item>"00039"</item>
+    </string-array>
+
+    <string-array name="cid_table" translatable="false">
+        <item>"ASUS"</item>
+        <item>"AT&amp;T"</item>
+        <item>"BBY"</item>
+        <item>"CHT"</item>
+        <item>"CU"</item>
+        <item>"EDU"</item>
+        <item>"EDUCATION"</item>
+        <item>"EPLUS"</item>
+        <item>"GLOBE"</item>
+        <item>"H3G"</item>
+        <item>"O2"</item>
+        <item>"PRO7"</item>
+        <item>"RB"</item>
+        <item>"SINGTEL"</item>
+        <item>"STARHUB"</item>
+        <item>"SWISSCOM"</item>
+        <item>"TIM"</item>
+        <item>"TMO"</item>
+        <item>"TRIPOD"</item>
+        <item>"TURKCELL"</item>
+        <item>"VZW"</item>
+        <item>"CFT"</item>
+        <item>"IQY"</item>
+        <item>"CUCC"</item>
+        <item>"CMCC"</item>
+        <item>"TSB"</item>
+        <item>"RAKUTEN"</item>
+        <item>"SKD"</item>
+        <item>"CKD"</item>
+        <item>"UC"</item>
+        <item>"VF_RO"</item>
+        <item>"VF_GK"</item>
+        <item>"M"</item>
+        <item>"DANE"</item>
+        <item>"ASUS1"</item>
+        <item>"JPT"</item>
+        <item>"RAC"</item>
+        <item>"DTAC"</item>
+        <item>"ASUS_N"</item>
+    </string-array>
+
+    <string-array name="secure_lock_screen_notifications_entries" translatable="false">
+        <item><![CDATA[@string/lock_screen_notifications_summary_show]]></item>
+        <item><![CDATA[@string/lock_screen_notifications_summary_hide]]></item>
+        <item><![CDATA[@string/lock_screen_notifications_summary_disable]]></item>
+    </string-array>
+
+    <string-array name="secure_lock_screen_notifications_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+
+    <string-array name="lock_screen_notifications_entries" translatable="false">
+        <item><![CDATA[@string/lock_screen_notifications_summary_show]]></item>
+        <item><![CDATA[@string/lock_screen_notifications_summary_disable]]></item>
+    </string-array>
+
+    <string-array name="lock_screen_notifications_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+
+    <!-- BEGIN chilung_chen@asus.com-->
+    <string-array name="entries_zen_mode2" translatable="false">
+        <item><![CDATA[@string/gadget_state_off]]></item>
+        <item><![CDATA[@string/zen_mode_option_important_interruptions2]]></item>
+        <!--BEGIN:Steve_Ke@asus.com-->
+        <item><![CDATA[@string/zen_mode_option_alarms]]></item>
+        <!--END:Steve_Ke@asus.com-->
+        <item><![CDATA[@string/zen_mode_option_no_interruptions]]></item>
+    </string-array>
+
+    <!-- Setting values for zen mode, must match the Settings.Global.ZEN_MODE_ constants -->
+    <string-array name="entry_zen_mode2_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <!--BEGIN:Steve_Ke@asus.com-->
+        <item>"3"</item>
+        <!--END:Steve_Ke@asus.com-->
+        <item>"2"</item>
+    </string-array>
+
+    <string-array name="entries_starred" translatable="false">
+        <item><![CDATA[@string/zen_mode_from_anyone3]]></item>
+        <item><![CDATA[@string/zen_mode_from_starred2]]></item>
+        <item><![CDATA[@string/zen_mode_from_vip2]]></item>
+        <item><![CDATA[@string/zen_mode_from_contacts_only]]></item>
+    </string-array>
+
+    <!-- Setting values for ZenModeConfig, must match the ZenModeConfig.SOURCE_ constants -->
+    <string-array name="entries_starred_values" translatable="false">
+        <item>"0"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"1"</item>
+    </string-array>
+    <!-- END chilung_chen@asus.com-->
+
+    <!-- Ken1_Yu, for AT&T Usagemanager -->
+    <string-array name="usage_title" translatable="false">
+        <item><![CDATA[@string/usage_power_settings_title]]></item>
+        <item><![CDATA[@string/usage_data_usage_summary_title]]></item>
+        <item><![CDATA[@string/usage_applications_settings]]></item>
+    </string-array>
+</resources>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/SLockSetTypeLay"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/setting_type_margin_start"
+        android:layout_marginEnd="@dimen/setting_type_margin_end"
+        android:orientation="vertical">
+        <com.asus.settings.lockscreen.ui.TypeItem
+            android:layout_marginTop="@dimen/setting_type_margin_top"
+            android:id="@+id/SLockSetStyle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <com.asus.settings.lockscreen.ui.TypeItem
+            android:id="@+id/SLockSetStyle2"
+            android:layout_marginTop="@dimen/setting_type_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</merge>

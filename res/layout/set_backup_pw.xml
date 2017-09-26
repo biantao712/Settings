@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/category_divider_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/tool_bar"
+             android:id="@+id/cn_tool_bar"/>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingRight="14dp">
+
+    <TextView
+            android:id="@+id/prompt1"
+            android:text="@string/old_pw"
+            android:textSize="15sp"
+            android:textColor="#0c0c0c"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/cn_tool_bar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+    <EditText
+            android:id="@+id/current_backup_pw"
+            android:layout_below="@id/prompt1"
+            style="@style/Widget.CNAsusRes.InputBox"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="14dp"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:password="true" />
+
+    <TextView
+            android:id="@+id/prompt2"
+            android:textSize="15sp"
+            android:textColor="#0c0c0c"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/current_backup_pw"
+            android:text="@string/new_pw"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+    <EditText
+            android:id="@+id/new_backup_pw"
+            android:layout_below="@id/prompt2"
+            style="@style/Widget.CNAsusRes.InputBox"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="14dp"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:password="true" />
+
+    <TextView
+            android:id="@+id/prompt3"
+            android:textSize="15sp"
+            android:textColor="#0c0c0c"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/new_backup_pw"
+            android:text="@string/confirm_new_pw"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+    <EditText
+            android:id="@+id/confirm_new_backup_pw"
+            android:layout_below="@id/prompt3"
+            style="@style/Widget.CNAsusRes.InputBox"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="14dp"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:password="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp"
+        android:layout_below="@id/confirm_new_backup_pw"
+        >
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end">
+
+            <Button
+                android:id="@+id/backup_pw_cancel_button"
+                android:text="@string/cancel_pw"
+                style="@style/Widget.CNAsusRes.Button.White"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="11dp"
+                android:layout_height="40dp"
+                android:layout_width="140dp" />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start">
+
+            <Button
+                android:id="@+id/backup_pw_set_button"
+                android:text="@string/confirm_pw"
+                style="@style/Widget.CNAsusRes.Button.White"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="40dp"
+                android:layout_width="140dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

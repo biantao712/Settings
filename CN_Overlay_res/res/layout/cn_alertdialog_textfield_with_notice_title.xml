@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/alertdialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="7dp"
+            android:includeFontPadding="false"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="@color/cnasusres_general_important_info"/>
+    </ScrollView>
+
+    <EditText
+        android:id="@+android:id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:background="@null"
+        android:textSize="15sp"
+        android:textColor="@color/cnasusres_general_normal_icon"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1px"
+        android:background="@color/cnasusres_alertdialog_divider_light"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="@dimen/cnasusres_alertdialog_content_padding"/>
+</LinearLayout>

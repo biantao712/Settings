@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:key="shake_launch"
+        android:persistent="false"
+        android:summary="@string/shake_summary"
+        android:title="@string/shake_title" />
+
+    <ListPreference
+        android:dialogTitle="@string/shake_sensitivity_title"
+        android:entries="@array/shake_sensitivity_entries"
+        android:entryValues="@array/shake_sensitivity_values"
+        android:key="shake_sensitivity"
+        android:persistent="false"
+        android:title="@string/shake_sensitivity_title" />
+
+    <SwitchPreference
+        android:key="motion_double_click"
+        android:persistent="false"
+        android:summary="@string/motion_double_click_summary"
+        android:title="@string/motion_double_click_title" />
+    <SwitchPreference
+        android:key="motion_flip"
+        android:persistent="false"
+        android:summary="@string/motion_flip_summary"
+        android:title="@string/motion_flip_title" />
+    <SwitchPreference
+        android:key="motion_hand_up"
+        android:persistent="false"
+        android:summary="@string/motion_hand_up_summary"
+        android:title="@string/motion_hand_up_title" />
+    <SwitchPreference
+        android:key="motion_walking"
+        android:persistent="false"
+        android:summary="@string/motion_walking_summary"
+        android:title="@string/motion_walking_title" />
+
+    <PreferenceScreen
+        android:key="asus_motion_tutorial"
+        android:title="@string/zenmotion_tutorial_title" >
+        <intent android:action="android.settings.MOTIONTUTORIAL" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

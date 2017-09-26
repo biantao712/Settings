@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="cn_zen_mode_manual_turn_on">"手动启用"</string>
+<string name="cn_auto_mode">"定时启用"</string>
+<string name="cn_zen_mode_auto_schedule_start_time">开始时间</string>
+<string name="cn_zen_mode_auto_schedule_end_time">结束时间</string>
+<string name="cn_zen_mode_auto_schedule_repeat">重复</string>
+<string name="cn_zen_white_list_phone_title">允许以下来电</string>
+<string name="cn_zen_white_list_phone_desc">以下来电将不会被设为静音</string>
+<string name="cn_zen_repeat_callers">"重复来电响铃"</string>
+<string name="cn_zen_repeat_callers_desc">"3分钟内重复来电可响铃"</string>
+<string name="cn_zen_white_list_message_title">允许以下短信</string>
+<string name="cn_zen_white_list_message_desc">以下短信将不会被设为静音</string>
+<string name="cn_zen_mode_settings_title2">"勿扰模式"</string>
+<string name="cn_zen_mode_desc">"启用\"免打扰\"后，来电和通知将被设为静音，状态栏中会出现月亮图标。"</string>
+<string name="cn_zen_mode_open_button">"开启"</string>
+<string name="cn_zen_mode_auto_schedule_day_title">重复</string>
+<string name="cn_zen_mode_auto_schedule_day_monday">周一</string>
+<string name="cn_zen_mode_auto_schedule_day_tuesday">周二</string>
+<string name="cn_zen_mode_auto_schedule_day_wednesday">周三</string>
+<string name="cn_zen_mode_auto_schedule_day_thursday">周四</string>
+<string name="cn_zen_mode_auto_schedule_day_friday">周五</string>
+<string name="cn_zen_mode_auto_schedule_day_saturday">周六</string>
+<string name="cn_zen_mode_auto_schedule_day_sunday">周日</string>
+<string name="cn_zen_mode_auto_schedule_day_weekdays">工作日</string>
+<string name="cn_zen_mode_auto_schedule_day_weekends">周末</string>
+<string name="cn_zen_mode_auto_schedule_day_everyday">每天</string>
+<string name="cn_zen_mode_auto_schedule_day_no_repeat">不重复</string>
+<string name="cn_zen_white_list_dialog_radio_none">均不允许</string>
+<string name="cn_zen_white_list_dialog_radio_top_contact">置顶联系人</string>
+<string name="cn_zen_white_list_dialog_radio_contact">所有联系人</string>
+<string name="cn_zen_white_list_dialog_radio_anyone">所有人</string>
+
+<string name="cn_zen_mode_rule_title">打扰规则</string>
+</resources>

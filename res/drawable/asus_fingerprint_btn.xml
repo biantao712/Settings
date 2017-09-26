@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetTop="6dp">
+    <shape android:shape="rectangle" >
+        <corners android:radius="100dp" />
+        <solid android:color="@color/asus_suw_theme_color" />
+        <padding android:left="8dp"
+            android:top="4dp"
+            android:right="8dp"
+            android:bottom="4dp" />
+        <size
+            android:width="@dimen/asus_fingerprint_btn_w"/>
+    </shape>
+</inset>

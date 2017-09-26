@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+android:fragment="com.example.mark_guo.settings.SettingsActivity$GestureAppPreferenceFragment"
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory
+    	android:title="@string/Touch_Gesture_title"
+		settings:keywords="zenmotion"
+    	android:key="asus_touch_gesture_category">
+        <SwitchPreference
+            android:key="double_tap_on"
+            android:defaultValue="false"
+            android:title="@string/doubletap_on_setting_title"
+            android:summary="@string/doubletap_on_setting_summary">
+        </SwitchPreference>
+        <SwitchPreference
+            android:key="double_tap_off"
+            android:defaultValue="false"
+            android:title="@string/doubletap_off_setting_title"
+            android:summary="@string/doubletap_off_setting_summary">
+        </SwitchPreference>
+        <SwitchPreference
+            android:key="swipe_up_to_wake_up"
+            android:defaultValue="false"
+            android:title="@string/swipe_up_to_wake_up_title"
+            android:summary="@string/swipe_up_to_wake_up_summary">
+        </SwitchPreference>
+        <PreferenceScreen
+            android:key="asus_gesture_quick_start_app"
+            android:title="@string/Gestures_Quick_Start_Applications_title"
+            android:layout="@layout/cnasusres_preference_parent_nodivider"
+            android:fragment="com.android.settings.zenmotion2.AsusGestureQuickStart"/>
+    </PreferenceCategory>
+<!--        	android:layout="@layout/asusres_preference_category_material_nodivider"-->
+    <PreferenceCategory
+        android:title="@string/Motion_Gesture_title"
+        android:key="motion_gesture">
+        <SwitchPreference
+            android:key="motion_hand_up"
+            android:title="@string/Auto_Answer_title"
+            android:defaultValue="false"
+            android:summary="@string/Auto_Answer_summary">
+        </SwitchPreference>
+        <SwitchPreference
+            android:title="@string/Flip_to_mute_title"
+            android:key="motion_flip"
+            android:defaultValue="false"
+            android:layout="@layout/asusres_preference_material_nodivider"
+            android:summary="@string/flip_to_mute_summary">
+        </SwitchPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/One_Hand_Mode_title"
+        android:key="onehand_ctrl_category">
+        <SwitchPreference
+            android:title="@string/Quick_trigger_title"
+            android:key="onehand_ctrl_quick_trigger"
+            android:defaultValue="false"
+            android:layout="@layout/asusres_preference_material_nodivider"
+            android:summary="@string/Quick_trigger_summary">
+        </SwitchPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copy from frameworks/base/core/res/res/layout/preference_material.xml
+     and revise to meet ZenUI 3.0 style -->
+<!-- Layout for a Preference in a PreferenceActivity. The
+     Preference is able to place a specific widget for its particular
+     type in the "widget_frame" layout. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:gravity="center_vertical"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="0dp"
+    android:background="@drawable/selectable_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:layout_weight="1"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+        
+        <TextView android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:singleLine="true"
+                    android:gravity="left|center_vertical"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="12dp"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:textSize="15sp"
+                    android:includeFontPadding="false"
+                    android:ellipsize="marquee" />
+        
+        <CheckBox android:id="@+android:id/checkbox"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:button="@drawable/asusres_icon_checkbox"
+            android:layout_marginStart="12dp"
+            />
+        
+        <LinearLayout android:id="@+id/edit_container"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_toStartOf="@android:id/checkbox"
+            android:layout_toEndOf="@android:id/title"
+            />
+
+    </RelativeLayout>
+        <View android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/cnasusres_preference_dividers"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/cnasusres_alertdialog_content_padding"
+    android:paddingEnd="@dimen/cnasusres_alertdialog_content_padding">
+
+    <TextView
+        android:id="@+id/alertdialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cnasusres_alertdialog_content_padding"
+        android:layout_marginBottom="@dimen/cnasusres_alertdialog_title_padding_bottom"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:includeFontPadding="false"
+        android:textColor="@color/cnasusres_general_important_info"/>
+    
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/cnasusres_alertdialog_content_padding">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start">
+        <TextView
+	        android:id="@+id/security_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:includeFontPadding="false"
+	        android:textSize="15sp"
+	        android:textColor="@color/cnasusres_general_normal_icon"
+	        android:text="@string/wifi_security"/>
+        <TextView
+	        android:id="@+id/security"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="7dp"
+	        android:includeFontPadding="false"
+	        android:textSize="12sp"
+	        android:textColor="?android:attr/textColorSecondary"/>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

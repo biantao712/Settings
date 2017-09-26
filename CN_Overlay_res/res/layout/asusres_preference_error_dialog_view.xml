@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copy from frameworks/base/core/res/res/layout/preference_material.xml
+     and revise to meet ZenUI 3.0 style -->
+<!-- Layout for a Preference in a PreferenceActivity. The
+     Preference is able to place a specific widget for its particular
+     type in the "widget_frame" layout. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView android:id="@+id/error_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp" />
+
+</LinearLayout>

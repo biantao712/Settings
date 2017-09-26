@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/incompatible_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/incompatible_detail"
+        android:textSize="17dp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:layout_below="@+id/incompatible_detail"
+        android:id="@+id/app_listview">
+    </ListView>
+
+</RelativeLayout>

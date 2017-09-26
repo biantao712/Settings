@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Toolbar
+        android:id="@+id/zenmotion2_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:minHeight="40dp"
+        android:navigationContentDescription="@*android:string/action_bar_up_description"
+        android:theme="?android:attr/actionBarTheme"
+        style="?android:attr/toolbarStyle"
+        android:background="#f0f0f0">
+            <ImageView
+                android:id="@+id/zenmotion2_action_bar_back"
+                android:layout_width="@dimen/asusres_action_bar_icon"
+                android:layout_height="@dimen/asusres_action_bar_icon"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="6dp"
+                android:src="@drawable/asusres_ic_ab_back_holo_light"
+                android:background="@drawable/cnasusres_actionbar_icon_background"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/zenmotion2_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:singleLine="true"
+                android:textColor="#0c0c0c"
+                android:textSize="16sp" />
+    </Toolbar>
+</LinearLayout>

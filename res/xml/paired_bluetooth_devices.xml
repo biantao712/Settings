@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        settings:keywords="paired_bluetooth_devices">
+
+    <PreferenceCategory
+            android:key="paired_devices_category" 
+            android:layout="@layout/asusres_preference_category_material_nodivider"
+            android:order="0">
+            <Preference android:title="@string/cn_bt_preference_paired_rename"
+                android:layout="@layout/cnasusres_preference_parent"
+                android:key="rename_pref"
+                android:order="1"/>
+
+             <Preference android:title="@string/cn_bt_preference_cancel_paired"
+                android:key="cancel_config_pref"
+                android:layout="@layout/asusres_preference_material_nodivider"
+                android:order="2"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="devices_configure_category"
+            android:title="@string/cn_bt_catogray_config"
+            android:order="1">
+<!--            <SwitchPreference
+                android:key="access_internet_pref"
+                android:title="互联网访问"
+                android:summary="用于访问互联网"
+                android:persistent="false"/>
+-->
+    </PreferenceCategory>
+
+</PreferenceScreen>

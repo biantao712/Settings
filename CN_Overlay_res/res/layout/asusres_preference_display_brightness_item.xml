@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copy from frameworks/base/core/res/res/layout/preference_material.xml
+     and revise to meet ZenUI 3.0 style -->
+<!-- Layout for a Preference in a PreferenceActivity. The
+     Preference is able to place a specific widget for its particular
+     type in the "widget_frame" layout. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:gravity="center_vertical"
+    android:background="#f7f7f7"
+    android:paddingEnd="0dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp">
+
+        <ImageView
+            android:id="@+id/little_brightness"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/inform_brightness_low"
+             />
+
+        <ImageView
+            android:id="@+id/big_brightness"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="5dp"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:src="@drawable/inform_brightness_high"
+             />
+
+        <SeekBar
+            android:id="@+id/brightness_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/little_brightness"
+            android:layout_toLeftOf="@id/big_brightness"
+            android:layout_gravity="center_vertical" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#c9c9c9"/>
+
+</LinearLayout>

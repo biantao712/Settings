@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!--new UI -->
+    <!-- Gesture and Motion-->
+    <string name="Gesture_Motion_title">Gesture and Motion</string>
+    <string name="Touch_Gesture_title">Touch Gesture</string>
+    <string name="doubletap_on_setting_summary">When screen off, double-tap on the screen to wake up the screen.</string>
+    <string name="doubletap_on_setting_title">Double-tap to wake up.</string>
+    <string name="doubletap_off_setting_summary">Double-tap on the home screen space or status bar to turn off screen</string>
+    <string name="doubletap_off_setting_title">Double-tap to turn off screen.</string>
+    <string name="swipe_up_to_wake_up_title">Swipe up to wake up.</string>
+    <string name="swipe_up_to_wake_up_summary">When screen off, swipe up the screen to wake up screen.</string>
+    <string name="Gestures_Quick_Start_Applications_title">Gestures Quick Start</string>
+    <string name="Gestures_Quick_Start_Applications_summary">Turn off</string>
+    <string name="Gestures_Quick_Start_Applications_summary_off">Turn off</string>
+    <string name="Gestures_Quick_Start_Applications_summary_on">Turn on</string>
+    <string name="Gestures_Quick_Start_Applications_summary_2">When turn on, in the screen-off status, write the gesture on the screen to launch application.</string>
+    <string name="Gestures_Quick_Start_Applications_Tutorial_title">Tutorial</string>
+
+    <string name="Motion_Gesture_title">Motion Gesture</string>
+    <string name="Auto_Answer_title">Auto Answer</string>
+    <string name="Auto_Answer_summary">Hold device in portrait mode, and lift to touch the ear.</string>
+    <string name="Flip_to_mute_title">Flip to mute</string>
+    <string name="flip_to_mute_summary">Turn the device over</string>
+
+    <string name="One_Hand_Mode_title">One Hand Mode</string>
+    <string name="Quick_trigger_title">Quick trigger</string>
+    <string name="Quick_trigger_summary">Double tap the home key to activate the one hand operation mode</string>
+    <!--Gesture Quick Start Application -->
+    <string name="V_launch_title">"V gesture"</string>
+    <string name="C_launch_title">"C gesture"</string>
+    <string name="E_launch_title">"e gesture"</string>
+    <string name="W_launch_title">"W gesture"</string>
+    <string name="S_launch_title">"S gesture"</string>
+    <string name="Z_launch_title">"Z gesture"</string>
+    <string name="no_selected">No Selected</string>
+    <string name="new_text">New Text</string>
+    <string name="info">INFO</string>
+    <string name="dilplay_list">Display the list</string>
+    <string name="index_A">A</string>
+
+    <!-- Gesture App List-->
+    <string name="Application_list_title">Applictaion List</string>
+    <string name="app_asus_boost_name">Asus Boost</string>
+    <string name="app_asus_front_camera_name">"Camera - front lens"</string>
+    <string name="app_asus_smartlauncher_weather_name">"SmartLauncher - Weather"</string>
+    <string name="gesture_wake_up_screen">"# Wake up screen"</string>
+    <string name="not_enabled">Not Enabled</string>
+    <string name="not_assigned">Not Assigned</string>
+    <string name="V_lauch_App"></string>
+    <!-- Tutorial-->
+    <string name="zenmotion2_tutorial_title">Gesture tutorial</string>
+    <!--new UI end -->
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="cn_zen_mode_manual_turn_on">"Enter the Do not disturb mode"</string>
+<string name="cn_auto_mode">"Automatic rules"</string>
+<string name="cn_zen_mode_auto_schedule_start_time">Start Time</string>
+<string name="cn_zen_mode_auto_schedule_end_time">End Time</string>
+<string name="cn_zen_mode_auto_schedule_repeat">Repeat</string>
+<string name="cn_zen_white_list_phone_title">Allow the following calls</string>
+<string name="cn_zen_white_list_phone_desc">The following calls will not be muted</string>
+<string name="cn_zen_repeat_callers">"Repeated calls ring"</string>
+<string name="cn_zen_repeat_callers_desc">"Repeated calls within 3 minutes can ring"</string>
+<string name="cn_zen_white_list_message_title">Allow the following message</string>
+<string name="cn_zen_white_list_message_desc">The following message will not be muted</string>
+<string name="cn_zen_mode_settings_title2">"Do Not Disturb"</string>
+<string name="cn_zen_mode_desc">"When enabled, \"Do Not Disturb\" mutes the incoming/outgoing calls, and the moon icon appears on the status bar."</string>
+<string name="cn_zen_mode_open_button">"OK"</string>
+<string name="cn_zen_mode_auto_schedule_day_title">Repeat</string>
+<string name="cn_zen_mode_auto_schedule_day_monday">Monday</string>
+<string name="cn_zen_mode_auto_schedule_day_tuesday">Tuesday</string>
+<string name="cn_zen_mode_auto_schedule_day_wednesday">Wednesday</string>
+<string name="cn_zen_mode_auto_schedule_day_thursday">Thursday</string>
+<string name="cn_zen_mode_auto_schedule_day_friday">Friday</string>
+<string name="cn_zen_mode_auto_schedule_day_saturday">Saturday</string>
+<string name="cn_zen_mode_auto_schedule_day_sunday">Sunday</string>
+<string name="cn_zen_mode_auto_schedule_day_weekdays">Weekdays</string>
+<string name="cn_zen_mode_auto_schedule_day_weekends">Weekend</string>
+<string name="cn_zen_mode_auto_schedule_day_everyday">Everyday</string>
+<string name="cn_zen_mode_auto_schedule_day_no_repeat">Do not repeat</string>
+<string name="cn_zen_white_list_dialog_radio_none">None</string>
+<string name="cn_zen_white_list_dialog_radio_top_contact">top contact</string>
+<string name="cn_zen_white_list_dialog_radio_contact">all contacts</string>
+<string name="cn_zen_white_list_dialog_radio_anyone">everyone</string>
+<string name="cn_zen_mode_rule_title">Disturb Mode</string>
+<string-array name="cn_zen_mode_rule_entries" translatable="false">
+    <item><![CDATA[@string/zen_mode_option_important_interruptions2]]></item>
+    <item><![CDATA[@string/zen_mode_option_no_interruptions]]></item>
+	<item><![CDATA[@string/zen_mode_option_alarms]]></item>
+</string-array>
+<string-array name="cn_zen_mode_rule_entries_values" translatable="false">
+    <item>"1"</item>
+    <item>"2"</item>
+	<item>"3"</item>
+</string-array>
+</resources>

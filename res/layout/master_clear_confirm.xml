@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:paddingEnd="0dp"
+        android:background="#eaeaea"/>
+
+    <TextView
+        android:id="@+id/master_clear_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:textColor="#9e9e9e"
+        android:text="@string/master_clear_final_desc"
+        android:background="#f7f7f7"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="14dp"
+        android:paddingEnd="0dp"
+        android:background="#d4d4d4"/>
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#f7f7f7">
+
+        <TextView
+            android:id="@+id/hint_messeage_to_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:text="@string/master_clear_final_hint_messeage"
+            android:textSize="15sp"
+            android:textColor="#0c0c0c"/>
+
+        <TextView
+            android:id="@+id/hint_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#03bed4"/>
+
+        <EditText
+            android:id="@+id/check_number"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:textSize="15sp"
+            android:textColor="#0c0c0c"
+            android:background="@null"
+            android:hint="@string/master_clear_final_hint_messeage"
+            android:textColorHint="#d4d4d4"/>
+
+        <EditText
+            android:id="@+id/check_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textColor="#0c0c0c"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <Button android:id="@+id/execute_master_clear"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="@string/master_clear_final_button_text"
+        android:gravity="center"
+        android:enabled="false" />
+
+    <!-- Alphanumeric keyboard -->
+    <com.android.internal.widget.PasswordEntryKeyboardView
+        android:id="@+id/keyboard"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:keyBackground="@*android:drawable/btn_keyboard_key_fulltrans"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5c96A3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent">
+        <ImageView
+            android:id="@+id/tutorial_icons"
+            android:src="@drawable/asus_easymode_tutorial_landscape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginEnd="8dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/desc_title_padding_top"
+            android:layout_marginEnd="49dp" >
+            <TextView
+                android:id="@+id/tutorial_title"
+                android:singleLine="true"
+                android:scrollHorizontally="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/desc_title_margin_bottom"
+                android:layout_marginTop="@dimen/desc_title_margin_top"
+                android:text="@string/asus_easy_launcher_settings"
+                android:textColor="#FFFFFF"
+                android:textSize="74dp"
+                android:lineSpacingExtra="0dp"
+                android:fontFamily="sans-serif-thin"
+                android:layout_gravity="top|center_horizontal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/easy_mode_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/desc_margin_top"
+                android:minHeight="120dp"
+                android:text="@string/asus_easy_launcher_intro"
+                android:textColor="#BBF2FF"
+                android:textSize="23dp"
+                android:gravity="top"
+                android:lineSpacingExtra="@dimen/desc_text_extra_space"
+                android:fontFamily="sans-serif" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

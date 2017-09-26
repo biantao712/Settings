@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/easy_mode_more_title">
+
+    <PreferenceCategory
+        android:layout="@layout/asusres_preference_category_material_nodivider">
+
+        <PreferenceScreen
+            android:key="date_and_time"
+            android:title="@string/date_and_time"
+            android:fragment="com.android.settings.DateTimeSettings"/>
+
+        <PreferenceScreen
+            android:key="inputmethod_and_language"
+            android:title="@string/language_keyboard_settings_title"
+            android:layout="@layout/cnasusres_preference_parent_nodivider"
+            android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="more_settings_security_group_key"
+        android:layout="@layout/asusres_preference_category_material_nodivider">
+        <PreferenceScreen
+            android:key="call_setting"
+            android:title="@string/call_settings_title"
+            android:fragment="com.android.settings.CallSettings"/>
+
+        <PreferenceScreen
+            android:key="security_setting"
+            android:title="@string/security_settings_title"
+            android:fragment="com.android.settings.SecuritySettings"/>
+
+        <PreferenceScreen
+            android:key="kid_setting"
+            android:title="@string/asus_kids_launcher_settings"
+            android:fragment="com.android.settings.AsusKidsLauncherSettings"/>
+
+        <PreferenceScreen
+            android:key="easy_launcher_setting"
+            android:title="@string/asus_easy_launcher_settings"
+            android:fragment="com.android.settings.AsusEasyLauncherSettings"/>
+
+        <PreferenceScreen
+            android:key="location_setting"
+            android:title="@string/location_settings_title"
+            android:layout="@layout/cnasusres_preference_parent_nodivider"
+            android:fragment="com.android.settings.location.LocationSettings"/>
+
+    </PreferenceCategory>
+<!-- 
+            android:fragment="com.android.settings.zenmotion.AsusZenMotionSettings"/>
+-->
+    <PreferenceCategory
+        android:layout="@layout/asusres_preference_category_material_nodivider" android:key="key_category_for_floatingdock">
+        <PreferenceScreen
+            android:key="accessibility_setting"
+            android:title="@string/accessibility_settings"
+            android:fragment="com.android.settings.accessibility.AccessibilitySettings"/>
+        <PreferenceScreen
+            android:key="zenMotion_setting"
+            android:title="@string/zen_motion_settings_title"
+            android:fragment="com.android.settings.zenmotion2.AsusZenMotion2Settings"/>
+        <PreferenceScreen
+            android:key="key_floatingdock"
+            android:title="@string/floating_dock" >
+            <intent
+                android:action="asus.action.start.cnfloatingdock"
+                android:category="android.intent.category.DEFAULT"
+                android:targetPackage="com.asus.cnfloatingdock"
+                android:targetClass="com.asus.cnfloatingdock.UI.MainActivity"/>
+        </PreferenceScreen>
+<!--         <PreferenceScreen
+            android:key="screenshot"
+            android:title="@string/screenshot"
+            android:fragment="com.android.settings.ScreenshotSettings"/>-->
+
+        <SwitchPreference
+            android:key="notification_pulse"
+            android:title="@string/led_indicator"
+            android:layout="@layout/asusres_preference_material_nodivider"
+            android:persistent="false" />
+</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="last_category"
+        android:layout="@layout/asusres_preference_category_material_nodivider">
+        <PreferenceScreen
+            android:key="power_setting"
+            android:title="@string/power_usage_summary_title"
+            android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"/>
+        <PreferenceScreen
+            android:key="storage_setting"
+            android:title="@string/memory_storage_title"
+            android:fragment="com.android.settings.deviceinfo.StorageSettings"/>
+        <PreferenceScreen
+            android:key="privacy_setting"
+            android:title="@string/privacy_settings_title"
+            android:fragment="com.android.settings.PrivacySettings"/>
+        <PreferenceScreen
+            android:key="develop_setting"
+            android:title="@string/development_settings_title"
+            android:layout="@layout/cnasusres_preference_parent_nodivider"
+            android:fragment="com.android.settings.DevelopmentSettings"/>
+        </PreferenceCategory>
+</PreferenceScreen>

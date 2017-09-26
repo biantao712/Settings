@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FAFAFA"
+    android:id="@+id/SLockSettingLay"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <include layout="@layout/item_setting_title" />
+    <include layout="@layout/view_screenlock_setting_type" />
+
+</LinearLayout>

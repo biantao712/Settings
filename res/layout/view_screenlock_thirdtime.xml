@@ -1,0 +1,130 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/SLockTimeThirdLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_toStartOf="@+id/SLockWeatherNormalLay"
+        android:layout_marginEnd ="@dimen/time_third_time_lay_margin_end"
+        android:layout_toEndOf="@+id/SLockTopNotifyLay"
+        android:layout_marginTop="@dimen/time_third_time_lay_margin_top"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/SLockTimeThirdTimeLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:id="@+id/SLockTimeThirdHourNum"
+                android:text="@string/SLockTimeThirdHourNum_18"
+                android:textSize="@dimen/time_third_hour_num_size"
+                android:textColor="@color/white"
+                android:shadowColor="#66000000"
+                android:shadowRadius="1"
+                android:shadowDx="2"
+                android:shadowDy="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/SLockTimeThirdGli"
+                android:text="@string/SLockTimeThirdGli_colon"
+                android:textSize="@dimen/time_third_hour_num_size"
+                android:textColor="@color/white"
+                android:shadowColor="#66000000"
+                android:shadowRadius="1"
+                android:shadowDx="2"
+                android:shadowDy="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/SLockTimeThirdMin"
+                android:text="@string/SLockTimeThirdMin_38"
+                android:textSize="@dimen/time_third_min_num_size"
+                android:textColor="@color/white"
+                android:shadowColor="#66000000"
+                android:shadowRadius="1"
+                android:shadowDx="2"
+                android:shadowDy="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/SLockTimeThirdAm"
+                android:text="@string/SLockTimeThirdAm_AM"
+                android:textSize="@dimen/time_third_hour_am_size"
+                android:textColor="@color/white"
+                android:shadowColor="#66000000"
+                android:shadowRadius="1"
+                android:shadowDx="2"
+                android:shadowDy="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/SLockTimeThirdMin"
+                android:layout_marginLeft="2dp"
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/SLockTimeThirdDateLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/SLockTimeThirdTimeLay"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/time_third_date_lay_margin_end">
+
+            <RelativeLayout
+                android:id="@+id/SLockTimeThirdNotifyIconLay"
+                android:layout_width="@dimen/time_third_notify_lay_width"
+                android:layout_height="@dimen/time_third_notify_lay_height"
+                android:layout_toStartOf="@+id/SLockTimeThirdWeek"
+                android:layout_alignBottom="@+id/SLockTimeThirdWeek"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/SLockTimeThirdNotifyIcon"
+                    android:layout_width="@dimen/time_third_notify_icon_width"
+                    android:layout_height="@dimen/time_third_notify_icon_height"
+                    android:contentDescription = "@string/HaveNotify"
+                    android:src="@drawable/asus_icon_remind_01"
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="@dimen/time_third_notify_icon_margin_bottom"
+                    android:layout_marginEnd="@dimen/time_third_notify_icon_margin_end"
+                    android:layout_alignParentBottom="true"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/SLockTimeThirdWeek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SLockTimeThirdWeek_Monday"
+                android:textSize="@dimen/time_third_week_text_size"
+                android:textColor="@color/white"
+                android:shadowColor="#66000000"
+                android:shadowRadius="1"
+                android:shadowDx="2"
+                android:shadowDy="1"
+                android:layout_marginEnd="@dimen/time_third_week_margin_end"
+                android:layout_alignBottom="@+id/SLockTimeThirdDate"
+                android:layout_toStartOf="@+id/SLockTimeThirdDate" />
+
+            <TextView
+                android:id="@+id/SLockTimeThirdDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SLockTimeThirdDate_1226"
+                android:textSize="@dimen/time_third_week_text_size"
+                android:shadowColor="#66000000"
+                android:shadowRadius="1"
+                android:shadowDx="2"
+                android:shadowDy="1"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/time_third_day_margin_top"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</merge>
+

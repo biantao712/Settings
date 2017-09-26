@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/asus_cover" >
+
+    <!-- jeson_li@20141112 for flipcover -->
+
+    <CheckBoxPreference
+        android:key="key_asus_transcover_checkbox"
+        android:title="@string/asus_transcover_title"
+        android:summary="@string/asus_transcover_summary"/>
+
+    <CheckBoxPreference
+        android:key="key_asus_transcover_automatic_unlock"
+        android:summary="@string/asus_cover_automatic_unlock_summary"
+        android:title="@string/asus_cover_automatic_unlock_tittle" />
+    <!-- jeson_li@20141112 for flipcover -->
+
+</PreferenceScreen>

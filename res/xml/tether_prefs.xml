@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:layout="@layout/asusres_preference_category_material_nodivider">
+    <SwitchPreference
+        android:key="enable_wifi_ap"
+        android:title="@string/wifi_tether_checkbox_text" />
+
+    <PreferenceScreen
+        android:key="wifi_ap_ssid_and_security"
+        android:title="@string/wifi_tether_configure_ap_text"
+        android:persistent="false" 
+        android:layout="@layout/cnasusres_preference_parent"/>
+    </PreferenceCategory>
+    
+    <Preference
+        android:key="wifi_ap_share_network"
+        android:title="@string/wifi_qrcode_share_network"
+        android:dependency="enable_wifi_ap"
+        android:layout="@layout/asusres_preference_material_nodivider" />
+
+    <PreferenceCategory
+        android:title="@string/tether_settings_category_share_network"
+        android:key="wifi_ap_share_category">
+    <SwitchPreference
+        android:key="enable_bluetooth_tethering"
+        android:title="@string/bluetooth_tether_checkbox_text" />
+    
+    <SwitchPreference
+        android:key="usb_tether_settings"
+        android:title="@string/usb_tethering_button_text" 
+        android:layout="@layout/asusres_preference_material_nodivider"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/device_admin_title"
+        android:key="wifi_ap_user_list_category"
+        android:dependency="enable_wifi_ap"
+        android:layout="@layout/asusres_preference_category_material_with_summary" >
+        
+    </PreferenceCategory>
+    <Preference
+        android:key="wifi_ap_user_list_empty"
+        android:enabled="false"
+        android:layout="@layout/asusres_preference_material_nodivider"
+        />
+
+    <com.android.settings.DividerPreference
+            android:key="disabled_on_data_saver"
+            android:summary="@string/tether_settings_disabled_on_data_saver"
+            android:selectable="false"
+            settings:allowDividerAbove="true" />
+</PreferenceScreen>

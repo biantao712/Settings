@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:key="asus_fingerprint_touch_control_category"
+            android:title="@string/asus_fingerprint_touch_control_category_title" >
+        <SwitchPreference
+                android:key="fingerprint_answer_call_long_press"
+                android:persistent="false"
+                android:title="@string/asus_fingerprint_long_press_title"
+                android:summary="@string/asus_fingerprint_long_press_summary"/>
+        <SwitchPreference
+                android:key="fingerprint_launch_camera"
+                android:persistent="false"
+                android:title="@string/asus_fingerprint_launch_camera_title"
+                android:summary="@string/asus_fingerprint_launch_camera_summary"/>
+        <SwitchPreference
+                android:key="fingerprint_take_photo"
+                android:persistent="false"
+                android:title="@string/asus_fingerprint_take_photo_title"
+                android:summary="@string/asus_fingerprint_take_photo_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="asus_fingerprint_id_category"
+            android:title="@string/asus_fingerprint_id_category_title" >
+        <PreferenceScreen
+                android:key="asus_fingerprint_feature"
+                android:title="@string/security_settings_manage_fingerprint_preference_title" >
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

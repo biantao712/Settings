@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Asus Easy Launcher -->
+    <dimen name="desc_title_margin_top">-15dp</dimen>
+</resources>

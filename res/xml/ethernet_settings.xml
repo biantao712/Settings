@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbars="none"
+        android:title="@string/ethernet_settings_title">
+
+    <CheckBoxPreference
+            android:key="eth_policy"
+            android:title="@string/ethernet_policy_title"
+            android:summary="@string/ethernet_policy_summary"
+            android:defaultValue="false" />
+
+    <PreferenceCategory android:title="@string/eth_network_setting" />
+
+    <ListPreference
+            android:key="eth_conn_type"
+            android:title="@string/wifi_advanced_settings_label"
+            android:persistent="false"
+            android:entries="@array/wifi_ip_settings"
+            android:entryValues="@array/ethernet_connection_type_values" />
+
+    <Preference
+            android:key="eth_dhcp_ip_address"
+            android:title="@string/wifi_advanced_ip_address_title"
+            android:summary="@string/status_unavailable"
+            android:selectable="false" />
+
+    <com.android.settings.CustomEditTextPreference
+            android:key="eth_static_ip_address"
+            android:title="@string/wifi_advanced_ip_address_title"
+            android:summary="@string/ethernet_ip_address_not_set"
+            android:dialogTitle="@string/eth_dialog_set_ipaddress"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:hint="@string/wifi_ip_address_hint" />
+
+    <com.android.settings.CustomEditTextPreference
+            android:key="eth_network_prefix_length"
+            android:title="@string/wifi_network_prefix_length"
+            android:summary="@string/ethernet_network_prefix_length_not_set"
+            android:dialogTitle="@string/eth_dialog_set_network_prefix_length"
+            android:singleLine="true"
+            android:inputType="number"
+            android:hint="@string/wifi_network_prefix_length_hint" />
+
+    <com.android.settings.CustomEditTextPreference
+            android:key="eth_gateway"
+            android:title="@string/wifi_gateway"
+            android:summary="@string/ethernet_gateway_not_set"
+            android:dialogTitle="@string/eth_dialog_set_gateway"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:hint="@string/wifi_gateway_hint" />
+
+    <com.android.settings.CustomEditTextPreference
+            android:key="eth_dns1"
+            android:title="@string/wifi_dns1"
+            android:summary="@string/ethernet_dns1_not_set"
+            android:dialogTitle="@string/eth_dialog_set_dns1"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:hint="@string/wifi_dns1_hint" />
+
+    <com.android.settings.CustomEditTextPreference
+            android:key="eth_dns2"
+            android:title="@string/wifi_dns2"
+            android:summary="@string/ethernet_dns2_not_set"
+            android:dialogTitle="@string/eth_dialog_set_dns2"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:hint="@string/wifi_dns2_hint" />
+
+</PreferenceScreen>

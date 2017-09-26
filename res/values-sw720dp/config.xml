@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Whether or not we show systembar. -->
+    <bool name="config_systembar_tablet">true</bool>
+</resources>

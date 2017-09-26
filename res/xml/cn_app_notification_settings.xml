@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_notifications_title" >
+    <!--new notification page-->
+    <PreferenceCategory
+            android:layout="@layout/asusres_preference_category_material_nodivider"
+            android:key="cn_notify_allow_category">
+        <SwitchPreference android:key="notify_allow"
+            android:layout="@layout/asusres_preference_material_nodivider"
+            android:title="@string/cn_notify_allowed"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="cn_notify_style_category"
+        android:title="@string/cn_notify_style_title">
+        <SwitchPreference
+            android:title="@string/cn_notify_style_importance"
+            android:key="notify_importance"
+            android:summary="@string/cn_notify_style_importance_sum"
+        />
+        <SwitchPreference
+            android:title="@string/cn_notify_style_status_bar"
+            android:key="notify_status_bar"
+            android:summary="@string/cn_notify_style_status_bar_sum"
+        />
+        <SwitchPreference
+            android:title="@string/cn_notify_style_iconsum"
+            android:key="notify_iconsum"
+            android:summary="@string/cn_notify_style_iconsum_sum"
+        />
+        <SwitchPreference
+            android:title="@string/cn_notify_style_allow_disturb"
+            android:key="notify_allow_disturb"
+            android:summary="@string/cn_notify_style_allow_disturb_sum"
+        />
+        <SwitchPreference
+            android:title="@string/cn_notify_style_headsup"
+            android:key="notify_headsup"
+            android:summary="@string/cn_notify_style_headsup_sum"
+        />
+        <SwitchPreference
+            android:title="@string/cn_notify_style_lockscreen"
+            android:key="notify_lockscreen"
+            android:summary="@string/cn_notify_style_lockscreen_sum"
+            android:layout="@layout/asusres_preference_material_nodivider"
+        />
+        <SwitchPreference
+            android:title="@string/cn_notify_style_lockscreen_hide_notification"
+            android:key="notify_lockscreen_hide_notification"
+            android:summary="@string/cn_notify_style_lockscreen_hide_notification_sum"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="cn_notify_prompt_category"
+        android:title="@string/cn_app_notification_prompt_title">
+        <SwitchPreference
+            android:title="@string/cn_app_notification_ring_title"
+            android:key="notify_ring"
+        />
+        <SwitchPreference
+            android:title="@string/cn_app_notification_shock_title"
+            android:key="notify_shock"
+            android:layout="@layout/asusres_preference_material_nodivider"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

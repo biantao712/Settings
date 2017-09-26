@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <color name="asus_fingerprint_progress_ring">#3269d8</color>
+    <color name="asus_fingerprint_progress_finish">#58d22d</color>
+    <color name="asus_fingerprint_finish_add_other_text">#035ae5</color>
+
+    <color name="asus_fingerprint_enroll_continue_btn1">#fff</color>
+    <color name="asus_fingerprint_enroll_continue_btn2">#4d8ef7</color>
+    <color name="asus_fingerprint_enroll_continue_text">#3269d8</color>
+
+    <color name="asus_suw_theme_color">#324ca0</color>
+    <color name="asus_suw_titile_text">#324ca0</color>
+    <color name="asus_suw_nav_bar_text">#324ca0</color>
+    <color name="asus_suw_nav_bar_bg">#ffffff</color>
+    <color name="asus_suw_status_bar">@android:color/transparent</color>
+    <color name="asus_suw_bg">#ffffff</color>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout used for PreferenceCategory in a PreferenceActivity. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:minHeight="54dp"
+    android:gravity="center_vertical"
+    android:background="@color/cnasusres_general_secondary_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:background="@color/cnasusres_general_secondary_divider" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="34dp"
+        >
+    <TextView
+        android:id="@+android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:textSize="15sp"
+        android:textColor="@color/cnasusres_general_normal_assist"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"/>
+    
+    <TextView
+        android:id="@+android:id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="12sp"
+        android:paddingEnd="@dimen/cnasusres_preferencelist_padding_end"
+        android:maxLines="1"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingEnd="0dp"
+        android:background="@color/cnasusres_preference_dividers"/>
+
+</LinearLayout>

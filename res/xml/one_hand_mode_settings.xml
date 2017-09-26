@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/asus_onehand_ctrl_title_string" >
+
+        <!-- BEGIN leo_liao@asus.com, One-hand control -->
+    <PreferenceCategory
+           android:key="onehand_ctrl_category"
+           android:title="@string/asus_onehand_ctrl_title_string">
+        <CheckBoxPreference
+           android:key="onehand_ctrl_quick_trigger"
+           android:title="@string/asus_onehand_ctrl_quick_trigger_title_string"
+           android:summary="@string/asus_onehand_ctrl_quick_trigger_description_string"
+           android:defaultValue="false"/>
+    </PreferenceCategory>
+    <!-- END leo_liao@asus.com -->
+</PreferenceScreen>

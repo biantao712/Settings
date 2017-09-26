@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	
+	<CheckBox
+		android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dip"
+        android:text="@string/cn_zen_mode_auto_schedule_day_monday"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textSize="15sp"
+        android:textColor="@color/cn_dialog_list_text_color"
+        style="@style/CNRepeatDaysCheckBoxStyle"
+		android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+		
+        android:layout_marginEnd="?android:attr/listPreferredItemPaddingEnd" />
+	
+</LinearLayout>

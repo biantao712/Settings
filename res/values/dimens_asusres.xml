@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="cnasusres_preferencelist_padding_start">14dp</dimen>
+    <dimen name="cnasusres_preferencelist_padding_end">14dp</dimen>
+
+</resources>
+

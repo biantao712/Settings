@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/step_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp" 
+    android:paddingRight="20dp">
+    <CheckBox
+        android:id="@+id/tutorial_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tip_not_show_again"
+        android:visibility="gone"/>
+</LinearLayout>

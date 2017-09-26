@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="applications_category">
+        <item>已安装</item>
+        <item>正在运行</item>
+        <item>已缓存</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="recent_key_selector_titles">
+       <item>始终显示最近应用程序</item>
+       <item>长按为启动多窗口功能</item>
+       <item>长按时进行屏幕截图</item>
+    </string-array>
+
+    <string-array name="tts_speech_rate_title">
+        <item>很慢</item>
+        <item>慢</item>
+        <item>正常</item>
+        <item>快</item>
+        <item>较快</item>
+        <item>非常快</item>
+        <item>迅速</item>
+        <item>很迅速</item>
+        <item>最快</item>
+    </string-array>
+    <!-- suleman+++ -->
+    <string-array name="display_screen_timeout_entries">
+        <item>"15 秒"</item>
+        <item>"30 秒"</item>
+        <item>"1 分钟"</item>
+        <item>"2 分钟"</item>
+        <item>"5 分钟"</item>
+        <item>"10 分钟"</item>
+        <item>"30 分钟"</item>
+        <item>"永远不要"</item>
+    </string-array>
+
+    <string-array name="cn_select_logd_size_summaries">
+        <item >"关闭"</item>
+        <item >"64KB/缓冲区"</item>
+        <item >"256KB/缓冲区"</item>
+        <item >"1M/缓冲区"</item>
+        <item >"4M/缓冲区"</item>
+        <item >"16M/缓冲区"</item>
+    </string-array>
+
+    <string-array name="develp_usb_configuration_titles">
+        <item>"充电"</item>
+        <item>"MTP（媒体传输协议）"</item>
+        <item>"PTP（图片传输协议）"</item>
+        <item>"RNDIS（USB 以太网）"</item>
+        <item>"音频来源"</item>
+    </string-array>
+
+    <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_window_animation_scale_entries">
+        <item>关闭动画</item>
+        <item>动画缩放0.5x</item>
+        <item>动画缩放1x</item>
+        <item>动画缩放1.5x</item>
+        <item>动画缩放2x</item>
+    </string-array>
+
+    <!-- Titles for transition animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_transition_animation_scale_entries">
+        <item>关闭动画</item>
+        <item>动画缩放0.5x</item>
+        <item>动画缩放1x</item>
+        <item>动画缩放1.5x</item>
+        <item>动画缩放2x</item>
+    </string-array>
+
+    <!-- Titles for animator duration scale preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_animator_duration_scale_entries">
+        <item>关闭动画</item>
+        <item>动画缩放0.5x</item>
+        <item>动画缩放1x</item>
+        <item>动画缩放1.5x</item>
+        <item>动画缩放2x</item>
+    </string-array>
+
+    <!-- Titles for overlay display devices preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_overlay_display_devices_entries">
+        <item>None</item>
+        <item>480p</item>
+        <item>480p (安全)</item>
+        <item>720p</item>
+        <item>720p (安全)</item>
+    </string-array>
+
+    <!-- Titles for app process limit preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_app_process_limit_entries">
+        <item>标准限制</item>
+        <item>不允许后台进程</item>
+        <item>不得超过1个进程</item>
+        <item>不得超过2个进程</item>
+        <item>不得超过3个进程</item>
+    </string-array>
+
+    <!-- Titles for frame time tracking preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_track_frame_time_entries">
+        <item>关闭</item>
+        <item>在屏幕上显示为条形图</item>
+    </string-array>
+  <!-- suleman -->
+
+  <!-- Status bar notification show style -->
+    <!-- Notification and status bar strins.-->
+    <string-array name="cn_status_bar_notification_show_style">
+        <item>关闭</item>
+        <item>显示应用图标</item>
+        <item>仅显示提示图标</item>
+    </string-array>
+
+    <string-array name="cn_manage_notification_values" translatable="false">
+        <item>全部</item>
+        <item>重要通知</item>
+        <item>悬浮框</item>
+        <item>禁止通知</item>
+    </string-array>
+    <!-- Notification and status bar strins.-->
+
+    <string-array name="battery_labels">
+        <item>"0"</item>
+        <item>"20"</item>
+        <item>"40"</item>
+        <item>"60"</item>
+        <item>"80"</item>
+        <item>"100"</item>
+    </string-array>
+</resources>

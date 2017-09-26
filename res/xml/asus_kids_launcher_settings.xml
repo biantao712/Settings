@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/asus_kids_launcher_settings" >
+    <SwitchPreference
+            android:key="asus_kids_launcher_switch"
+            android:persistent="false"
+            android:title="@string/switch_off_text"
+            android:summary="@string/asus_kids_launcher_settings_message"/>
+ </PreferenceScreen>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
+        android:title="@string/advanced_settings">
+
+    <PreferenceCategory
+        android:title="@string/tether_settings_category_share_network" >
+
+	    <PreferenceScreen
+	            android:fragment="com.android.settings.wifi.p2p.WifiP2pSettings"
+	            android:key="wifi_direct"
+	            android:title="@string/wifi_menu_p2p"
+	            android:persistent="false"
+	            android:order="0"
+	            android:layout="@layout/cnasusres_preference_parent" />
+	
+	    <Preference
+	            android:key="wps_push_button"
+	            android:title="@string/wifi_menu_wps_pbc"
+	            android:persistent="false"
+	            android:order="1" />
+	
+	    <Preference
+	            android:key="wps_pin_entry"
+	            android:title="@string/wifi_menu_wps_pin"
+	            android:persistent="false"
+	            android:order="2" />
+	    <Preference
+            android:key="install_credentials"
+            android:title="@string/wifi_install_credentials"
+            android:persistent="false"
+            android:order="3"
+            android:layout="@layout/asusres_preference_material_nodivider" />
+        
+    </PreferenceCategory>
+    
+    <Preference
+        android:key="saved_networks"
+        android:title="@string/wifi_saved_access_points_label"
+        android:fragment="com.android.settings.wifi.SavedAccessPointsWifiSettings" />
+
+    <PreferenceCategory
+        android:key="wifi_advanced_category_connect"
+        android:title="@string/wifi_advanced_category_connect" >
+	    
+    <!-- android:dependency="enable_wifi" -->
+    <SwitchPreference
+        android:key="notify_open_networks"
+        android:title="@string/wifi_notify_open_networks"
+        android:summary="@string/wifi_notify_open_networks_summary" />
+
+<!--     <SwitchPreference
+            android:key="avoid_bad_connections"
+            android:title="@string/wifi_avoid_bad_connections"
+            android:summary="@string/wifi_avoid_bad_connections_summary"
+            android:persistent="false" /> -->
+
+    <ListPreference
+        android:key="sleep_policy"
+        android:title="@string/wifi_setting_sleep_policy_title"
+        android:entries="@array/wifi_sleep_policy_entries"
+        android:entryValues="@array/wifi_sleep_policy_values"
+        android:layout="@layout/cnasusres_preference_parent" />
+
+<!--     <PreferenceScreen
+            android:fragment="com.android.settings.wifi.WifiManageNetwork"
+            android:key="wifi_manage_network"
+            android:title="@string/wifi_manage_network_title"
+            android:summary="@string/wifi_manage_network_summary"
+            android:persistent="false" /> -->
+
+    <com.android.settings.AppListSwitchPreference
+        android:key="wifi_assistant"
+        android:title="@string/wifi_automatically_connect_title"
+        android:summary="@string/wifi_automatically_connect_summary"
+        android:dialogTitle="@string/wifi_select_assistant_dialog_title" />
+    </PreferenceCategory>
+
+    <SwitchPreference
+        android:key="wifi_cellular_data_fallback"
+        android:title="@string/wifi_cellular_data_fallback_title"
+        android:summary="@string/wifi_cellular_data_fallback_summary"/>
+
+    <PreferenceCategory
+        android:title="@string/wifi_advanced_category_address" >
+    <com.android.settings.DividerPreference
+        android:key="mac_address"
+        android:title="@string/wifi_advanced_mac_address_title"
+        settings:allowDividerAbove="true" />
+
+    <Preference
+        android:key="current_ip_address"
+        android:title="@string/wifi_advanced_ip_address_title"
+        android:layout="@layout/asusres_preference_material_nodivider" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="asus_fingerprint_enroll_find_sensor" type="layout">@layout/asus_fingerprint_enroll_find_sensor_base</item>
+    <item name="asus_fingerprint_enroll_enrolling" type="layout">@layout/asus_fingerprint_enroll_enrolling_base</item>
+    <item name="asus_fingerprint_enroll_finish" type="layout">@layout/asus_fingerprint_enroll_finish_base</item>
+</resources>

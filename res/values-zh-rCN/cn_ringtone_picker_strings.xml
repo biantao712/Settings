@@ -1,0 +1,15 @@
+<resources>
+
+	<string name="ringtone_picker_title">铃声选择</string>
+
+    <string name="internal_tag">系统铃声</string>
+
+    <string name="external_tag">本地音乐</string>
+
+    <string name="ringtone_none">无</string>
+
+    <string name="ringtone_default">默认铃声</string>
+	
+	<string name="external_ringtone_no_data">没有数据</string>
+
+</resources>

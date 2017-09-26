@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="applications_category">
+        <item>已安裝</item>
+        <item>正在運行</item>
+        <item>已緩存</item>
+        <item>全部</item>
+    </string-array>
+
+    <string-array name="recent_key_selector_titles">
+       <item>永遠顯示最近使用的應用程式</item>
+       <item>長按為啟用多視窗功能</item>
+       <item>長按為螢幕截圖</item>
+    </string-array>
+
+    <string-array name="tts_speech_rate_title">
+        <item>非常慢</item>
+        <item>慢</item>
+        <item>適中</item>
+        <item>快</item>
+        <item>較快</item>
+        <item>非常快</item>
+        <item>迅速</item>
+        <item>很迅速</item>
+        <item>最快</item>
+    </string-array>
+
+
+    <!-- Notification and status bar strins.-->
+    <string-array name="cn_status_bar_notification_show_style">
+        <item>關閉</item>
+        <item>顯示應用圖示</item>
+        <item>僅顯示提示圖示</item>
+    </string-array>
+
+    <string-array name="cn_manage_notification_values" translatable="false">
+        <item>全部</item>
+        <item>重要通知</item>
+        <item>懸浮框</item>
+        <item>禁止通知</item>
+    </string-array>
+    <!-- Notification and status bar strins.-->
+
+    <!-- suleman+++ -->
+    <string-array name="display_screen_timeout_entries">
+        <item>"15 秒"</item>
+        <item>"30 秒"</item>
+        <item>"1 分鐘"</item>
+        <item>"2 分鐘"</item>
+        <item>"5 分鐘"</item>
+        <item>"10 分鐘"</item>
+        <item>"30 分鐘"</item>
+        <item>"永不"</item>
+    </string-array>
+
+    <string-array name="cn_select_logd_size_summaries">
+        <item >"關閉"</item>
+        <item >"64KB/錄緩衝區"</item>
+        <item >"256KB/錄緩衝區"</item>
+        <item >"1M/錄緩衝區"</item>
+        <item >"4M/錄緩衝區"</item>
+        <item >"16M/錄緩衝區"</item>
+    </string-array>
+
+    <string-array name="develp_usb_configuration_titles">
+        <item>"充電"</item>
+        <item>"MTP（媒體傳輸通訊協定）"</item>
+        <item>"PTP（圖片傳輸通訊協定）"</item>
+        <item>"RNDIS（USB 乙太網路）"</item>
+        <item>"音訊來源"</item>
+    </string-array>
+
+    <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_window_animation_scale_entries">
+        <item>關閉動畫</item>
+        <item>動畫比例0.5x</item>
+        <item>動畫比例1x</item>
+        <item>動畫比例1.5x</item>
+        <item>動畫比例2x</item>
+    </string-array>
+
+    <!-- Titles for transition animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_transition_animation_scale_entries">
+        <item>關閉動畫</item>
+        <item>動畫比例0.5x</item>
+        <item>動畫比例1x</item>
+        <item>動畫比例1.5x</item>
+        <item>動畫比例2x</item>
+    </string-array>
+
+    <!-- Titles for animator duration scale preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_animator_duration_scale_entries">
+        <item>關閉動畫</item>
+        <item>動畫比例0.5x</item>
+        <item>動畫比例1x</item>
+        <item>動畫比例1.5x</item>
+        <item>動畫比例2x</item>
+    </string-array>
+
+    <!-- Titles for overlay display devices preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_overlay_display_devices_entries">
+        <item>None</item>
+        <item>480p</item>
+        <item>480p (安全)</item>
+        <item>720p</item>
+        <item>720p (安全)</item>
+    </string-array>
+
+    <!-- Titles for app process limit preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_app_process_limit_entries">
+        <item>標準限制</item>
+        <item>不執行背景處理程序</item>
+        <item>最多 1 個處理程序</item>
+        <item>最多 2 個處理程序</item>
+        <item>最多 3 個處理程序</item>
+    </string-array>
+
+    <!-- Titles for frame time tracking preference. [CHAR LIMIT=35] -->
+    <string-array name="develp_track_frame_time_entries">
+        <item>關閉</item>
+        <item>在螢幕上以列顯示</item>
+    </string-array>
+  <!-- suleman -->
+
+    <string-array name="battery_labels">
+        <item>"0"</item>
+        <item>"20"</item>
+        <item>"40"</item>
+        <item>"60"</item>
+        <item>"80"</item>
+        <item>"100"</item>
+    </string-array>
+
+</resources>

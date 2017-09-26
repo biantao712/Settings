@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:fitsSystemWindows="true">
+	
+	<include layout="@layout/tool_bar"/>
+	
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="@color/cn_dialog_list_line_color"/>
+			
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="20dp"
+		android:paddingStart="0dp"
+		android:paddingEnd="0dp"
+		android:background="@color/cnasusres_general_secondary_divider" />
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="@color/cn_dialog_list_line_color"/>
+		
+    <ListView
+        android:id="@+id/content_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:scrollbars="none"
+		android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"
+		android:divider="@color/cn_dialog_list_line_color"
+        android:dividerHeight="1px"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For fingerprint enrollment -->
+    <dimen name="asus_fingerprint_enrolling_proggress_text_margin_top">1dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_margin_top">-15dp</dimen>
+</resources>

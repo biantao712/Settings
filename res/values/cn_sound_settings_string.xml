@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="cn_sound_setting_sounds">Sound</string>
+	<string name="cn_sound_setting_silent_mode">Silent Mode</string>
+	<string name="cn_sound_setting_phone_volume">Ring volume</string>
+	<string name="cn_sound_setting_notification_volume">Notification volume</string>
+	<string name="cn_sound_setting_media_volume">Media volume</string>
+	<string name="cn_sound_setting_alarm_volume">Alarm volume</string>
+
+	<string name="cn_sound_setting_ringtone">Ringtone</string>
+	<string name="cn_sound_setting_phone_ringtone">Phone ringtone</string>
+	<string name="cn_sound_setting_message_ringtone">Notification ringtone</string>
+	<string name="cn_sound_setting_alarm_ringtone">Default Alarms</string>
+	<string name="cn_sound_setting_calendar_ringtone">Calendar Alerts</string>
+	<string name="cn_sound_setting_defaults_ringtone">Default notification ringtone</string>
+
+	<string name="cn_sound_setting_vibrate">Vibrate</string>
+	<string name="cn_sound_setting_vibrate_for_calls">Also vibrate for calls</string>
+	<string name="cn_sound_setting_vibrate_for_silent">Vibrate in silent mode</string>
+	<string name="cn_sound_setting_vibrate_on_touch">Vibrate on touch</string>
+
+	<string name="cn_sound_setting_system">System</string>
+	<string name="cn_sound_setting_dial_pad_touch_tones">Dial pad touch tones</string>
+	<string name="cn_sound_setting_touch_sounds">Touch sounds</string>
+	<string name="cn_sound_setting_screen_lock_sound">Screen lock sound</string>
+	<string name="cn_audio_wizard">AudioWizard</string>
+
+    <string name="cn_sound_settings_vibrate_intensity_cancel_button">cancel</string>
+    <string name="cn_sound_settings_vibrate_intensity_close_radiobtn">close</string>
+    <string name="cn_sound_settings_vibrate_intensity_week_radiobtn">week</string>
+    <string name="cn_sound_settings_vibrate_intensity_normal_radiobtn">normal</string>
+    <string name="cn_sound_settings_vibrate_intensity_strong_radiobtn">strong</string>
+	<string name="cn_sound_settings_ringtone_silent">no</string>
+	
+	<string-array name="cn_sound_settings_vibrate_intensity_entries" translatable="false">
+		<item>close</item>
+		<item>week</item>
+		<item>normal</item>
+		<item>strong</item>
+	</string-array>
+	<string-array name="cn_zen_mode_rule_entries_values" translatable="false">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"3"</item>
+		<item>"5"</item>
+	</string-array>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For fingerprint enrollment -->
+    <dimen name="asus_fingerprint_enrolling_content_margin_top">97.2dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_margin_top">42dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_proggress_text_margin_top">12dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_error_text_margin_top">60dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_btn_inside_radius">98.802dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_btn_outside_radius">120.402dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_btn_w">210.396dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_btn_h">207.996dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_image_w">312dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_image_h">312dp</dimen>
+    <dimen name="asus_fingerprint_finish_add_other_text_margin_bottom">38.4dp</dimen>
+    <dimen name="asus_fingerprint_btn_w">168dp</dimen>
+    <dimen name="asus_fingerprint_btn_margin">12dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_content_w">169.2dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_content_h">231.6dp</dimen>
+    <dimen name="asus_fingerprint_find_sensor_content_back_w">374.4dp</dimen>
+    <dimen name="asus_fingerprint_find_sensor_content_back_h">321.6dp</dimen>
+    <dimen name="asus_fingerprint_find_sensor_content_front_w">374.4dp</dimen>
+    <dimen name="asus_fingerprint_find_sensor_content_front_h">364.2dp</dimen>
+    <dimen name="asus_fingerprint_finish_content_w">204dp</dimen>
+    <dimen name="asus_fingerprint_finish_content_h">246dp</dimen>
+    <dimen name="asus_suw_description_margin_top">0dp</dimen>
+</resources>

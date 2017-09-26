@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keep M7.0.0 setup preference layout -->
+<com.android.setupwizardlib.SetupWizardPreferenceLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:id="@android:id/list_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    settings:suwBackgroundTile="@drawable/setup_illustration_tile"
+    settings:suwIllustrationHorizontalTile="@drawable/setup_illustration_horizontal_tile" />

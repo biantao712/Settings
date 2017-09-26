@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/action_bar_background">
+    </Toolbar>
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <fragment
+                    android:id="@+id/internal_frg"
+                    android:name="com.android.settings.notification.ringtone.InternalRingtoneFragment"
+                    android:tag="internal_ringtones"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <fragment
+                    android:id="@+id/external_frg"
+                    android:name="com.android.settings.notification.ringtone.ExternalRingtoneFragment"
+                    android:tag="external_ringtones"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

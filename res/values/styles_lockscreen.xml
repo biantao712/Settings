@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="suw_content_frame" format="reference" />
+    <attr name="lockscreen_layout_theme" format="reference" />
+
+    <style name="DefaultSetupWizardTheme" parent="@style/SetupWizardTheme">
+        <item name="suw_content_frame">@style/SuwContentFrame</item>
+        <item name="suwBackgroundTile">@drawable/setup_illustration_tile</item>
+        <item name="suwIllustrationImage">@drawable/setup_illustration_lock_screen</item>
+        <item name="suwIllustrationHorizontalTile">@drawable/setup_illustration_horizontal_tile</item>
+    </style>
+
+    <style name="DefaultSetupWizardTheme.Light" parent="@style/SetupWizardTheme.Light">
+        <item name="suw_content_frame">@style/SuwContentFrame</item>
+        <item name="suwBackgroundTile">@drawable/setup_illustration_tile</item>
+        <item name="suwIllustrationImage">@drawable/setup_illustration_lock_screen</item>
+        <item name="suwIllustrationHorizontalTile">@drawable/setup_illustration_horizontal_tile</item>
+    </style>
+
+    <style name="AsusSetupWizardTheme" parent="@style/SetupWizardTheme">
+        <item name="android:windowBackground">@color/asus_suw_bg</item>
+        <item name="android:statusBarColor">@color/asus_suw_status_bar</item>
+        <item name="android:listPreferredItemPaddingEnd">0dp</item>
+        <item name="android:listPreferredItemPaddingStart">0dp</item>
+        <item name="suw_content_frame">@style/AsusSuwContentFrame</item>
+        <item name="preferenceBackgroundColor">@color/asus_suw_bg</item>
+        <item name="preferenceTheme">@style/AsusPreferenceTheme.SetupWizard</item>
+
+    </style>
+
+    <style name="AsusSetupWizardTheme.Light" parent="SetupWizardTheme.Light">
+        <item name="android:windowBackground">@color/asus_suw_bg</item>
+        <item name="android:statusBarColor">@color/asus_suw_status_bar</item>
+        <item name="android:listPreferredItemPaddingEnd">0dp</item>
+        <item name="android:listPreferredItemPaddingStart">0dp</item>
+        <item name="suw_content_frame">@style/AsusSuwContentFrame</item>
+        <item name="preferenceBackgroundColor">@color/asus_suw_bg</item>
+        <item name="preferenceTheme">@style/AsusPreferenceTheme.SetupWizard.Light</item>
+
+    </style>
+
+    <style name="AsusSuwContentFrame" parent="@style/SuwContentFrame">
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+
+    <style name="AsusPreferenceTheme" parent="@style/PreferenceTheme" >
+    </style>
+
+    <style name="AsusPreferenceTheme.SetupWizard" parent="@style/PreferenceTheme.SetupWizard">
+        <item name="android:listPreferredItemPaddingEnd">0dp</item>
+        <item name="android:listPreferredItemPaddingStart">0dp</item>
+    </style>
+
+    <style name="AsusPreferenceTheme.SetupWizard.Light" parent="@style/PreferenceTheme.SetupWizard.Light">
+        <item name="android:listPreferredItemPaddingEnd">0dp</item>
+        <item name="android:listPreferredItemPaddingStart">0dp</item>
+    </style>
+
+    <style name="AsusFingerprintButton">
+        <item name="android:textColor">@color/asus_suw_bg</item>
+        <item name="android:background">@drawable/asus_fingerprint_btn</item>
+    </style>
+
+    <style name="QuickAccessActionBarStyle">
+        <item name="@android:windowActionBar">false</item>
+        <item name="@android:windowNoTitle">true</item>
+    </style>
+
+</resources>

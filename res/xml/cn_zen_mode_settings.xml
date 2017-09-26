@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="cn_zen_mode_settings"
+    android:title="@string/cn_zen_mode_settings_title2" >
+
+    <!-- Enter Zenmode -->
+	<PreferenceCategory
+		android:layout="@layout/asusres_preference_category_material_nodivider">
+		<SwitchPreference
+			android:key="cn_switch_zen_mode"
+			android:title="@string/cn_zen_mode_manual_turn_on"
+			android:persistent="false"
+			android:layout="@layout/asusres_preference_material_nodivider"/>
+	</PreferenceCategory>
+	
+	<!-- 为cts增加的打扰规则 -->
+	<PreferenceCategory
+		android:layout="@layout/asusres_preference_category_material_nodivider">
+		
+		<ListPreference
+			android:key="cn_zen_mode_rule"
+			android:title="@string/cn_zen_mode_rule_title"
+			android:persistent="false"
+			android:entries="@array/cn_zen_mode_rule_entries"
+			android:entryValues="@array/cn_zen_mode_rule_entries_values" 
+			android:layout="@layout/cnasusres_preference_parent_nodivider"
+			android:defaultValue="1"/>
+	</PreferenceCategory>
+
+    <!-- Automated switch -->
+    <PreferenceCategory
+		android:key="cn_auto_mode_container"
+		android:layout="@layout/asusres_preference_category_material_nodivider">
+    	
+		<SwitchPreference
+        	android:key="cn_switch_auto_mode"
+        	android:title="@string/cn_auto_mode"
+        	android:persistent="false"
+			android:layout="@layout/asusres_preference_material_nodivider"/>
+	
+		<PreferenceScreen
+			android:key="cn_auto_schedule_start_time"
+			android:title="@string/cn_zen_mode_auto_schedule_start_time"
+			android:dependency="cn_switch_auto_mode" />
+
+		<PreferenceScreen
+            android:key="cn_auto_schedule_end_time"
+            android:title="@string/cn_zen_mode_auto_schedule_end_time"
+			android:dependency="cn_switch_auto_mode" />
+
+		<PreferenceScreen
+            android:key="cn_auto_schedule_repeat"
+            android:title="@string/cn_zen_mode_auto_schedule_repeat"
+			android:dependency="cn_switch_auto_mode" 
+			android:layout="@layout/cnasusres_preference_parent_nodivider"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="others"
+        android:layout="@layout/asusres_preference_category_material_nodivider" >
+	
+		<com.android.settings.notification.view.WhiteListPreference
+			android:key="cn_zen_white_list_phone"
+            android:title="@string/cn_zen_white_list_phone_title"
+            android:summary="@string/cn_zen_white_list_phone_desc" 
+			android:layout="@layout/cn_zen_mode_preference_layout" />
+	
+
+        <!-- no ring in 3 mins' switch -->
+        <SwitchPreference
+            android:key="cn_repeat_callers"
+            android:title="@string/cn_zen_repeat_callers"
+            android:summary="@string/cn_zen_repeat_callers_desc"
+            android:persistent="false"/>
+
+		<com.android.settings.notification.view.WhiteListPreference
+			android:key="cn_zen_white_list_message"
+            android:title="@string/cn_zen_white_list_message_title"
+            android:summary="@string/cn_zen_white_list_message_desc"
+			android:layout="@layout/cn_zen_mode_preference_layout"/>
+			
+	</PreferenceCategory>
+
+</PreferenceScreen>

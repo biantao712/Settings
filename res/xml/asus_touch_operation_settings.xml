@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="double_tap_off"
+        android:persistent="false"
+        android:summary="@string/vzw_doubletap_off_setting_summary"
+        android:title="@string/vzw_doubletap_off_setting_title" />
+    <SwitchPreference
+        android:key="double_tap_on"
+        android:persistent="false"
+        android:summary="@string/vzw_doubletap_on_setting_summary"
+        android:title="@string/vzw_doubletap_on_setting_title" />
+
+    <SwitchPreference
+            android:key="swipe_up_to_wake_up"
+            android:persistent="false"
+            android:title="@string/swipe_up_to_wake_up_title"
+            android:summary="@string/swipe_up_to_wake_up_summary" />
+
+    <PreferenceCategory
+        android:key="asus_touch_gesture_sleep_category"
+        android:title="@string/sleep_touch_gesture_category_title" >
+
+        <com.android.settings.zenmotion.AppLaunchListPreference
+            android:key="w_launch"
+            android:title="@string/w_launch_title"
+            android:persistent="false" />
+        <com.android.settings.zenmotion.AppLaunchListPreference
+            android:key="s_launch"
+            android:title="@string/s_launch_title"
+             android:persistent="false" />
+        <com.android.settings.zenmotion.AppLaunchListPreference
+            android:key="e_launch"
+            android:title="@string/e_launch_title"
+            android:persistent="false" />
+        <com.android.settings.zenmotion.AppLaunchListPreference
+            android:key="c_launch"
+            android:title="@string/c_launch_title"
+            android:persistent="false" />
+        <com.android.settings.zenmotion.AppLaunchListPreference
+            android:key="z_launch"
+            android:title="@string/z_launch_title"
+            android:persistent="false" />
+        <com.android.settings.zenmotion.AppLaunchListPreference
+            android:key="v_launch"
+            android:title="@string/v_launch_title"
+            android:persistent="false" />
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="asus_touch_tutorial"
+        android:title="@string/zenmotion_tutorial_title" >
+        <intent android:action="android.settings.TOUCHTUTORIAL" />
+    </PreferenceScreen>
+</PreferenceScreen>

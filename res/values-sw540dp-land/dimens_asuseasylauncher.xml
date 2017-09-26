@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Asus Easy Launcher -->
+    <dimen name="desc_title_margin_bottom">11dp</dimen>
+    <dimen name="desc_title_padding_top">125dp</dimen>
+    <dimen name="desc_margin_top">21dp</dimen>
+    <dimen name="desc_title_margin_top">-10dp</dimen>
+</resources>

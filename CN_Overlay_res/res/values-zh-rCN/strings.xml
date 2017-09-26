@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="legacy_dhcp_client_summary">"使用 Lollipop 的 DHCP 客户端，而不是新的 Android DHCP 客户端。"</string>
+    <string name="floating_dock">悬浮球</string>
+    <string name="tether_settings_title_wifi">个人热点</string>
+    <string name="sound_settings">声音和振动</string>
+    <string name="memory_size_title">运行内存</string>
+    <string name="emmc_size_title">手机存储</string>
+    <string name="cpu_frequency_title">处理器</string>
+    <string name="about_cpu_core_num">"单核, 双核, 三核, 四核, 五核, 六核, 七核, 八核, 九核, 十核"</string>
+    <string name="multi_sim_settings_title" description="" maxWidth="25">双卡和移动网络</string>
+    <string name="header_category_wireless_networks">"网络和连接"</string>
+    <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen  [CHAR LIMIT=20]-->
+    <string name="asus_theme_app_title">壁纸和主题</string>
+    <string name="applications_settings">"应用管理"</string>
+    <string name="header_category_account">账号</string>
+    <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
+    <string name="header_category_system_device">系统和设备</string>
+    <string name="header_category_phone">手机</string>
+    <string name="account_settings_title">其他账号</string>
+    <string name="asus_cn_account_settings_title">华硕省事儿账号</string>
+    <string name="permissions_details_label">权限详情</string>
+    <string name="permissions_details_summary"><xliff:g id="count" example="10">%d</xliff:g>项权限</string>
+    <string name="permissions_manager_label">权限管理</string>
+    <string name="other_permissions" msgid="2016192512386091933">"其他应用功能"</string>
+
+    <string name="accessibility_settings">智能辅助</string>
+    <string name="assistive_touch">悬浮球</string>
+    <string name="power_usage_summary_title">电池管理</string>
+    <string name="memory_storage_title">内存和存储</string>
+    <string name="storage_setting">存储设置</string>
+    <string name="space_clear">空间清理</string>
+   
+
+    <string name="order_text">排序</string>
+    <string name="default_apps_setting">默认应用设置</string>
+    <string name="reset_app_preferences">重置应用偏好</string>
+    <string name="reset_app_to_default">重置为系统默认</string>
+
+    <string name="storage_cache_title">存储和缓存</string>
+    
+    <!--tim add-->
+    <string name="playto_title">"投射屏幕"</string>
+    <string name="wifi_tether_connected_users">"已连接设备"</string>
+    <string name="wifi_menu_qrcode">"扫一扫"</string>
+    <string name="wifi_menu_options">"菜单"</string>
+    
+    <string name="wifi_ap_not_set">"未设置"</string>
+    <string name="wifi_ap_security_info">"安全性信息"</string>
+    <string name="wifi_ap_advanced_settings_info">"高级设置信息"</string>
+    <string name="wifi_ap_advanced_settings">"高级设置"</string>
+    <string name="tether_settings_category_share_network">"共享网络"</string>
+    <string name="tether_settings_summary_connected">"%s台设备"</string>
+    <string name="tether_settings_title_disable_tether_info">"%s无设备连接将会自动关闭个人热点"</string>
+    <string name="fingerprint_lock_warning_dialog_title">"请先设置锁屏密码"</string>
+    <string name="fingerprint_lock_warning_dialog_msg">"请先在锁屏和密码处设置锁屏密码，才能更改指纹解锁"</string>
+    <string name="fingerprint_lock_warning_dialog_ok">"知道了"</string>
+    <string name="choose_lock_fingerprint_warning_dialog_title">"删除已存储的指纹？"</string>
+    <string name="choose_lock_fingerprint_warning_dialog_msg">"已有可用于解锁的指纹存储在手机上，\n您要保存或删除这些指纹吗？"</string>
+    <string name="choose_lock_fingerprint_warning_dialog_keep">"保留"</string>
+    <string name="choose_lock_fingerprint_warning_dialog_delete">"删除"</string>
+    <string name="vpn_not_connected">"未连接"</string>
+    <string name="vpn_connected">"已连接"</string>
+
+    <string name="wifi_qr_dialog_title">Wi\u2011Fi二维码</string>
+    <string name="wifi_qrcode_description">"使用手机扫一扫二维码，自动连接当前Wi\u2011Fi"</string>
+    <string name="wifi_ap_qrcode_description">使用手机扫一扫二维码，自动连接个人热点</string>
+    <string name="wifi_disconnect">"断开连接"</string>
+    <string name="wifi_ignore">"忽略此网络"</string>
+    <string name="wifi_ip_settings_invalid_password_8">"密码至少应包含8个字符"</string>
+    <string name="wifi_advanced_category_connect">"连接与扫描"</string>
+    <string name="wifi_advanced_category_address">"地址信息"</string>
+    
+    <string name="wifi_ssid">"网络名称:"</string>
+    <string name="wifi_password">"密码:"</string>
+    <string name="wifi_password_hint">"请输入密码"</string>
+    <string name="wifi_eap_domain_hint">"输入域名"</string>
+    <string name="wifi_eap_identity_hint">"输入身份"</string>
+    <string name="wifi_eap_anonymous_hint">"输入匿名身份"</string>
+    <string name="proxy_pac_hint">"输入PAC网址  例：https://www.example.com"</string>
+    <string name="proxy_hostname_hint">"输入代理服务器名  例：proxy.example.com"</string>
+    <string name="proxy_port_hint">"输入代理服务器端口  默认：80"</string>
+    <string name="proxy_exclusionlist_hint">"对以下网址不使用代理  例：example.com,web"</string>
+    <string name="wifi_ip_address_hint">"输入IPv4地址  例：192.168.1.128"</string>
+    <string name="wifi_gateway_hint">"输入网关  例：192.168.1.1"</string>
+    <string name="wifi_network_prefix_length_hint">"输入网络前缀长度  默认：24"</string>
+    <string name="wifi_dns1_hint">"输入DNS1  例：8.8.8.8"</string>
+    <string name="wifi_dns2_hint">"输入DNS2  例：8.8.8.8"</string>
+        
+    <string name="vpn_list">VPN列表</string>
+    <string name="vpn_button_add">添加VPN</string>
+    <string name="vpn_button_modify">修改网络</string>
+    <string name="vpn_button_delete">删除网络</string>
+    <string name="vpn_button_disconnect">断开网络</string>
+    <string name="vpn_button_connect">连接网络</string>
+    <string name="positive_button_unlock_screen">设置锁屏密码</string>
+    <string name="vpn_add_title">添加VPN</string>
+    <string name="vpn_category_info">基本信息</string>
+    <string name="vpn_category_user">用户信息</string>
+    <string name="vpn_category_type">类型信息</string>
+    <string name="vpn_category_advanced">高级信息</string>
+    <string name="vpn_username_hint">必填</string>
+    <string name="vpn_password_hint">若不输入，则每次均询问</string>
+    <string name="vpn_password_connect_hint">请输入密码</string>
+    <string name="vpn_dns_servers">DNS服务器</string>
+    <string name="vpn_dns_servers_hint">例如：8.8.8.8</string>
+    <string name="vpn_routes">转发路线</string>
+    <string name="vpn_routes_hint">例如：10.0.0.0/8</string>
+    <string name="vpn_no_user_cert">未使用</string>
+    <string name="vpn_no_ca_cert">不验证服务器</string>
+    <string name="vpn_no_server_cert">来自服务器</string>
+    <string name="vpn_view_category_info">基本信息和用户信息</string>
+    <string name="vpn_view_mppe_enable">开启保护</string>
+    <string name="vpn_view_mppe_disable">未开启保护</string>
+    <string name="vpn_delete_confirm_message">您确定删除该VPN？</string>
+    
+    <string name="power_usage_list_title">耗电详情</string>
+    <string name="show_battery_summary">在状态栏中显示电池剩余电量百分比</string>
+    <string name="high_power_apps_optimize">批量设置</string>
+    <string name="high_power_apps_optimize_all">全部优化</string>
+    <string name="high_power_apps_optimize_none">全部不优化</string>
+    <string name="high_power_apps_optimize_header_title">已进行优化的应用：%s个</string>
+    
+    <string name="wifi_p2p_delete_group_title">取消已保存的群组</string>
+    <string name="wifi_p2p_delete_group_content">您是否取消保存%s此群组？</string>
+
+    <string name="wifi_disable_hotspot_selection_never">从不</string>
+    <string name="wifi_disable_hotspot_selection_timeout_5">5 分钟后</string>
+    <string name="wifi_disable_hotspot_selection_timeout_10">10 分钟后</string>
+    <string name="wifi_disable_hotspot_selection_timeout_20">20 分钟后</string>
+    <string name="wifi_disable_hotspot_selection_timeout_30">30 分钟后</string>
+    <string name="wifi_disable_hotspot_selection_timeout_60">60 分钟后</string>
+
+    <string name="security_settings_fingerprint_rename">重命名指纹</string>
+    <string name="security_settings_fingerprint_enroll_dialog_delete">删除指纹</string>
+    <string name="wps_timeout_txt_wait">等待连接 %d 秒</string>
+    <string name="tether_settings_title_disable_never">无设备连接将不会自动关闭个人热点</string>
+    <!--tim add-->
+    
+    <!--tim modify-->
+    <string name="wifi_menu_forget">"删除保存"</string>
+    <string name="wifi_menu_connect">"连接网络"</string>
+    <string name="wifi_qrcode_share_network">"分享网络"</string>
+    <string name="wifi_select_network">"选取网络"</string>
+    <string name="wifi_tether_checkbox_text">"个人热点"</string>
+    <string name="wifi_tether_configure_ap_text">"设置个人热点"</string>
+    <string name="tether_settings_title_all">"个人热点"</string>
+    <string name="usb_tethering_button_text">"通过USB共享网络"</string>
+    <string name="bluetooth_tether_checkbox_text">"通过蓝牙共享网络"</string>
+    <string name="wifi_security_none">"开放"</string>
+    <string name="proxy_url_title">"PAC网址"</string>
+    <string name="wifi_automatically_connect_summary">"允许 WLAN 助手自动连接评定为优质的开放网络"</string>
+    <string name="fingerprint_last_delete_confirm">"确定"</string>
+    
+    <string name="vpn_name">VPN名称</string>
+    <string name="usb_tethering_available_subtext">USB未连接</string>
+    <string name="usb_tethering_active_subtext">USB已连接，共享该手机网络</string>
+    <string name="bluetooth_turning_off">不共享该手机的互联网连接</string>
+    <string name="bluetooth_turning_on">共享该手机的互联网连接</string>
+    <string name="fingerprint_usage_category_title">将指纹用于</string>
+    <string name="wifi_wps_onstart_pbc">有开放网络通知时请您按下路由器上的 WLAN 保护设置按钮，它可能会标为“WPS”或标有以下符号</string>
+    <string name="wifi_wps_onstart_pin">有开放网络通知时请您在WLAN路由器上输入PIN码<xliff:g id="NUMBER">%1$s</xliff:g>，设置过程最多可能需要两分钟时间</string>
+    
+    <string name="wifi_p2p_cancel_connect_title">取消WLAN直连邀请</string>
+    <string name="wifi_p2p_cancel_connect_message">您正在邀请<xliff:g id="PEER_NAME">%1$s</xliff:g>加入WLAN直连，您是否取消本次邀请？</string>
+    <string name="wifi_p2p_disconnect_title">断开WLAN直连</string>
+    <string name="wifi_p2p_menu_searching">正在查找…</string>
+    <string name="fingerprint_management_category">指纹</string>
+
+    <string name="secure_unlock_with_fingerprint_summary">使用指纹解锁屏幕</string>
+    <string name="asus_call_lock_detail">启动来电锁功能后，可以扫描指纹来接听电话。成功识别指纹后，将自动连接通话。\n请注意：\n1.您可以在不扫描指纹的情况下使用配对的蓝牙耳机和智能手表直接接听电话。\n2.插入有线耳机时，仍需要使用指纹接听电话。\n3.您无法从第三方来电屏幕接听电话。\n4.对于 IP 语音 (VoIP) 通话（例如：微信语音通话），仍要从应用程序接听电话。</string>
+    <string name="wifi_connected_no_internet">已连接</string>
+    <!--tim modify-->
+    
+    <string name="accessibility_virtual_key_title">虚拟按键</string>
+    <string name="accessibility_recent_key_title">最近应用程序键</string>
+    <string name="accessibility_bottom_bar_virtual_key_group_title">虚拟按键导航栏组合</string>
+    <string name="packet_mode_title">防误触模式</string>
+    <string name="packet_mode_summary">防止手机在口袋中由于挤压或滑动引起的误操作</string>
+
+    <string name="cn_storage_volume_title">"总容量 <xliff:g id="TOTAL">%2$s</xliff:g> ，可用容量 <xliff:g id="USED">%1$s</xliff:g>"</string>
+    <string name="mount_sdcard_dialog_title">安装SD卡</string>
+    <string name="mount_sdcard_dialog_content">此SD卡已弹出，但仍在卡槽中。要使用此SD卡，请先安装。</string>
+    <string name="unmount_sdcard_dialog_title">弹出SD卡</string>
+    <string name="unmount_sdcard_dialog_content">这个操作将弹出SD卡，是否继续？</string>
+    <string name="flatten_storage_external_title">便携式存储设备</string>
+
+    <string name="format_warning">格式化操作将清空当前存储在SD卡上的所有数据。为避免数据丢失，建议先将数据备份。</string>
+    <string name="format_title">清空并格式化</string>
+    <string name="format_dialog_content">将SD卡清空并格式化，是否继续？</string>
+    <string name="format_running_warning">请勿在格式化过程中移除该SD卡</string>
+    <string name="format_running">正在格式化SD卡</string>
+    <string name="format_finish">SD卡已格式化完成，可用于存储照片和其它媒体文件。</string>
+    <string name="hint">提示</string>
+    <string name="force_stop_hint">强行停止应用可能会导致该应用出现异常，如数据错误或丢失等问题，请您确定是否强行停止。</string>
+
+    <string name="clear_data_hint">该操作将会清除当前应用的所有数据，包括所有文件、设置、账号、数据库等，请您确定是否进行该操作。</string>
+
+    <string name="support_link_summary">显示当前所支持的链接</string>
+    <string name="support_link_list">支持的链接列表</string>
+
+    <string name="clear_default_button">清除默认操作</string>
+
+    <string name="clear_defaults_hint">该操作将会清除当前应用的其他默认设置操作，请您确定是否进行清空默认设置操作。</string>
+    <string name="about_phone_title">关于手机</string>
+    <string name="cn_report">报告</string>
+
+    <string name="emmc_storage_summary" msgid="1110250618334248745">"<xliff:g id="SIZE1">%1$s</xliff:g>(可用)， <xliff:g id="SIZE2">%2$s</xliff:g>(总共)"</string>
+    <string name="accessibility_global_gesture_preference_title">辅助功能快捷方式</string>
+    <string name="virtual_key_group1_text">样式1</string>
+    <string name="virtual_key_group2_text">样式2</string>
+    <string name="virtual_key_group3_text">样式3</string>
+    <string name="virtual_key_group4_text">样式4</string>
+    <string name="NoGetWeather">获取中</string>
+    <string name="cn_duration_title">所用时长</string>
+    <string name="HaveNotify">你有未读消息</string>
+    <string name="SLockTimeThirdHourNum_18">18</string>
+    <string name="SLockTimeThirdGli_colon">:</string>
+    <string name="SLockTimeThirdMin_38">38</string>
+    <string name="SLockTimeThirdAm_AM">AM</string>
+    <string name="SLockTimeThirdWeek_Monday">周一</string>
+
+    <string name="SLockTimeThirdDate_1226">12月26日</string>
+    <string name="SLockWeatherTime_notsupport">--</string>
+    <string name="StyleItem">时间天气样式</string>
+
+
+    <string name="cn_duration_title">所用时长</string>
+    <string name="pref_title_lang_selection" msgid="2014920136978776034">"选择语言"</string>
+    <string name="system_language_category" msgid="212319666432360385">"系统语言"</string>
+    <string name="switch_default_inputmethod_dialog_title">"更改当前输入法"</string>
+    <string name="keyboard_and_inputmethod_setting_title">"键盘与输入法设置"</string>
+    <string name="keyboard_and_inputmethod_setting">"设置"</string>
+    <string name="tts_engine_preference_section_title">"引擎输出"</string>
+    <string name="current_tts_engine">"当前首选引擎"</string>
+    <string name="switch_default_tts_engine_dialog_title">"更改当前首选引擎"</string>
+    
+    <string name="cn_sync_account">同步所有账号</string>
+    <string name="cn_about">关于</string>
+    <string name="asus_device_status_summary">电池、网络等状态</string>
+    <string name="hardware_info_summary">WIFI、蓝牙等版本</string>
+    <string name="software_info_summary">基带、内核版本等</string>
+    <string name="captioning_preset" msgid="8939737196538429044">"字幕风格"</string>
+    <string name="accessibility_long_press_timeout_preference_title" msgid="6708467774619266508">"点击和按住延迟"</string>
+    <string name="default_assist_setting">辅助默认设置</string>
+    <string name="default_app_list">默认应用列表</string>
+    <string name="default_phone_title">电话应用</string>
+    <string name="assist_and_voice_input_title">"辅助应用与语音输入"</string>
+    <string name="assistant_security_hint">"辅助应用将可读取您系统中使用的应用的相关信息，其中包括您屏幕上显示的信息或应用中可使用的信息。\n您确定将<xliff:g id="ASSISTANT_APP_NAME">%s</xliff:g>设为您的辅助应用吗？"</string>
+    <string name="led_indicator">"指示灯"</string>
+    <string name="used">已使用</string>
+    <string name="estimation">预估</string>
+    <string name="charge_remaining">剩余电量</string>
+    <string name="charge_used_details">上次充电后耗电详情</string>
+    <string name="reset_app_default">"重置为系统默认"</string>
+
+    <string name="reset_default_dialog_content">"该操作将会使您当前所有的默认应用设置进行重置，请您确定是否将默认应用设置重置为系统默认。"</string>
+    <string name="reset_default_warning">"更换默认应用为非华硕系统应用，可能会引起电池耗电、流量增加及隐私泄露等问题，建议您继续使用华硕系统应用。"</string>
+
+
+    <string name="search_history">"搜索历史"</string>
+
+    <string name="account_settings_menu_auto_sync">"自动同步"</string>
+
+    <string name="button_back" description="right button setting: it is like press back key" width="-1">返回操作</string>
+    <string name="button_menu" description="middle button setting: it is like pree menu key" width="-1">显示菜单</string>
+    <string name="speed_slow">"慢"</string>
+    <string name="speed_quick">"快"</string>
+
+    <string name="dialog_enable_app_title">"启用 %s"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"相机"</string>
+    <string name="dialog_enable_app_message">"装置上的%s目前停用中，您要现在启用吗？"</string>
+    <string name="dialog_enable_app_yes">"启用"</string>
+    <string name="storage_internal">"内部储存"</string>
+
+    <string name="fingerprint_introduction_title">"使用指纹解锁"</string>
+    <string name="fingerprint_introduction_content">"用指纹来唤醒或解锁你的手机、对购买交易进行授权或登入应用"</string>
+    <string name="cn_continue">"继续"</string>
+    <string name="cn_fingerprint">"指纹"</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">"指纹+图案密码"</string>
+    <string name="fingerprint_unlock_set_unlock_pin">"指纹+数字密码"</string>
+    <string name="fingerprint_unlock_set_unlock_password">"指纹+混合密码"</string>
+    <string name="cn_lock_settings_picker_fingerprint_message">"选择要与指纹搭配使用的解锁方式"</string>
+    <string name="cn_asus_security_settings_fingerprint_enroll_find_sensor_message_front">"您可以在手机前侧找到指纹传感器"</string>
+    <string name="cn_asus_security_settings_fingerprint_enroll_find_sensor_message_back">"您可以在手机后侧找到指纹传感器"</string>
+    <string name="cn_next">"下一步"</string>
+    <string name="cn_fingerprint_enroll_title">"放置手指"</string>
+    <string name="cn_fingerprint_enroll_start_message">"将您的手指放在指纹传感器上，感觉到震动后移开手指"</string>
+    <string name="cn_fingerprint_enroll_more_message">"略微移动手指，以便传感器更完整的记录下指纹，感觉到震动后移开手指"</string>
+    <string name="cn_fingerprint_enroll_finish_title">"添加完成"</string>
+    <string name="cn_fingerprint_enroll_finish_message">"只要您看见此图标，就可以使用指纹进行身份验证或对购买交易进行授权"</string>
+    <string name="asus_master_clear_title_desc" description="SD card and phone storage settings screen, message on screen after user selects Factory data reset" maxwidth="-1">这会清除您内部存储设备中的所有数据，包括："</string>
+    <string name="asus_master_clear_content_desc" msgid="1903185203791274237"><li>"您的帐户"</li>\n<li>"系统和应用程序数据及设置"</li>\n<li>"已下载的应用程序"</li>\n<li>"音乐"</li>\n<li>"照片"</li>\n<li>"其他的用户数据"</li></string>
+    <string name="master_clear_final_hint_messeage">请输入</string>
+
+    <!--suleman display settings-->
+    <string name="display_category_system_lock">屏幕自动休眠</string>
+    <string name="display_category_screen">屏幕</string>
+    <string name="display_category_font">字体</string>
+    <string name="display_category_system">系统</string>
+    <string name="location_services_title_text">定位服务</string>
+    <string name="display_font_size_small">小</string>
+    <string name="display_font_size_default">默认</string>
+    <string name="display_font_size_big">大</string>
+    <string name="display_font_size_large">最大</string>
+    <!--suleman bluetooth settings-->
+    <string name="bt_switch_pref_title">蓝牙</string>
+    <string name="bt_check_pref_title">开放检测</string>
+    <string name="bt_check_pref_summary">允许周围设备检测到</string>
+    <string name="bt_rename_pref_title">设备名称</string>
+    <string name="bt_receive_file_pref_title">接收的文件</string>
+    <string name="bluetooth_refresh_button_title">刷新</string>
+    <string name="bluetooth_check_time_button_title">检测时间</string>
+    <string name="config_switch_pref_summary">用于访问互联网</string>
+    <string name="bluetooth_pair_request">蓝牙配对请求</string>
+    <string name="bluetooth_devices">设备:</string>
+    <string name="bluetooth_allow_access">允许配对的设备访问您的通讯录和通话记录</string>
+
+    <string name="cn_bt_preference_paired_rename">重命名</string>
+    <string name="cn_bt_preference_cancel_paired">取消配对</string>
+    <string name="cn_bt_catogray_config">配置项</string>
+    <!--suleman development settings-->
+    <string name="develop_asusres_btn_display">显示当前运行的服务</string>
+    <string name="develop_asusres_btn_display_cache">显示缓存进程</string>
+    <string name="develop_asusres_btn_reply">恢复默认设置</string>
+    <string name="bugreport_title">提交错误报告</string>
+    <string name="reset_dialog_title_text">恢复默认设置</string>
+    <string name="reset_dialog_message_text">是否将所有设置项还原为默认设置</string>
+    <string name="cn_mock_location_app_not_set">无</string>
+    <string name="cn_debug_app_not_set">无</string>
+    <string name="develop_asusres_switch_open">开启</string>
+    <string name="develop_asusres_switch_close">关闭</string>
+    <string name="develop_asusres_perference_cancel_usb_title">撤消USB调试授权</string>
+
+    <string name="old_pw" >"旧密码"</string>
+    <string name="new_pw" >"新密码"</string>
+    <string name="confirm_new_pw" >"确认密码"</string>
+    <string name="confirm_pw" >"确定"</string>
+    <string name="cancel_pw" >"取消"</string>
+    <!--suleman security settings-->
+    <string name="security_show_password">密码可见</string>
+    <string name="security_credential_storage_type_hardware">支持硬件</string>
+    <string name="security_trusted_credentials">受信任的凭据</string>
+    <string name="security_trusted_credentials_summary">显示受信任的CA证书</string>
+    <string name="security_credentials_install">从SD卡安装</string>
+    <string name="security_credentials_install_summary">从SD卡安装证书</string>
+    <string name="security_credentials_reset">删除凭据</string>
+    <string name="security_manage_trust_agents">信任的代理应用</string>
+    <string name="security_manage_trust_agents_summary">查看或停用信任的代理应用</string>
+    <string name="security_crypt_keeper_encrypt_title">加密手机</string>
+    <string name="security_install_unknown_applications">允许安装从非官方渠道获取的应用程序</string>
+    <string name="security_device_admin_active">激活</string>
+    <string name="security_device_admin_no_active">未激活</string>
+    <string name="security_device_admin_inactive">取消激活</string>
+    <string name="security_device_admin_active_cancel">取消</string>
+    <string name="security_device_admin_head_title">个人</string>
+    <string name="security_toast">手机已加密</string>
+    <string name="asus_screen_pinning_description" description="Screen pinning description" maxwidth="300">开启后，您可以使用固定屏幕功能来固定当前界面。\n\n要使用固定屏幕功能，请执行以下操作：\n1. 开启固定屏幕功能。\n2. 打开您想要固定的屏幕。\n3 . 点击导航栏中的"多任务键"。\n4. 点击"固定"图标。</string>
+    <!---->
+
+    <!--suleman backup & reset-->
+    <string name="backup_preference_category_asus_backup">华硕备份+</string>
+    <string name="backup_preference_category_personal_data">个人数据</string>
+    <string name="backup_reset_network_desc_title">此操作会重置所有网络设置，包括:</string>
+    <string name="backup_reset_network_desc_one"><li>WLAN</li></string>
+    <string name="backup_reset_network_desc_two"><li>移动数据网络</li></string>
+    <string name="backup_reset_network_desc_three"><li>蓝牙</li></string>
+    <string name="backup_reset_network_button_text">重置设置</string>
+    <string name="backup_asus_master_clear_button_text">开始恢复</string>
+    <string name="cn_backup_data_title">备份与恢复</string>
+    <string name="average_used">"平均使用量"</string>
+    <!---->
+
+    <!--suleman location-->
+    <string name="cn_location_mode_title">定位模式</string>
+    <string name="cn_location_mode_high_accuracy_title">同时使用网络和GPS定位</string>
+    <string name="cn_location_mode_high_accuracy_description">精准度高但耗电量较大</string>
+    <string name="cn_location_mode_battery_saving_title">仅使用网络定位</string>
+    <string name="cn_location_mode_battery_saving_description">精准度和耗电量低</string>
+    <string name="cn_asus_location_mode_sensors_only_title">仅使用GPS定位</string>
+    <string name="cn_location_mode_sensors_only_description">精准度和耗电量中等</string>
+    <string name="cn_location_scanning_screen_title">扫描设置</string>
+    <string name="cn_location_scanning_wifi_always_scanning_title">WLAN扫描</string>
+    <string name="cn_location_scanning_wifi_always_scanning_description">允许系统随时检测WLAN,以提高位置信息精确度</string>
+    <string name="cn_location_scanning_bluetooth_always_scanning_title">蓝牙扫描</string>
+    <string name="cn_location_scanning_bluetooth_always_scanning_description">允许系统随时检测蓝牙,以提高位置信息精确度</string>
+    <string name="cn_location_category_recent_location_requests">最近位置信息请求</string>
+    <!---->
+   <string name="accessibility_display_inversion_preference_subtitle">"(实验性功能)可能会影响性能"</string>
+
+    <!--notification and statusbar String-->
+    <string name="cn_statusbar_notification_title">通知和状态栏</string>
+    <string name="cn_notification_manager_title">通知管理</string>
+    <string name="cn_notification_lockscreen_category_title">锁屏通知</string>
+    <string name="cn_statusbar_category_title">状态栏</string>
+    <string name="cn_notification_lockscreen_show">锁屏时显示通知</string>
+    <string name="cn_notification_lockscreen_show_summary">开启后，锁屏时显示所有通知</string>
+    <string name="cn_notification_lockscreen_public">快速查看</string>
+    <string name="cn_notification_lockscreen_public_summary">锁屏时底部显示最近三条通知</string>
+    <string name="cn_notification_lockscreen_private">锁屏时通知信息保护</string>
+    <string name="cn_statusbar_notification_style">有通知时显示样式</string>
+    <string name="cn_statusbar_netspeed_show">显示实时网速</string>
+    <string name="cn_statusbar_netspeed_show_summary">在状态栏中显示当前网速</string>
+    <string name="cn_statusbar_battery_rate_show">显示电池百分比</string>
+    <string name="cn_statusbar_battery_rate_show_summary">在状态栏中显示剩余电量百分比</string>
+    <string name="cn_notification_private_summary">设置了通知信息保护的应用,内容隐藏</string>
+    <string name="cn_statusbar_style_summary">仅显示提示图标</string>
+    <string name="cn_notify_allowed">允许通知</string>
+    <string name="cn_notify_style_title">通知方式</string>
+    <string name="cn_notify_style_importance">重要通知</string>
+    <string name="cn_notify_style_importance_sum">在重要通知内显示</string>
+    <string name="cn_notify_style_allow_disturb">允许打扰</string>
+    <string name="cn_notify_style_allow_disturb_sum">当免打扰规则设为“使用允许列表时”,允许此应用的通知响铃或振动</string>
+    <string name="cn_notify_style_status_bar">状态栏通知</string>
+    <string name="cn_notify_style_status_bar_sum">开启后在状态栏显示图标</string>
+    <string name="cn_notify_style_iconsum">桌面图标角标</string>
+    <string name="cn_notify_style_iconsum_sum">在APP图标右上角显示数字提示</string>
+    <string name="cn_notify_style_headsup">悬浮通知</string>
+    <string name="cn_notify_style_headsup_sum">悬浮通知会出现在屏幕顶部，并自动消失</string>
+    <string name="cn_notify_style_lockscreen">锁屏通知</string>
+    <string name="cn_notify_style_lockscreen_sum">开启后，在锁屏时显示通知</string>
+    <string name="cn_notify_style_lockscreen_hide_notification">锁屏时隐藏通知内容</string>
+    <string name="cn_notify_style_lockscreen_hide_notification_sum">开启后，锁屏时只通知，不显示内容详情</string>
+    <string name="cn_notify_style_example">参考效果</string>
+
+    <string name="notifications_disabled" msgid="3200751656741989335">"已屏蔽"</string>
+    <string name="filter_notif_blocked_apps" msgid="3446926933792244485">"已屏蔽"</string>
+    <string name="cn_app_notification_prompt_title">提示</string>
+    <string name="cn_app_notification_ring_title">通知铃声</string>
+    <string name="cn_app_notification_shock_title">振动</string>
+    <!--notification and statusbar String-->
+
+    <!-- lockscreen and password strings-->
+    <!-- lockscreen and password strings  translate first time START.-->
+    <string name="asus_lockscreen_settings_title" description="lock screen" maxwidth="-1">锁屏和密码</string>
+    <string name="asus_lockscreen_settings_title_nf" msgid="5615463912185280812">"锁屏设置"</string>
+    <string name="asus_lockscreen_unlock_password_title_nf" msgid="5615463912185280812">"锁屏密码"</string>
+
+    <string name="lock_screen_settings_nf_skip_slide_title" msgid="5615463912185280812">"略过滑动页"</string>
+    <string name="lock_screen_settings_nf_skip_slide_summary_title" msgid="5615463912185280812">"屏幕唤醒后直接进入密码解锁界面"</string>
+    <string name="lock_screen_settings_nf_show_pattern_title" msgid="5615463912185280812">"使锁屏图案可见"</string>
+
+    <string name="lock_screen_settings_nf_date_time_format_title" msgid="5615463912185280812">"时间天气样式"</string>
+    <string name="lock_screen_settings_nf_hide_message_title" msgid="5615463912185280812">"锁屏消息设置"</string>
+    <string name="lock_screen_settings_nf_weather_color_title" msgid="5615463912185280812">"图形天气智能选色"</string>
+    <string name="lock_screen_settings_nf_magzine_swich_title" msgid="5615463912185280812">"杂志锁屏"</string>
+    <string name="lock_screen_settings_nf_magzine_setting_title" msgid="5615463912185280812">"杂志锁屏设置"</string>
+
+    <string name="StyleOne">样式一</string>
+    <string name="StyleTwo">样式二</string>
+    <string name="au_style_used">正在使用中</string>
+
+    <string name="lockpassword_choose_your_pin_header_nf" msgid="7598849519816138302">"输入数字密码"</string>
+    <string name="lockpassword_input_your_first_password_header_nf" msgid="6308478184889846633">"请输入新密码"</string>
+    <string name="lockpassword_choose_your_pin_hint_nf" msgid="7598849519816138302">"密码由4~17位数字组成"</string>
+
+    <string name="lockpassword_confirm_your_password_header_nf" msgid="6308478184889846633">"确认你的密码"</string>
+    <string name="lockpassword_confirm_your_pin_header_nf" msgid="49038294648213197">"确认你的密码"</string>
+    <string name="lockpassword_confirm_your_pattern_header_nf" msgid="7543433733032330821">"确认你的图案"</string>
+    <string name="lockpassword_confirm_your_password_generic_nf" msgid="3976394862548354966">"请输入解锁密码"</string>
+    <string name="lockpassword_confirm_your_pin_generic_nf" msgid="4062335874438910487">"请输入解锁密码"</string>
+    <string name="lockpassword_confirm_your_pin_generic_profile_nf" msgid="3730141667547002246">"请输入您的工作数字以继续"</string>
+    <string name="lockpassword_confirm_your_password_generic_profile_nf" msgid="4250642723467019894">"请输入您的工作密码以继续"</string>
+    <string name="lockpassword_confirm_your_pattern_generic_nf" msgid="2920960858283879113">"请绘制解锁图案"</string>
+    <string name="lockpassword_confirm_your_pattern_generic_profile_nf" msgid="4435638308193361861">"请绘制解锁图案"</string>
+    <string name="lockpassword_confirm_pins_dont_match_nf" msgid="7226244811505606217">"密码不匹配"</string>
+
+    <string name="lockpassword_choose_your_password_header_nf" msgid="8624900666929394990">"输入混合密码"</string>
+    <string name="lockpassword_choose_your_pattern_header_nf" msgid="6949761069941694050">"绘制解锁图案"</string>
+
+    <string name="lockpassword_choose_your_pin_hint_4_nf" msgid="7598849519816138302">"4位数字密码"</string>
+    <string name="lockpassword_choose_your_pin_hint_6_nf" msgid="7598849519816138302">"6位数字密码"</string>
+    <string name="lockpassword_choose_your_password_hint_nf" msgid="7598849519816138302">"4~17个字符，且必须包含字母"</string>
+    <string name="lockpassword_pin_too_short_nf" msgid="1677649103470518953">"数字密码至少应为%d位"</string>
+    <string name="lockpassword_pin_too_long_nf" msgid="6419879099090294052">"数字密码必须少于<xliff:g id="NUMBER">%d</xliff:g>位数。"</string>
+    <string name="lockpassword_pin_invalid_length_nf" msgid="6419879099090294052">"数字密码必须为<xliff:g id="NUMBER">%d</xliff:g>位数"</string>
+    <string name="lockpassword_invalid_pin_nf" msgid="15588049067548470">"密码错误"</string>
+
+
+    <string name="lockpattern_need_to_unlock_wrong_nf" msgid="1745247595356012176">"请重试"</string>
+    <string name="lockpattern_recording_inprogress_nf" msgid="6667844062721656773">"完成后松手"</string>
+    <string name="lockpattern_recording_incorrect_too_short_nf" msgid="1348234155120957561">"至少连接<xliff:g id="NUMBER">%d</xliff:g>个点，请重试。"</string>
+    <string name="lockpattern_pattern_confirmed_header_nf" msgid="6667844062721656773">"你的新解锁图案"</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_nf" msgid="6909161623701848863">"尝试解锁失败次数过多。请在 <xliff:g id="NUMBER">%d</xliff:g> 秒后重试。"</string>
+
+
+
+    <string name="unlock_disable_frp_warning_content_pattern_nf" msgid="8869767290771023461">"移除您的解锁图案后，设备保护功能将无法使用。"</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_nf" msgid="8212242533942400457">"移除您的解锁图案后，设备保护功能将无法使用。<xliff:g id="EMPTY_LINE">
+
+    </xliff:g>您保存的指纹也将从此设备上移除。如此一来，您就无法通过指纹解锁手机、授权购买交易或登录应用。"</string>
+    <string name="unlock_disable_frp_warning_content_pin_nf" msgid="586996206210265131">"移除您的数字密码后，设备保护功能将无法使用。"</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint_nf" msgid="875669051899437197">"移除您的数字密码后，设备保护功能将无法使用。<xliff:g id="EMPTY_LINE">
+
+    </xliff:g>您保存的指纹也将从此设备上移除。如此一来，您就无法通过指纹解锁手机、授权购买交易或登录应用。"</string>
+    <string name="unlock_disable_frp_warning_content_password_nf" msgid="5420612686852555537">"移除您的密码后，设备保护功能将无法使用。"</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint_nf" msgid="2228159168587170445">"移除您的密码后，设备保护功能将无法使用。<xliff:g id="EMPTY_LINE">
+
+    </xliff:g>您保存的指纹也将从此设备上移除。如此一来，您就无法通过指纹解锁手机、授权购买交易或登录应用。"</string>
+    <string name="unlock_disable_frp_warning_content_unknown_nf" msgid="1550718040483548220">"移除您的屏幕锁定方式后，设备保护功能将无法使用。"</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_nf" msgid="6363091330281670692">"移除您的屏幕锁定方式后，设备保护功能将无法使用。<xliff:g id="EMPTY_LINE">
+
+    </xliff:g>您保存的指纹也将从此设备上移除。如此一来，您就无法通过指纹解锁手机、授权购买交易或登录应用。"</string>
+    <string name="unlock_disable_frp_warning_content_pattern_profile_nf" msgid="8682200103576359918">"移除您的解锁图案后，个人资料保护功能将无法使用。"</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile_nf" msgid="3675154828957224316">"移除您的解锁图案后，个人资料保护功能将无法使用。<xliff:g id="EMPTY_LINE">
+
+    </xliff:g>您已保存的指纹也将从此个人资料中移除，而且您将无法使用这些指纹来解锁个人资料、对购买交易进行授权或登录应用。"</string>
+    <string name="unlock_disable_frp_warning_content_pin_profile_nf" msgid="7790688070593867767">"移除您的数字密码后，个人资料保护功能将无法使用。"</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint_profile_nf" msgid="4879321153584598940">"移除您的数字密码后，个人资料保护功能将无法使用。<xliff:g id="EMPTY_LINE">
+
+    </xliff:g>您已保存的指纹也将从此个人资料中移除，而且您将无法使用这些指纹来解锁个人资料、对购买交易进行授权或登录应用。"</string>
+    <string name="unlock_disable_frp_warning_content_password_profile_nf" msgid="7569285520567674461">"移除您的密码后，个人资料保护功能将无法使用。"</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint_profile_nf" msgid="3527188316958917839">"移除您的密码后，个人资料保护功能将无法使用。<xliff:g id="EMPTY_LINE">
+
+    </xliff:g>您已保存的指纹也将从此个人资料中移除，而且您将无法使用这些指纹来解锁个人资料、对购买交易进行授权或登录应用。"</string>
+    <string name="unlock_disable_frp_warning_content_unknown_profile_nf" msgid="6984215718701688202">"移除您的屏幕锁定方式后，个人资料保护功能将无法使用。"</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile_nf" msgid="1962204059377724158">"移除您的屏幕锁定方式后，个人资料保护功能将无法使用。<xliff:g id="EMPTY_LINE">
+
+    </xliff:g>您已保存的指纹也将从此个人资料中移除，而且您将无法使用这些指纹来解锁个人资料、对购买交易进行授权或登录应用。"</string>
+
+    <string name="lock_profile_wipe_warning_content_pattern_nf" msgid="8978031996247660921">"如果您这次绘制的工作解锁图案仍然有误，您的工作资料和相关数据都将从此设备中移除。"</string>
+
+    <string name="lockpassword_strong_auth_required_reason_restart_device_pattern_nf" msgid="8548464672947477043">"请绘制您的设备解锁图案以继续。重启设备后需要绘制设备解锁图案。"</string>
+    <string name="lockpassword_strong_auth_required_reason_restart_work_pattern_nf" msgid="7462071286473121099">"请绘制您的工作解锁图案以继续。重启设备后需要绘制工作解锁图案。"</string>
+    <string name="unlock_set_unlock_mode_off_nf_title" msgid="5881952274566013651">"无"</string>
+    <string name="unlock_set_unlock_mode_none_nf_title" msgid="8467360084676871617">"滑动"</string>
+    <string name="unlock_set_unlock_pattern_nf_title" msgid="2912067603917311700">"图案密码"</string>
+    <string name="unlock_set_unlock_pin_nf_title" msgid="5846029709462329515">"数字密码"</string>
+    <string name="unlock_set_unlock_password_nf_title" msgid="8775603825675090937">"混合密码"</string>
+
+
+    <string name="lockpattern_recording_intro_header" msgid="308287052221942814">"请至少连接<xliff:g id="NUMBER">%d</xliff:g>个点"</string>
+    <string name="lockpattern_pattern_entered_header" msgid="4316818983675591604">"图案已记录"</string>
+    <string name="lockpattern_retry_button_text" msgid="3480423193273588166">"清除"</string>
+    <string name="lockpattern_need_to_confirm" msgid="8054853451639221265">"再次绘制图案进行确认"</string>
+    <string name="lock_settings_picker_title" msgid="1095755849152582712">"选择屏幕锁定方式"</string>
+    <string name="lock_settings_picker_title_profile" msgid="8822511284992306796">"选择工作资料锁屏方式"</string>
+    <string name="setup_lock_settings_picker_title" product="tablet" msgid="90329443364067215">"保护您的平板电脑"</string>
+    <string name="setup_lock_settings_picker_title" product="device" msgid="2399952075134938929">"保护您的设备"</string>
+    <string name="setup_lock_settings_picker_title" product="default" msgid="1572244299605153324">"为手机启用保护功能"</string>
+    <string name="current_screen_lock" msgid="4104091715420072219">"当前屏幕锁定设置"</string>
+    <string name="lockpassword_invalid_password" msgid="4038507398784975200">"密码错误"</string>
+
+
+
+    <string name="security_button_cancel_button_title">取消</string>
+    <string name="security_button_next_button_title">下一步</string>
+    <string name="security_button_continue_button_title">继续</string>
+    <string name="security_button_confirm_button_title">确定</string>
+    <!-- lockscreen and password strings  translate first time END.-->
+
+    <string name="device_owner_info_negative_button_title">取消</string>
+    <string name="device_owner_info_positive_button_title">确定</string>
+    <string name="device_owner_info_title">锁屏签名</string>
+    <string name="device_owner_info_summary">设置的信息将会显示在锁屏界面</string>
+    <string name="lockpassword_password_too_long" msgid="4520363269062591833">"必须少于 <xliff:g id="NUMBER">%d</xliff:g> 个字符。"</string>
+    <string name="lockpassword_pin_too_long" msgid="4010052843684165845">"必须少于 <xliff:g id="NUMBER">%d</xliff:g> 位数。"</string>
+
+
+    <!-- lockscreen and password strings-->
+   <string name="status_wifi_mac_address" msgid="2202206684020765378">"WLAN MAC 地址"</string>
+   <string name="battery_title">电池</string>
+   <string name="power_settings_title">电量管理</string>
+   <string name="smart_powersaver">智能省电</string>
+   <string name="power_usage_list_title">耗电详情排行</string>
+   <string name="asus_alwayson_app_title">息屏提醒</string>
+   <string name="all_permissions">"所有权限"</string>
+   <string name="secure_startup_text">您可以使用锁屏密码对手机进行加密，开启后，有助于保护丢失或被盗设备上的数据。\n\n加密后，每次重启手机都需要输入锁屏密码进行解密，因而手机重启时间会变长，同时，您的关机闹钟将无法使用。手机启动前，将无法接听电话、接受短信或通知（包括闹钟提醒）。\n\n请牢记您的锁屏密码，如果忘记密码，只能通过刷机清除手机所有数据才能恢复使用。</string>
+    <string name="panel_init_title" description="Hedes's panel initial version code" maxwidth="-1">"显示器代码版本"</string>
+</resources>

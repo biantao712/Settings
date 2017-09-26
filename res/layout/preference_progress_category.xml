@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Layout used for ProgressCategory in bluetooth settings. -->
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingTop="10dp"
+    android:minHeight="50dp"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/listSeparatorTextViewStyle" />
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="1dp"
+        android:layout_marginStart="4dp"
+        android:background="?android:attr/colorControlActivated" />
+
+    <ProgressBar
+        android:id="@+id/scanning_progress"
+        android:text="@string/progress_scanning"
+        android:paddingTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        style="?android:attr/progressBarStyleSmallTitle" />
+
+</LinearLayout> -->
+<!-- Copy from frameworks/base/core/res/res/layout/preference_material.xml
+     and revise to meet ZenUI 3.0 style -->
+<!-- Layout for a Preference in a PreferenceActivity. The
+     Preference is able to place a specific widget for its particular
+     type in the "widget_frame" layout. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:gravity="center_vertical"
+    android:background="@drawable/selectable_card"
+    android:paddingEnd="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:background="@color/cnasusres_general_secondary_divider" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+
+        <TextView android:id="@+android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cnasusres_general_normal_assist"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="end|center_vertical"
+            android:layout_alignStart="@android:id/title">
+
+            <TextView android:id="@+android:id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="12sp"
+                android:layout_marginEnd="@dimen/cnasusres_preferencelist_padding_end"
+                android:maxLines="1" />
+            <ProgressBar
+                android:id="@+id/scanning_progress"
+                android:text="@string/progress_scanning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="5dp"
+                style="?android:attr/progressBarStyleSmall"
+                android:indeterminateDrawable="@drawable/progress_small" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart">
+            <View android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/cnasusres_preference_dividers"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

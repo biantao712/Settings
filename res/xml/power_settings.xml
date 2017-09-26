@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/customize_settings_title" >
+
+    <PreferenceScreen
+        android:key="on_power_saver"
+        android:title="@string/powersaver_app_name"/>
+
+    <!-- remove power history
+    <PreferenceScreen
+        android:key="on_power_statistics"
+        android:title="@string/powerstatistics_app_name" />
+    -->
+
+    <Preference
+        android:key="on_auto_start"
+        android:title="@string/autostart_app_name"
+        android:summary="@string/autostart_summary" />
+</PreferenceScreen>

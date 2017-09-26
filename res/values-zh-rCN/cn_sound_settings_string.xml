@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="cn_sound_setting_sounds">声音</string>
+	<string name="cn_sound_setting_silent_mode">静音模式</string>
+	<string name="cn_sound_setting_phone_volume">铃声</string>
+	<string name="cn_sound_setting_notification_volume">通知</string>
+	<string name="cn_sound_setting_media_volume">媒体</string>
+	<string name="cn_sound_setting_alarm_volume">闹钟</string>
+
+	<string name="cn_sound_setting_ringtone">铃声</string>
+	<string name="cn_sound_setting_phone_ringtone">电话铃声</string>
+	<string name="cn_sound_setting_message_ringtone">通知铃声</string>
+	<string name="cn_sound_setting_alarm_ringtone">闹铃铃声</string>
+	<string name="cn_sound_setting_calendar_ringtone">日历铃声</string>
+	<string name="cn_sound_setting_defaults_ringtone">其他通知铃声</string>
+
+	<string name="cn_sound_setting_vibrate">振动</string>
+	<string name="cn_sound_setting_vibrate_for_calls">响铃时振动</string>
+	<string name="cn_sound_setting_vibrate_for_silent">静音时振动</string>
+	<string name="cn_sound_setting_vibrate_on_touch">触摸时振动</string>
+
+	<string name="cn_sound_setting_system">系统</string>
+	<string name="cn_sound_setting_dial_pad_touch_tones">拨号键盘触摸音效</string>
+	<string name="cn_sound_setting_touch_sounds">触摸音效</string>
+	<string name="cn_sound_setting_screen_lock_sound">锁屏音效</string>
+	<string name="cn_audio_wizard">音频向导</string>
+
+    <string name="cn_sound_settings_vibrate_intensity_cancel_button">取消</string>
+    <string name="cn_sound_settings_vibrate_intensity_close_radiobtn">关闭</string>
+    <string name="cn_sound_settings_vibrate_intensity_week_radiobtn">较弱</string>
+    <string name="cn_sound_settings_vibrate_intensity_normal_radiobtn">适中</string>
+    <string name="cn_sound_settings_vibrate_intensity_strong_radiobtn">较强</string>
+	<string name="cn_sound_settings_ringtone_silent">无</string>
+	
+</resources>

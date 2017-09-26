@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copy from frameworks/base/core/res/res/layout/preference_material.xml
+     and revise to meet ZenUI 3.0 style -->
+<!-- Layout for a Preference in a PreferenceActivity. The
+     Preference is able to place a specific widget for its particular
+     type in the "widget_frame" layout. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:gravity="center_vertical"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="0dp">
+
+    <LinearLayout
+        android:id="@+id/icon_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+android:id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:maxWidth="48dp"
+            android:maxHeight="48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="13dp"
+                android:paddingBottom="13dp"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:textSize="15sp"
+                    android:textColor="#0c0c0c"
+                    android:text= "@string/virtual_key_group3_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:layout_centerVertical="true"/>
+
+                <ImageView
+                    android:src="@drawable/asusres_btn_back1"
+                    android:layout_toRightOf="@+id/textView"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_marginStart="@dimen/accessibility_virtual_key_group_icon_margin"
+                    android:id="@+id/imageView" />
+
+                <ImageView
+                    android:src="@drawable/asusres_btn_desktop1"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_marginStart="@dimen/accessibility_virtual_key_group_icon_margin"
+                    android:id="@+id/imageView2" />
+
+                <ImageView
+                    android:src="@drawable/asusres_btn_multitasking1"
+                    android:layout_toRightOf="@+id/imageView2"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_marginStart="@dimen/accessibility_virtual_key_group_icon_margin"
+                    android:id="@+id/imageView3" />
+            </RelativeLayout>
+
+            <!-- Preference should place its actual preference widget here. -->
+            <LinearLayout android:id="@+android:id/widget_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="end|center_vertical"
+                android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"
+                android:layout_marginEnd="?android:attr/listPreferredItemPaddingEnd"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+        <View android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/cnasusres_preference_dividers"/>
+
+    </LinearLayout>
+</LinearLayout>

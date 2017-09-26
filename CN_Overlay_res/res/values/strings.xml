@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="legacy_dhcp_client_summary">Use the DHCP client from Lollipop instead of the new Android DHCP client.</string>
+    <string name="floating_dock">Floating dock</string>
+    <string name="tether_settings_title_wifi">Portable hotspot</string>
+    <string name="sound_settings">Sound &amp; Vibration</string>
+    <string name="memory_size_title">RAM</string>
+    <string name="emmc_size_title">Storage</string>
+    <string name="cpu_frequency_title">CPU</string>
+    <string name="about_cpu_core_num">"Single core, Dual-core, Triple core, Quad core, Penta core, Hexa core, Hepta core,  Octa core, Nona core, Deca Core"</string>
+    <string name="multi_sim_settings_title" description="" maxWidth="25">Dual SIM card settings</string>
+    <string name="header_category_wireless_networks">Wireless &amp; networks</string>
+    <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen  [CHAR LIMIT=20]-->
+    <string name="asus_theme_app_title">Wallpaper &amp; themes</string>
+    <!-- Applications settings title, on main settings screen. If clicked, the user is taken to a settings screen full of application settings-->
+    <string name="applications_settings">Apps</string>
+    <string name="header_category_account">Account</string>
+    <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
+    <string name="header_category_system_device">System and device</string>
+    <string name="header_category_phone">Phone</string>
+    <!-- Main Settings screen setting option title for the item to take you to the accounts screen [CHAR LIMIT=22] -->
+    <string name="account_settings_title">Other accounts</string>
+    <string name="asus_cn_account_settings_title">ASUS Smart Launcher account</string>
+    <string name="permissions_details_label">Permission details</string>
+    <string name="permissions_details_summary"><xliff:g id="count" example="10">%d</xliff:g> permissions</string>
+    <string name="permissions_manager_label">Permissions</string>
+    <!-- [CHAR LIMIT=45] Group of permissions granted to app automatically when installed. -->
+    <string name="other_permissions">Other app capabilities</string>
+    <string name="assistive_touch">Assistive touch</string>
+    <string name="power_usage_summary_title">Battery Management</string>
+    <string name="memory_storage_title">Memory and storage</string>
+    <string name="storage_setting">Storage setting</string>
+    <string name="space_clear">Space cleanup</string>
+
+    <!--suleman display settings-->
+    <string name="display_category_screen">Screen</string>
+    <string name="display_category_font">Font</string>
+    <string name="display_category_system">System</string>
+    <string name="display_category_system_lock">Sleep time</string>
+    <string name="display_font_size_small">Small</string>
+    <string name="display_font_size_default">Default</string>
+    <string name="display_font_size_big">Larger</string>
+    <string name="display_font_size_large">Largest</string>
+    <!--suleman bluetooth settings-->
+    <string name="bt_switch_pref_title">Bluetooth</string>
+    <string name="bt_check_pref_title">Make device visible</string>
+    <string name="bt_check_pref_summary">Visible to nearby devices</string>
+    <string name="bt_rename_pref_title">Device name</string>
+    <string name="bt_receive_file_pref_title">Received files</string>
+    <string name="bluetooth_refresh_button_title">Refresh</string>
+    <string name="bluetooth_check_time_button_title">Test time</string>
+    <string name="config_switch_pref_summary">Access the Internet</string>
+    <string name="bluetooth_pair_request">Bluetooth Pairing Request</string>
+    <string name="bluetooth_devices">Devices:</string>
+    <string name="bluetooth_allow_access">Allow the paired devices to access your contacts and call log</string>
+
+    <string name="cn_bt_preference_paired_rename">Rename</string>
+    <string name="cn_bt_preference_cancel_paired">Cancel pairing</string>
+    <string name="cn_bt_catogray_config">Configuration item</string>
+    <!--suleman development settings-->
+    <string name="develop_asusres_btn_display">Display current services</string>
+    <string name="develop_asusres_btn_display_cache">Display cached process</string>
+    <string name="develop_asusres_btn_reply">Restore to default settings</string>
+    <string name="bugreport_title">Bug report</string>
+    <string name="reset_dialog_title_text">Restore to default settings</string>
+    <string name="reset_dialog_message_text">Reset all to defaults</string>
+    <string name="cn_mock_location_app_not_set">None</string>
+    <string name="cn_debug_app_not_set">None</string>
+    <string name="develop_asusres_switch_open">On</string>
+    <string name="develop_asusres_switch_close">Off</string>
+    <string name="develop_asusres_perference_cancel_usb_title">Undo USB debug authorization</string>
+
+    <string name="old_pw" >Old password</string>
+    <string name="new_pw" >New password</string>
+    <string name="confirm_new_pw" >Confirm password</string>
+    <string name="confirm_pw" >Ok</string>
+    <string name="cancel_pw" >Cancel</string>
+    <!--suleman security settings-->
+    <string name="security_show_password">Show password</string>
+    <string name="security_credential_storage_type_hardware">Hardware support</string>
+    <string name="security_trusted_credentials">Trusted credentials</string>
+    <string name="security_trusted_credentials_summary">Trusted CA certificates</string>
+    <string name="security_credentials_install">Install from SD card</string>
+    <string name="security_credentials_install_summary">Install certificates from SD card</string>
+    <string name="security_credentials_reset">Remove certificates</string>
+    <string name="security_manage_trust_agents">Trusted agents</string>
+    <string name="security_manage_trust_agents_summary">View or stop trusted agents</string>
+    <string name="security_crypt_keeper_encrypt_title">Encrypt phone</string>
+    <string name="security_install_unknown_applications">Allow installation of apps from unknown sources</string>
+    <string name="security_device_admin_active">Activate</string>
+    <string name="security_device_admin_no_active">Inactive</string>
+    <string name="security_device_admin_inactive">Deactivate</string>
+    <string name="security_device_admin_active_cancel">Cancel</string>
+    <string name="security_device_admin_head_title">Personal</string>
+    <string name="security_toast">Phone encrypted</string>
+    <!---->
+
+    <!--suleman backup & reset-->
+    <string name="backup_preference_category_asus_backup">Asus backup+</string>
+    <string name="backup_preference_category_personal_data">Personal data</string>
+    <string name="backup_reset_network_desc_title">This will reset all network settings, including:</string>
+    <string name="backup_reset_network_desc_one"><li>WLAN</li></string>
+    <string name="backup_reset_network_desc_two"><li>Cellular data</li></string>
+    <string name="backup_reset_network_desc_three"><li>Bluetooth</li></string>
+    <string name="backup_reset_network_button_text">Reset settings</string>
+    <string name="backup_asus_master_clear_button_text">Start restore</string>
+
+    <string name="cn_backup_data_title">Backup &amp; reset</string>
+    <!---->
+
+    <!--suleman location-->
+    <string name="cn_location_mode_title">Location mode</string>
+    <string name="cn_location_mode_high_accuracy_title">Simultaneous use of network and GPS positioning</string>
+    <string name="cn_location_mode_high_accuracy_description">High accuracy but high power consumption</string>
+    <string name="cn_location_mode_battery_saving_title">Use network location only</string>
+    <string name="cn_location_mode_battery_saving_description">Low accuracy and power consumption</string>
+    <string name="cn_asus_location_mode_sensors_only_title">Use GPS location only</string>
+    <string name="cn_location_mode_sensors_only_description">Medial accuracy and power consumption</string>
+    <string name="cn_location_scanning_screen_title">Scan settings</string>
+    <string name="cn_location_scanning_wifi_always_scanning_title">WLAN scanning</string>
+    <string name="cn_location_scanning_wifi_always_scanning_description">Allows the system to detect WLAN at any time to improve location information accuracy</string>
+    <string name="cn_location_scanning_bluetooth_always_scanning_title">Bluetooth scanning</string>
+    <string name="cn_location_scanning_bluetooth_always_scanning_description">Allows the system to detect Bluetooth at any time to improve location information accuracy</string>
+    <string name="cn_location_category_recent_location_requests">Recent location requests</string>
+    <!---->
+
+    <string name="location_services_title_text">Location Services</string>
+
+    <string name="order_text">Order</string>
+    <string name="default_apps_setting">Default settings</string>
+
+    <string name="storage_cache_title">Storage and cache</string>
+
+    <!--tim add-->
+    <string name="playto_title">PlayTo</string>
+    <string name="wifi_tether_connected_users">Wi\u2011Fi hotspot users</string>
+    <string name="wifi_menu_qrcode">Scan</string>
+    <string name="wifi_menu_options">Menu</string>
+    
+    <string name="wifi_ap_not_set">None</string>
+    <string name="wifi_ap_security_info">Security Information</string>
+    <string name="wifi_ap_advanced_settings_info">Advanced Information</string>
+    <string name="wifi_ap_advanced_settings">Advanced</string>
+    <string name="tether_settings_category_share_network">Share the Network</string>
+    <string name="tether_settings_summary_connected">%s devices</string>
+    <string name="tether_settings_title_disable_tether_info">%s tethering will turn off if there are no users.</string>
+    <string name="wifi_ap_ssid_hint">ASUS phone</string>
+    <string name="fingerprint_lock_warning_dialog_title">Please set a lockscreen password first</string>
+    <string name="fingerprint_lock_warning_dialog_msg">Please set a lock screen PIN or password first before you use the fingerprint function.</string>
+    <string name="fingerprint_lock_warning_dialog_ok">Got it</string>
+    <string name="choose_lock_fingerprint_warning_dialog_title">Delete all fingerprints?</string>
+    <string name="choose_lock_fingerprint_warning_dialog_msg">Fingerprints are available for unlocking the phone. Do you want to keep or delete them?</string>
+    <string name="choose_lock_fingerprint_warning_dialog_keep">Keep</string>
+    <string name="choose_lock_fingerprint_warning_dialog_delete">Delete</string>
+    <string name="vpn_not_connected">Not connected</string>
+    <string name="vpn_connected">Connected</string>
+
+    <string name="wifi_qr_dialog_title">Wi-Fi QR Code</string>
+    <string name="wifi_qrcode_description">Scan the QR Code to connect to Wi-Fi</string>
+    <string name="wifi_ap_qrcode_description">Scan the QR Code to connect to Wi-Fi hotspot</string>
+    <string name="wifi_disconnect">Disconnect</string>
+    <string name="wifi_ignore">Ignore</string>
+    <string name="wifi_ip_settings_invalid_password_8">Enter a password with at least 8 digits.</string>
+    <string name="wifi_advanced_category_connect">Connect and scan</string>
+    <string name="wifi_advanced_category_address">Address</string>
+    
+    <string name="wifi_ssid">Network name:</string>
+    <string name="wifi_password">Password:</string>
+    <string name="wifi_password_hint">Enter password</string>
+    <string name="wifi_eap_domain_hint">Enter domain</string>
+    <string name="wifi_eap_identity_hint">Enter identity</string>
+    <string name="wifi_eap_anonymous_hint">Enter anonymous identity</string>
+    <string name="proxy_pac_hint">PAC URL: https://www.example.com</string>
+    <string name="proxy_hostname_hint">Proxy hostname: proxy.example.com</string>
+    <string name="proxy_port_hint">Port: 80</string>
+    <string name="proxy_exclusionlist_hint">Exclusion list: example.com,web</string>
+    <string name="wifi_ip_address_hint">IP address: 192.168.1.128</string>
+    <string name="wifi_gateway_hint">Gateway: 192.168.1.1</string>
+    <string name="wifi_network_prefix_length_hint">Prefix length: 24</string>
+    <string name="wifi_dns1_hint">DNS1: 8.8.8.8</string>
+    <string name="wifi_dns2_hint">DNS2: 8.8.8.8</string>
+    
+    <string name="vpn_list">VPN List</string>
+    <string name="vpn_button_add">Add</string>
+    <string name="vpn_button_modify">Modify</string>
+    <string name="vpn_button_delete">Delete</string>
+    <string name="vpn_button_disconnect">Disconnect</string>
+    <string name="vpn_button_connect">Connect</string>
+    <string name="positive_button_unlock_screen">Set Lock Screen</string>
+    <string name="vpn_add_title">Add VPN</string>
+    <string name="vpn_category_info">Normal</string>
+    <string name="vpn_category_user">User</string>
+    <string name="vpn_category_type">Type</string>
+    <string name="vpn_category_advanced">Advanced</string>
+    <string name="vpn_username_hint">required</string>
+    <string name="vpn_password_hint">enter password</string>
+    <string name="vpn_password_connect_hint">enter password</string>
+    <string name="vpn_dns_servers">DNS servers</string>
+    <string name="vpn_dns_servers_hint">e.g. 8.8.8.8</string>
+    <string name="vpn_routes">Forwarding routes</string>
+    <string name="vpn_routes_hint">e.g. 10.0.0.0/8</string>
+    <string name="vpn_no_user_cert">not used</string>
+    <string name="vpn_no_ca_cert">don\u2019t verify server</string>
+    <string name="vpn_no_server_cert">received from server</string>
+    <string name="vpn_view_category_info">Normal and User</string>
+    <string name="vpn_view_mppe_enable">protected</string>
+    <string name="vpn_view_mppe_disable">unprotected</string>
+    <string name="vpn_delete_confirm_message">Are you sure you want to delete the VPN?</string>
+    
+    <string name="power_usage_list_title">Power usage details</string>
+    <string name="show_battery_summary">Show battery percentage on statusbar</string>
+    <string name="high_power_apps_optimize">Optimize Settings</string>
+    <string name="high_power_apps_optimize_all">Optimize All</string>
+    <string name="high_power_apps_optimize_none">Optimize None</string>
+    <string name="high_power_apps_optimize_header_title">Optimized apps : %s</string>
+    
+    <string name="wifi_p2p_delete_group_title">Forget the group</string>
+    <string name="wifi_p2p_delete_group_content">Do you want to forget group %s ?</string>
+
+    <string name="backup_reset_network_sim1">SIM 1</string>
+    <string name="backup_reset_network_sim2">SIM 2</string>
+
+    <string name="wifi_disable_hotspot_selection_never">Never</string>
+    <string name="wifi_disable_hotspot_selection_timeout_5">After 5 minutes</string>
+    <string name="wifi_disable_hotspot_selection_timeout_10">After 10 minutes</string>
+    <string name="wifi_disable_hotspot_selection_timeout_20">After 20 minutes</string>
+    <string name="wifi_disable_hotspot_selection_timeout_30">After 30 minutes</string>
+    <string name="wifi_disable_hotspot_selection_timeout_60">After 60 minutes</string>
+
+    <string name="security_settings_fingerprint_rename">Rename fingerprint</string>
+    <string name="security_settings_fingerprint_enroll_dialog_delete">Delete fingerprint</string>
+
+    <string name="secure_unlock_with_fingerprint_summary">Use fingerprint to unlock screen</string>
+    <string name="asus_call_lock_detail">When you enable the incoming call lock feature, you can scan your fingerprint to answer a call. The call will be connected automatically when the fingerprint is successfully identified.\nPlease note that:\n1.You can answer the incoming call directly from a paired Bluetooth headset or smart watch without scanning your fingerprint.\n2.You still need to use your fingerprint to answer the call when using a wired headset.\n3.You will not be able to answer the call from 3rd party incoming call screen.\n4.For Voice over IP (VoIP) call, e.g. WhatsApp voice call, you should still answer the call from the app itself.</string>
+    <string name="wps_timeout_txt_wait">Wait for connecting %d seconds</string>
+    <string name="wifi_connected_no_internet">Connected</string>
+    <string name="tether_settings_title_disable_never">Tethering will never turn off.</string>
+    <!--tim add-->
+
+    <string name="accessibility_settings">Accessibility</string>    
+    <string name="accessibility_virtual_key_title">Virtual key</string>
+    <string name="accessibility_recent_key_title">Recent key</string>
+    <string name="accessibility_bottom_bar_virtual_key_group_title">Bottom bar virtual key group</string>
+    <string name="packet_mode_title">Touch-disable mode</string>
+    <string name="packet_mode_summary">Prevent misoperation when the phone is in your pocket or bag.</string>
+
+    <string name="storage_volume_title"><xliff:g id="used" example="1.2GB">%1$s</xliff:g> used of <xliff:g id="total" example="32GB">%2$s</xliff:g></string>
+    <string name="mount_sdcard_dialog_title">Mount SD card</string>
+    <string name="mount_sdcard_dialog_content">The SD card is ejected but still in the slot. Please mount this SD card before using it.</string>
+    <string name="unmount_sdcard_dialog_title">Eject SD card</string>
+    <string name="unmount_sdcard_dialog_content">This will eject the SD card. Continue?</string>
+
+    <string name="format_warning">Formatting erases all the SD card data. Ensure that you back up all its data to avoid data loss.</string>
+    <string name="format_title">Format the SD card</string>
+    <string name="format_dialog_content">Formatting erases all the SD card data. Continue?</string>
+    <string name="format_running_warning">Do not remove the SD card durng the formatting process.</string>
+    <string name="format_running">Formatting the SD card…</string>
+    <string name="format_finish">SD card format is completed and can be used to store photos and other media files.</string>
+
+    <string name="hint">Hint</string>
+    <string name="force_stop_hint">Forcing the app to stop may cause data error/loss and other abnormal issues. Continue?</string>
+
+    <string name="clear_data_hint">This erases all data in the current app including all files, settings, accounts, and databases. Continue?</string>
+
+    <string name="support_link_summary">Displays the currently supported links</string>
+    <string name="support_link_list">Support link list</string>
+
+    <string name="clear_default_button">Clear default operation</string>
+
+    <string name="clear_defaults_hint">This clears the default settings for the current app. Continue?</string>
+    <string name="about_phone_title">About phone</string>
+    <string name="cn_report">Report</string>
+    <string name="emmc_storage_summary" msgid="1110250618334248745">"<xliff:g id="available" example="1.2GB">%1$s</xliff:g>(available), <xliff:g id="total" example="32GB">%2$s</xliff:g>(total)"</string>
+    <string name="accessibility_global_gesture_preference_title">Accessibility shortcut</string>
+    <string name="virtual_key_group1_text">Style 1</string>
+    <string name="virtual_key_group2_text">Style 2</string>
+    <string name="virtual_key_group3_text">Style 3</string>
+    <string name="virtual_key_group4_text">Style 4</string>
+
+    <string name="cn_duration_title">Duration</string>
+
+    <string name="cn_storage_volume_title">Total capacity <xliff:g id= "TOTAL" >%2$s</xliff:g>, available capacity <xliff:g id= "USED" >%1$s</xliff:g></string>
+
+   <string name="pref_title_lang_selection" msgid="2014920136978776034">"Language selection"</string>
+   <string name="system_language_category" msgid="212319666432360385">"System language"</string>
+   <string name="switch_default_inputmethod_dialog_title">Change current input method</string>
+   <string name="keyboard_and_inputmethod_setting_title">Keyboard and input method settings</string>
+   <string name="keyboard_and_inputmethod_setting">"Setting"</string>
+   <string name="tts_engine_preference_section_title">"Engine output"</string>
+   <string name="current_tts_engine">Current engine</string>
+   <string name="switch_default_tts_engine_dialog_title">Change the current engine</string>
+   
+   <string name="cn_sync_account">Sync all accounts</string>
+   <string name="cn_about">About</string>
+   <string name="asus_device_status_summary">Battery, network, and other information</string>
+   <string name="hardware_info_summary">Wi-Fi, Bluetooth, etc.</string>
+   <string name="software_info_summary">Baseband, kernel version, etc.</string>
+   <string name="captioning_preset">Subtitle</string>
+   <string name="accessibility_long_press_timeout_preference_title">Touch &amp; hold delay</string>
+    <string name="default_assist_setting">Default assistance setting</string>
+    <string name="default_app_list">Default App list</string>
+    <string name="assistant_security_hint">The app will be able to read information about the apps you use in your system, including information displayed on your screen or information available in your app. Are you sure you want to set <xliff:g id= "ASSISTANT_APP_NAME" >%s</xliff:g> as your assistant app?</string>
+   <string name="used">Used</string>
+   <string name="estimation">Estimation</string>
+   <string name="charge_remaining">Remaining charge</string>
+   <string name="charge_used_details">Use since last full charge</string>
+   <string name="StyleItem">时间天气样式</string>
+   <string name="StyleOne">Style One</string>
+   <string name="StyleTwo">Style Two</string>
+   <string name="au_style_used">In Use</string>
+   <string name="reset_app_default">Reset to defaults</string>
+
+   <string name="reset_default_dialog_content">This resets to the system default settings. Continue?</string>
+   <string name="reset_default_warning">Replacing default apps with non-ASUS system apps may cause your device to consume more power, increase data traffic, or leak private contents. </string>
+
+    <string name="search_history">History</string>
+    <string name="speed_slow">"Slow"</string>
+    <string name="speed_quick">"Fast"</string>
+
+    <string name="dialog_enable_app_title">"Enable %s"</string>
+    <string name="folder_camera">Camera</string>
+    <string name="dialog_enable_app_message">"%s is disabled on this device. Enable now?"</string>
+    <string name="dialog_enable_app_yes">"Enable"</string>
+    <string name="storage_internal">Internal storage</string>
+
+    <string name="fingerprint_introduction_title">"Unlock with fingerprint"</string>
+    <string name="fingerprint_introduction_content">"Use a fingerprint to wake or unlock your phone, authorize or sign in for purchase transactions"</string>
+    <string name="cn_continue">"Continue"</string>
+    <string name="cn_fingerprint">"Fingerprint"</string>
+    <string name="cn_lock_settings_picker_fingerprint_message">"Choose the way to use the fingerprint to unlock"</string>
+    <string name="cn_asus_security_settings_fingerprint_enroll_find_sensor_message_front">"You can find the fingerprint sensor on the front side of the phone"</string>
+    <string name="cn_asus_security_settings_fingerprint_enroll_find_sensor_message_back">"You can find the fingerprint sensor on the back of the phone"</string>
+    <string name="cn_next">"Next"</string>
+    <string name="cn_fingerprint_enroll_title">"Place finger"</string>
+    <string name="cn_fingerprint_enroll_start_message">"Put your finger on the fingerprint sensor and feel the vibration"</string>
+    <string name="cn_fingerprint_enroll_more_message">"Move the finger slightly so that the sensor can record the fingerprint more completely and feel the vibration and then move the finger"</string>
+    <string name="cn_fingerprint_enroll_finish_title">"Completed"</string>
+    <string name="cn_fingerprint_enroll_finish_message">"As long as you see this icon, you can use the fingerprint to authenticate or authorize the purchase transaction"</string>
+
+    <string name="asus_master_clear_title_desc" description="SD card and phone storage settings screen, message on screen after user selects Factory data reset" maxwidth="-1">"This will erase all data from your device\'s internal storage, including:"</string>
+    <string name="asus_master_clear_content_desc"><li>"Your account"</li>\n<li>"System and app data and settings"</li>\n<li>"Downloaded apps"</li>\n<li>"Music"</li>\n<li>"Photos"</li>\n<li>"Other user data"</li></string>
+    <string name="master_clear_final_hint_messeage">"Please type"</string>
+
+    <!--notification and statusbar String-->
+    <string name="cn_statusbar_notification_title">Notification and Status Bar</string>
+    <string name="cn_notification_manager_title">Notification management</string>
+    <string name="cn_notification_lockscreen_category_title">Lock screen notifications</string>
+    <string name="cn_statusbar_category_title">Status bar</string>
+    <string name="cn_notification_lockscreen_show">Show notifications on the lock screen</string>
+    <string name="cn_notification_lockscreen_show_summary">When ON, show all notifications</string>
+    <string name="cn_notification_lockscreen_public">Quick notification on the lock screen</string>
+    <string name="cn_notification_lockscreen_public_summary">Recent 3 notifications on lock screen</string>
+    <string name="cn_notification_lockscreen_private">锁屏时通知信息保护</string>
+    <string name="cn_statusbar_notification_style">Notification style</string>
+    <string name="cn_statusbar_netspeed_show">Show real-time speed</string>
+    <string name="cn_statusbar_netspeed_show_summary">The current speed is displayed in the status bar</string>
+    <string name="cn_statusbar_battery_rate_show">Show the battery level</string>
+    <string name="cn_statusbar_battery_rate_show_summary">Remaining battery level in status bar</string>
+    <string name="cn_notification_private_summary">设置了通知信息保护的应用,内容隐藏</string>
+    <string name="cn_statusbar_style_summary">Only show the icon</string>
+    <string name="cn_notify_allowed">Allowed</string>
+    <string name="cn_notify_style_title">Notification style</string>
+    <string name="cn_notify_style_importance">Important notice</string>
+    <string name="cn_notify_style_importance_sum">Important notice</string>
+    <string name="cn_notify_style_allow_disturb">Allow disturbances</string>
+    <string name="cn_notify_style_allow_disturb_sum">When an app\'s disturbance rule is set to "Apply the Allow List", you are allowed to turn on sound and vibration notifications of the app.</string>
+    <string name="cn_notify_style_status_bar">Status bar notifications</string>
+    <string name="cn_notify_style_status_bar_sum">When ON, show icon on the status bar</string>
+    <string name="cn_notify_style_iconsum">Desktop icon</string>
+    <string name="cn_notify_style_iconsum_sum">Notification count badge on the app icon</string>
+    <string name="cn_notify_style_headsup">Heads-up notifications</string>
+    <string name="cn_notify_style_headsup_sum">Heads-up notice flashes on the screen.</string>
+    <string name="cn_notify_style_lockscreen">On the lock screen</string>
+    <string name="cn_notify_style_lockscreen_sum">Show all notifications</string>
+    <string name="cn_notify_style_lockscreen_hide_notification">Hide all notifications</string>
+    <string name="cn_notify_style_lockscreen_hide_notification_sum">Notify only</string>
+    <string name="cn_notify_style_example">参考效果</string>
+
+    <string name="notifications_disabled" msgid="3200751656741989335">"Blocked"</string>
+    <string name="filter_notif_blocked_apps" msgid="3446926933792244485">"Blocked"</string>
+    <string name="no_applications" msgid="7336588977497084921">"No apps."</string>
+    <string name="cn_app_notification_prompt_title">Prompt</string>
+    <string name="cn_app_notification_ring_title">Notification ringtone</string>
+    <string name="cn_app_notification_shock_title">Vibrate</string>
+    <!--notification and statusbar String-->
+
+    <string name="average_used">Average used</string>
+    
+    <string name="account_settings_menu_auto_sync_work">"Auto-sync"</string>
+
+    <!-- lockscreen and password strings -->
+    <!-- lockscreen and password strings  translate first time START.-->
+    <!--string name="asus_lockscreen_settings_title" description="lock screen" maxwidth="-1">Lock screen &amp; password</string-->
+    <string name="asus_lockscreen_settings_title" description="lock screen" maxwidth="-1">Lock screen and password</string>
+    <string name="unlock_set_unlock_pattern_nf_title">Pattern</string>
+    <string name="unlock_set_unlock_pin_nf_title">PIN</string>
+    <string name="unlock_set_unlock_password_nf_title">Password</string>
+
+    <string name="unlock_disable_frp_warning_content_pattern_nf">"Device protection features will not work without your pattern."</string>
+    <!-- Content of the dialog shown when the user removes the device lock pattern and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_nf">"Device protection features will not work without your pattern.<xliff:g id="empty_line">\n\n</xliff:g>Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
+    <!-- Content of the dialog shown when the user removes the device lock PIN [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pin_nf">"Device protection features will not work without your PIN."</string>
+    <!-- Content of the dialog shown when the user removes the device lock PIN and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint_nf">"Device protection features will not work without your PIN.<xliff:g id="empty_line">\n\n</xliff:g>Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
+    <!-- Content of the dialog shown when the user removes the device lock password [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_password_nf">"Device protection features will not work without your password."</string>
+    <!-- Content of the dialog shown when the user removes the device lock password and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_password_fingerprint_nf">"Device protection features will not work without your password.<xliff:g id="empty_line">\n\n</xliff:g>Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
+    <!-- Content of the dialog shown when the user removes the device lock of unknown type [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_unknown_nf">"Device protection features will not work without your screen lock."</string>
+    <!-- Content of the dialog shown when the user removes the device lock of unknown type and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_nf">"Device protection features will not work without your screen lock.<xliff:g id="empty_line">\n\n</xliff:g>Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
+
+    <!-- Content of the dialog shown when the user removes the profile lock pattern [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pattern_profile_nf">"Profile protection features will not work without your pattern."</string>
+    <!-- Content of the dialog shown when the user removes the profile lock pattern and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile_nf">"Profile protection features will not work without your pattern.<xliff:g id="empty_line">\n\n</xliff:g>Your saved fingerprints will also be removed from this profile and you won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
+    <!-- Content of the dialog shown when the user removes the profile lock PIN [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pin_profile_nf">"Profile protection features will not work without your PIN."</string>
+    <!-- Content of the dialog shown when the user removes the profile lock PIN and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint_profile_nf">"Profile protection features will not work without your PIN.<xliff:g id="empty_line">\n\n</xliff:g>Your saved fingerprints will also be removed from this profile and you won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
+    <!-- Content of the dialog shown when the user removes the profile lock password [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_password_profile_nf">"Profile protection features will not work without your password."</string>
+    <!-- Content of the dialog shown when the user removes the profile lock password and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_password_fingerprint_profile_nf">"Profile protection features will not work without your password.<xliff:g id="empty_line">\n\n</xliff:g>Your saved fingerprints will also be removed from this profile and you won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
+    <!-- Content of the dialog shown when the user removes the profile lock of unknown type [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_unknown_profile_nf">"Profile protection features will not work without your screen lock."</string>
+    <!-- Content of the dialog shown when the user removes the profile lock of unknown type and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile_nf">"Profile protection features will not work without your screen lock.<xliff:g id="empty_line">\n\n</xliff:g>Your saved fingerprints will also be removed from this profile and you won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
+
+    <string name="lock_profile_wipe_warning_content_pattern_nf">If you enter an incorrect work pattern on this attempt, your work profile and associated data will be removed from this device. nf</string>
+    <string name="lockpassword_choose_your_password_header_nf">Choose your password</string>
+    <string name="lockpassword_choose_your_pattern_header_nf">Enter your pattern to unlock</string>
+    <string name="lockpassword_input_your_first_password_header_nf">Enter your new password</string>
+    <string name="lockpassword_confirm_your_password_header_nf">Confirm your password</string>
+    <string name="lockpassword_confirm_your_pattern_header_nf">Confirm your pattern</string>
+    <string name="lockpassword_confirm_your_pin_header_nf">Confirm your PIN</string>
+    <string name="lockpassword_confirm_your_pattern_generic_nf">Use your device pattern to continue</string>
+    <string name="lockpassword_confirm_your_pin_generic_nf">Enter your device PIN to continue</string>
+    <string name="lockpassword_confirm_your_password_generic_nf">Enter your device password to continue</string>
+    <string name="lockpassword_confirm_your_pattern_generic_profile_nf">Use your work pattern to continue</string>
+    <string name="lockpassword_confirm_your_pin_generic_profile_nf">Enter your work digital password to continue</string>
+    <string name="lockpassword_confirm_your_password_generic_profile_nf">Enter your work password to continue</string>
+    <string name="lockpassword_strong_auth_required_reason_restart_device_pattern_nf">Use your device pattern to continue. Required after device restarts. nf</string>
+    <string name="lockpassword_strong_auth_required_reason_restart_work_pattern_nf">Use your work pattern to continue. Required after device restarts. nf</string>
+    <string name="lockpattern_need_to_unlock_wrong_nf">Wrong pattern</string>
+    <string name="lockpattern_recording_inprogress_nf">Lift your finger when done</string>
+    <string name="lockpattern_recording_incorrect_too_short_nf">Connect at least <xliff:g id="number">%d</xliff:g> dots. Try again.</string>
+    <string name="lockpattern_pattern_confirmed_header_nf">Your new unlock pattern</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_nf">Attempts failed. Retry in<xliff:g id="number">%d</xliff:g> seconds</string>
+
+
+    <string name="asus_lockscreen_settings_title_nf" msgid="5615463912185280812">Lock screen Settings</string>
+    <string name="asus_lockscreen_unlock_password_title_nf" msgid="5615463912185280812">Lock screen type</string>
+    <string name="lock_screen_settings_nf_date_time_format_title" msgid="5615463912185280812">Time and weather format</string>
+    <string name="lock_screen_settings_nf_weather_color_title" msgid="5615463912185280812">Weather smart color</string>
+    <string name="lock_screen_settings_nf_hide_message_title" msgid="5615463912185280812">Lock screen notification settings</string>
+    <string name="lock_screen_settings_nf_magzine_swich_title" msgid="5615463912185280812">Lock screen magazine</string>
+    <string name="lock_screen_settings_nf_magzine_setting_title" msgid="5615463912185280812">Lock screen magazine setting</string>
+    <string name="lock_screen_settings_nf_skip_slide_title" msgid="5615463912185280812">Skip the slide page</string>
+    <string name="lock_screen_settings_nf_skip_slide_summary_title" msgid="5615463912185280812">Skip the slide page on wakeup</string>
+    <string name="lock_screen_settings_nf_show_pattern_title" msgid="5615463912185280812">Show the unlock pattern</string>
+    <string name="unlock_set_unlock_mode_off_nf_title">None</string>
+    <string name="unlock_set_unlock_mode_none_nf_title">Swipe</string>
+    <string name="lockpassword_choose_your_pin_header_nf">Choose your PIN</string>
+    <string name="lockpassword_confirm_pins_dont_match_nf">PINs do not match</string>
+    <string name="lockpassword_choose_your_pin_hint_4_nf" >"4位数字密码"</string>
+    <string name="lockpassword_choose_your_pin_hint_6_nf" >"6位数字密码"</string>
+    <string name="lockpassword_choose_your_pin_hint_nf" msgid="7598849519816138302">PIN is 4~17 numbers</string>
+    <string name="lockpassword_choose_your_password_hint_nf" >4~17 characters and must contain letters</string>
+    <string name="lockpassword_pin_too_short_nf" msgid="1677649103470518953">"数字密码至少应为%d位"</string>
+    <string name="lockpassword_pin_too_long_nf" msgid="6419879099090294052">"数字密码必须少于<xliff:g id="NUMBER">%d</xliff:g>位数。"</string>
+    <string name="lockpassword_pin_invalid_length_nf" msgid="6419879099090294052">"数字密码必须为<xliff:g id="NUMBER">%d</xliff:g>位数"</string>
+    <string name="lockpassword_invalid_pin_nf">密码错误</string>
+
+    <string name="lockpattern_recording_intro_header">Draw an unlock pattern</string>
+    <string name="lockpattern_pattern_entered_header">Pattern recorded</string>
+    <string name="lockpattern_retry_button_text">Clear</string>
+    <string name="lockpattern_need_to_confirm">Draw the pattern again to confirm</string>
+    <string name="lock_settings_picker_title">Choose the screen lock</string>
+    <string name="lock_settings_picker_title_profile">Choose work lock</string>
+    <string name="setup_lock_settings_picker_title" product="tablet">Protect your tablet</string>
+    <string name="setup_lock_settings_picker_title" product="device">Protect your device</string>
+    <string name="setup_lock_settings_picker_title" product="default">Protect your phone</string>
+    <string name="current_screen_lock">Current screen lock</string>
+    <string name="lockpassword_invalid_password">Wrong password</string>
+
+
+
+    <string name="security_button_cancel_button_title">Cancel</string>
+    <string name="security_button_next_button_title">Next</string>
+    <string name="security_button_continue_button_title">Continue</string>
+    <string name="security_button_confirm_button_title">OK</string>
+    <!-- lockscreen and password strings  translate first time END.-->
+
+
+    <string name="device_owner_info_negative_button_title">Cancel</string>
+    <string name="device_owner_info_positive_button_title">OK</string>
+    <string name="device_owner_info_title">Lockscreen owner info</string>
+    <string name="device_owner_info_summary">Message set here will show in lockscreen UI</string>
+
+    <string name="lockpassword_password_too_long">Must be fewer than <xliff:g id="number" example="17">%d</xliff:g> characters.</string>
+    <string name="lockpassword_pin_too_long">Must be fewer than <xliff:g id="number" example="17">%d</xliff:g> digits.</string>
+
+    <!-- lockscreen and password strings -->
+    <string name="secure_startup_text">You can encrypt your phone using the screen lock, which helps to protect data from lost or stolen devices.\n\nYou need to enter screen lock password to decrypt when restart, the time will become longer. The same time, you will not be able to use the shutdown alarm clock. You will not be able to answer the call, receive messages or notice (including alarm) before loading complete.\n\nPlease remember your screen lock password, if you it, only through the brush to remove all of the data can restore the phone.</string>
+
+    <!-- lock screen and password -->
+    <string name="battery_title">Battery</string>
+    <string name="smart_powersaver">Smart power saving</string>
+    <string name="power_usage_list_title">Power consumption information</string>
+    <string name="all_permissions">"All permissions"</string>
+    <string name="panel_init_title" description="Hedes's panel initial version code" maxwidth="-1">"Display initial code version"</string>
+</resources>

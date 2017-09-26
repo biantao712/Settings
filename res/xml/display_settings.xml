@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        android:title="@string/display_settings"
+        settings:keywords="@string/keywords_display">
+		<!--
+        <PreferenceScreen
+                android:key="brightness"
+                android:title="@string/brightness"
+                settings:keywords="@string/keywords_display_brightness_level">
+            <intent android:action="android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
+        </PreferenceScreen>
+
+        <SwitchPreference
+                android:key="auto_brightness"
+                android:title="@string/auto_brightness_title"
+                settings:keywords="@string/keywords_display_auto_brightness"
+                android:summary="@string/auto_brightness_summary" />
+
+
+        <com.android.settings.display.NightDisplayPreference
+                android:key="night_display"
+                android:title="@string/night_display_title"
+                android:fragment="com.android.settings.display.NightDisplaySettings"
+                android:widgetLayout="@null"
+                settings:keywords="@string/keywords_display_night_display" />
+
+
+        -->
+        <PreferenceCategory  
+            android:title="@string/display_category_screen"
+            android:key="display_category_screen">
+<!--
+               <com.android.settings.BrightnessPreference
+                android:key="brightness"
+                android:title="@string/brightness"
+                android:layout="@layout/cnasusres_preference_parent"
+                settings:keywords="@string/keywords_display_brightness_level"
+                />
+-->
+               <PreferenceScreen
+                android:key="brightness"
+                android:title="@string/brightness"
+                android:fragment="com.android.settings.display.DisplayBrightnessPreference"
+                android:layout="@layout/cnasusres_preference_parent"
+                settings:keywords="@string/keywords_display_brightness_level"
+                />
+
+               <PreferenceScreen
+                android:key="screen_color_mode"
+                android:title="@string/splendid_screen_color_mode_title"
+                android:layout="@layout/cnasusres_preference_parent_nodivider"
+                android:summary="@string/splendid_balance_mode_text" />
+
+            <SwitchPreference
+                android:key="bluelight_filter_switch"
+                android:title="@string/splendid_reading_mode_text"
+                android:layout="@layout/asusres_preference_material_nodivider"/>
+        </PreferenceCategory> 
+        
+        <PreferenceCategory
+            android:key="font_category"
+            android:title="@string/display_category_font">
+            <com.android.settings.flipfont.FontListPreference
+                android:key="MONOTYPE"
+                android:title="@string/monotype_preference_title"
+                android:summary="@string/monotype_preference_summary"
+                android:layout="@layout/cnasusres_preference_parent"
+                android:persistent="false" />
+
+                <!--=====================lovgelyfonts add ================-->
+                <Preference
+                android:key="lovelyfont_setting"
+                android:persistent="false"
+                android:title="@string/font_setting_title"
+                android:layout="@layout/cnasusres_preference_parent" >
+                <intent
+                android:action="com.lovelyfonts.activity.mainTab" />
+                </Preference>
+                <!--=====================lovgelyfonts end ================-->
+
+ <!--
+                <PreferenceScreen
+                android:key="font_size"
+                android:title="@string/title_font_size"
+                android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment"
+                android:layout="@layout/cnasusres_preference_parent_nodivider"
+                settings:keywords="@string/keywords_display_font_size" />
+-->
+            <Preference
+                android:key="font_size"
+                android:title="@string/title_font_size"
+                android:layout="@layout/cnasusres_preference_parent"
+                settings:keywords="@string/keywords_display_font_size" />
+<!--
+            <ListPreference
+                android:key="font_size"
+                android:title="@string/title_font_size"
+                android:entries="@array/entries_font_size"
+                android:entryValues="@array/entryvalues_font_size"
+                android:layout="@layout/cnasusres_preference_parent"
+                settings:keywords="@string/keywords_display_font_size" />
+-->
+            <com.android.settings.display.ScreenZoomPreference
+                android:key="screen_zoom"
+                android:title="@string/screen_zoom_title"
+                settings:keywords="@string/screen_zoom_keywords"
+                android:layout="@layout/cnasusres_preference_parent_nodivider" />
+            </PreferenceCategory>
+   
+        <PreferenceCategory
+            android:title="@string/display_category_system"
+            android:key="display_system_category">
+<!--
+               <com.android.settings.TimeoutListPreference
+                android:key="screen_timeout"
+                android:title="@string/display_category_system_lock"
+                android:summary="@string/screen_timeout_summary"
+                android:entries="@array/screen_timeout_entries"
+                android:layout="@layout/cnasusres_preference_parent"
+                android:entryValues="@array/screen_timeout_values" />
+-->
+               <com.android.settings.TimeoutListPreference
+                android:key="screen_timeout"
+                android:title="@string/display_category_system_lock"
+                android:summary="@string/screen_timeout_summary"
+                android:entries="@array/screen_timeout_entries"
+                android:layout="@layout/asusres_preference_material_with_arrow"
+                android:entryValues="@array/screen_timeout_values" />
+
+               <SwitchPreference
+                android:key="auto_rotate"
+                android:title="@string/accelerometer_title"
+                android:persistent="false"/>
+
+            <!--  [AlwaysOn] Always-on Panel  - BEGIN  -->
+            <Preference
+                android:key="always_on_panel"
+                android:title="@string/asus_alwayson_app_title"
+                android:persistent="false"
+                android:layout="@layout/cnasusres_preference_parent_nodivider">
+                <intent
+                    android:action="com.asus.alwayson.action.ALWAYSON_SETTING"
+                    android:targetPackage="com.asus.alwayson" />
+            </Preference>
+
+            <!--  [AlwaysOn] Always-on Panel  - END  -->
+        </PreferenceCategory>
+        <!-- Hide night mode for now
+        <ListPreference
+            android:key="night_mode"
+            android:title="@string/night_mode_title"
+            settings:keywords="@string/keywords_display_night_mode"
+            android:summary="@string/night_mode_summary"
+            android:entries="@array/night_mode_entries"
+            android:entryValues="@array/night_mode_values" /> -->
+       <!--
+        <com.android.settingslib.RestrictedPreference
+                android:key="wallpaper"
+                android:title="@string/wallpaper_settings_title"
+                settings:keywords="@string/keywords_display_wallpaper"
+                android:fragment="com.android.settings.WallpaperTypeSettings"
+                settings:useAdminDisabledSummary="true" />
+        
+        <SwitchPreference
+                android:key="camera_gesture"
+                android:title="@string/camera_gesture_title"
+                android:summary="@string/camera_gesture_desc" />
+         
+        <SwitchPreference
+                android:key="camera_double_tap_power_gesture"
+                android:title="@string/camera_double_tap_power_gesture_title"
+                android:summary="@string/camera_double_tap_power_gesture_desc" />
+         
+        <SwitchPreference
+            android:key="notification_pulse"
+            android:title="@string/led_indicator"
+            android:persistent="false" />
+        
+        <SwitchPreference
+            android:key="touch_key_light"
+            android:title="@string/touch_key_light"
+            android:persistent="false" />
+
+
+
+        <PreferenceScreen
+                android:key="screensaver"
+                android:title="@string/screensaver_settings_title"
+                android:fragment="com.android.settings.DreamSettings" />
+        
+        <SwitchPreference
+                android:key="lift_to_wake"
+                android:title="@string/lift_to_wake_title" />
+
+        <SwitchPreference
+                android:key="doze"
+                android:title="@string/doze_title"
+                android:summary="@string/doze_summary" />
+         
+        <SwitchPreference
+                android:key="tap_to_wake"
+                android:title="@string/tap_to_wake"
+                android:summary="@string/tap_to_wake_summary" />
+        -->
+<!--
+        <com.android.settings.display.ScreenZoomPreference
+                android:key="screen_zoom"
+                android:title="@string/screen_zoom_title"
+                settings:keywords="@string/screen_zoom_keywords" />
+
+        <DropDownPreference
+                android:key="auto_rotate"
+                android:summary="%s"
+                android:title="@string/display_auto_rotate_title" />
+-->
+        <PreferenceScreen
+                android:key="wifi_display"
+                android:title="@string/wifi_display_settings_title"
+                settings:keywords="@string/keywords_display_cast_screen"
+                android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
+<!--
+        <DropDownPreference
+                android:key="vr_display_pref"
+                android:summary="%s"
+                android:title="@string/display_vr_pref_title" />
+
+        <PreferenceScreen
+                android:key="screen_color_mode"
+                android:title="@string/splendid_screen_color_mode_title"
+                android:summary="@string/splendid_balance_mode_text" />
+-->
+        <!--<PreferenceScreen-->
+                <!--android:key="pq_chip_memc"-->
+                <!--android:title="@string/picture_quality_memc_title"-->
+                <!--android:summary="@string/picture_quality_memc_desc_middle"-->
+                <!--android:fragment="com.android.settings.memc.MemcSettings" />-->
+
+<!--        <com.android.settings.memc.MemcSwitchPreference
+                android:key="pq_chip_memc_verizon"
+                android:title="@string/picture_quality_memc_title"
+                android:summary="@string/picture_quality_memc_desc_middle"
+                android:fragment="com.android.settings.memc.MemcSettingsVerizon" />-->
+
+         <com.android.settings.bluelightfilter.BluelightSwitchPreference
+                android:key="bluelight_filter_mode"
+                android:title="@string/splendid_reading_mode_text"
+               android:summary="@string/splendid_balance_mode_text" />
+
+
+</PreferenceScreen>

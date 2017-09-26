@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="zenmotion_tutorial_title">"教程"</string>
+    <string name="tutorial_w_launch_summary">"息屏时，在屏幕上快速滑动字母”W”开启应用程序。"</string>
+    <string name="tutorial_s_launch_summary">"息屏时，在屏幕上快速滑动字母”S”开启应用程序。"</string>
+    <string name="tutorial_e_launch_summary">"息屏时，在屏幕上快速滑动字母”e”开启应用程序。"</string>
+    <string name="tutorial_c_launch_summary">"息屏时，在屏幕上快速滑动字母”C”开启应用程序。"</string>
+    <string name="tutorial_z_launch_summary">"息屏时，在屏幕上快速滑动字母”Z”开启应用程序。"</string>
+    <string name="tutorial_v_launch_summary">"息屏时，在屏幕上快速滑动字母”V”开启应用程序。"</string>
+    <string name="tutorial_double_click_summary">"有来电时，双击设备本身进入静音模式。"</string>
+    <string name="tutorial_flip_down_title">"翻转（向下翻转）"</string>
+    <string name="tutorial_flip_up_title">"翻转（向下与向上翻转）"</string>
+    <string name="tutorial_flip_down_summary">"有来电时，将设备向下翻转可以进入静音模式。"</string>
+    <string name="tutorial_flip_up_summary">"在媒体播放期间，将设备向下翻转可以暂停播放器。在媒体播放器暂停期间，将设备向上翻转可以继续播放。"</string>
+    <string name="tutorial_hands_up_summary">"将设备放到耳边时自动接听，无需按屏幕。"</string>
+    <string name="tutorial_moving_summary">"若来电时正在走路或移动，将提高铃声音量。"</string>
+    <string name="app_asus_front_camera_name">相机-前置镜头</string>
+    <string name="app_asus_smartlauncher_weather_name">"省事儿-天气"</string>
+    <string name="wake_up_touch_gesture_category_title">"亮屏手势"</string>
+    <string name="sleep_touch_gesture_category_title">"息屏手势"</string>
+    <string name="shake_summary">"使用应用程序时，摇动两次获取一张屏幕截图，并在Do It Later中创建一个新任务。"</string>
+    <string name="motion_flip_title">"翻转"</string>
+    <string name="motion_flip_summary">"翻转设备。"</string>
+    <string name="motion_hand_up_title">"智慧接听"</string>
+    <string name="motion_hand_up_summary">"来电时，拿起设备靠近耳朵自动接听。"</string>
+    <string name="motion_double_click_title">"双击"</string>
+    <string name="motion_double_click_summary">"单击两次设备。"</string>
+    <string name="motion_walking_title">"移动"</string>
+    <string name="motion_walking_summary">"将设备握在手里或放在口袋里时，设备会知道您正在行走或移动。"</string>
+    <string name="zen_motion_settings_title">ZenMotion</string>
+    <string name="motion_gesture_category_title">动作感应</string>
+    <string name="touch_gesture_category_title">触控手势</string>
+    <string name="shake_title">摇晃</string>
+    <string name="shake_sensitivity_title">摇晃灵敏度</string>
+    <string name="doubletap_on_setting_title">双击亮屏</string>
+    <string name="doubletap_off_setting_title">双击息屏</string>
+    <string name="doubletap_on_setting_summary">双击唤醒</string>
+    <string name="doubletap_off_setting_summary">双击睡眠</string>
+    <string name="w_launch_title">“W”启动App</string>
+    <string name="s_launch_title">“S”启动App</string>
+    <string name="e_launch_title">“e”启动App</string>
+    <string name="c_launch_title">“C”启动App</string>
+    <string name="z_launch_title">“Z”启动App</string>
+    <string name="v_launch_title">“V”启动App</string>
+    <string name="shake_sensitivity_entries_high">高</string>
+    <string name="shake_sensitivity_entries_normal">正常</string>
+    <string name="shake_sensitivity_entries_low">低</string>
+    <string name="app_disable">禁用</string>
+    <string name="app_asus_boost_name">省电与加速</string>
+    <string name="swipe_up_to_wake_up_title">"向上划以唤醒"</string>
+    <string name="swipe_up_to_wake_up_summary">"向上划屏幕从空闲模式唤醒设备。"</string>
+    <string name="gesture_wake_up_screen">"唤醒屏幕"</string>
+    <string name="double_tap_on_confirm_dialog_title">双击唤醒</string>
+    <string name="double_tap_on_confirm_dialog_message">屏幕关闭时，双击屏幕同一个地方可以唤醒屏幕。</string>
+    <string name="double_tap_off_confirm_dialog_title">双击睡眠</string>
+    <string name="double_tap_off_confirm_dialog_message">在滑动解锁画面，双击屏幕空白处可关闭屏幕。在状态栏与桌面画面，双击屏幕空白处可关闭屏幕。</string>
+    <string name="double_tap_mode_confirm_dialog_checkbox_message">不再显示（此条信息）</string>
+    <string name="doubletap_mode_setting_title">开启/关闭屏幕</string>
+    <string name="doubletap_mode_setting_summary">双击唤醒/"\n"双击挂起</string>
+    <string name="double_tap_mode_confirm_dialog_title">双击唤醒/\n双击挂起</string>
+    <string name="double_tap_mode_confirm_dialog_message">在屏幕关闭时，请双击屏幕上同一位置唤醒屏幕。 在滑动锁屏的锁定屏幕上，双击空白区域来关闭屏幕。 双击状态栏和启动器的空白区域来关闭屏幕。</string>
+    <!--new UI -->
+    <!-- Gesture and Motion-->
+    <string name="Gesture_Motion_title">手势与感应</string>
+    <string name="Touch_Gesture_title">手势操作</string>
+    <string name="Gestures_Quick_Start_Applications_title">手势快启应用</string>
+    <string name="Gestures_Quick_Start_Applications_summary">关闭</string>
+    <string name="Gestures_Quick_Start_Applications_summary_off">关闭</string>
+    <string name="Gestures_Quick_Start_Applications_summary_on">开启</string>
+    <string name="Gestures_Quick_Start_Applications_summary_2">开启后,息屏状态下,在屏幕上滑动对应手势以启动应用.</string>
+    <string name="Gestures_Quick_Start_Applications_Tutorial_title">查看教程</string>
+    <string name="Motion_Gesture_title">动作感应</string>
+    <string name="Auto_Answer_title">自动接听</string>
+    <string name="Auto_Answer_summary">来电时,手机靠近耳朵自动接听来电。</string>
+    <string name="Flip_to_mute_title">翻转静音</string>
+    <string name="flip_to_mute_summary">翻转设备至屏幕朝下以静音来电铃声。</string>
+    <string name="One_Hand_Mode_title">单手模式</string>
+    <string name="Quick_trigger_title">快速切换</string>
+    <string name="Quick_trigger_summary">双击home键切换单手操作</string>
+    <!--Gesture Quick Start Application -->
+    <string name="V_launch_title">"V 手势"</string>
+    <string name="C_launch_title">"C 手势"</string>
+    <string name="E_launch_title">"e 手势"</string>
+    <string name="W_launch_title">"W 手势"</string>
+    <string name="S_launch_title">"S 手势"</string>
+    <string name="Z_launch_title">"Z 手势"</string>
+    <string name="no_selected">未配置</string>
+    <!-- Gesture App List-->
+    <string name="Application_list_title">应用选择</string>
+    <string name="not_enabled">不启用</string>
+    <!-- Tutorial-->
+    <string name="zenmotion2_tutorial_title">手势教程</string>
+    <!--new UI end -->
+</resources>

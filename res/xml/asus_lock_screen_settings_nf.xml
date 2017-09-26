@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/asus_lockscreen_settings_title_nf" >
+
+
+
+    <PreferenceCategory
+        android:key="lockscreen_info"
+        android:layout="@layout/asusres_preference_category_material_nodivider">
+
+        <Preference
+            android:key="device_owner_info"
+            android:title="@string/device_owner_info_title"
+            android:summary="@string/device_owner_info_summary"
+            android:layout="@layout/cn_zen_mode_preference_layout"
+        />
+
+        <PreferenceScreen
+            android:key="date_time_format"
+            android:title="@string/lock_screen_settings_nf_date_time_format_title"
+            android:fragment="com.asus.settings.lockscreen.ui.DateTimeWeatherFormatFragment"/>
+
+        <com.asus.settings.lockscreen.ui.LockscreenWeatherColorSwitchPreference
+            android:key="weather_color"
+            android:title="@string/lock_screen_settings_nf_weather_color_title"
+            android:persistent="false" />
+
+        <SwitchPreference
+            android:key="lockscreen_show_notifications"
+            android:title="@string/cn_notification_lockscreen_show"
+            android:summary="@string/cn_notification_lockscreen_show_summary"
+            android:layout="@layout/asusres_preference_material_nodivider"
+        />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:layout="@layout/asusres_preference_category_material_nodivider"
+        android:key="magazine_info">
+
+        <com.asus.settings.lockscreen.ui.LockscreenMagzineSwitchPreference
+            android:key="magzine"
+            android:title="@string/lock_screen_settings_nf_magzine_swich_title"
+            android:persistent="false" />
+
+        <PreferenceScreen
+            android:key="magzine_settings"
+            android:title="@string/lock_screen_settings_nf_magzine_setting_title"
+            android:layout="@layout/cnasusres_preference_parent_nodivider_with_bg"/>
+    </PreferenceCategory>
+
+
+<!-- 
+    <PreferenceCategory
+        android:layout="@layout/asusres_preference_category_material_nodivider">
+    <PreferenceScreen
+            android:key="lock_screen_settings_nf_date_time_format"
+	    android:fragment="com.asus.settings.lockscreen.ui.LockscreenSettingsPreference"
+            android:title="@string/lock_screen_settings_nf_date_time_format_title">
+    </PreferenceScreen>
+-->
+<!--             android:fragment="com.asus.settings.lockscreen.ui.LockscreenSettingsDateTimePreference"> -->
+
+<!-- 
+        <com.asus.settings.lockscreen.LockscreenSettingsWeatherColor
+        android:key="lock_screen_settings_nf_weather_color"
+        android:title="@string/lock_screen_settings_nf_weather_color_title"
+	    android:fragment="com.asus.settings.lockscreen.ui.LockscreenSettingsPreference"
+        android:persistent="false" >
+    </com.asus.settings.lockscreen.LockscreenSettingsWeatherColor> -->
+
+<!--        android:fragment="com.android.settings.zenmotion.AsusTouchSettings" 
+
+ </PreferenceCategory>-->
+
+
+
+<!--
+        <com.android.settings.zenmotion.ZenTouchGestureSwitchPreference
+        android:key="asus_touch_gesture"
+        android:title="@string/touch_gesture_category_title"
+        android:fragment="com.android.settings.zenmotion.AsusTouchSettings"
+        android:persistent="false" >
+    </com.android.settings.zenmotion.ZenTouchGestureSwitchPreference>
+
+
+
+
+
+        <com.android.settings.zenmotion.ZenTouchGestureSwitchPreference
+        android:key="asus_touch_gesture"
+        android:title="@string/touch_gesture_category_title"
+        android:fragment="com.android.settings.zenmotion.AsusTouchSettings"
+        android:persistent="false" >
+    </com.android.settings.zenmotion.ZenTouchGestureSwitchPreference>
+
+    <com.android.settings.zenmotion.ZenMotionGestureSwitchPreference
+        android:key="asus_motion_gesture"
+        android:title="@string/motion_gesture_category_title"
+        android:fragment="com.android.settings.zenmotion.AsusMotionSettings"
+        android:persistent="false" >
+    </com.android.settings.zenmotion.ZenMotionGestureSwitchPreference>
+
+    <PreferenceScreen
+            android:key="asus_onehand_mode"
+            android:title="@string/asus_onehand_ctrl_title_string"
+            android:fragment="com.android.settings.zenmotion.OneHandModeSettings">
+    </PreferenceScreen>
+
+-->
+
+</PreferenceScreen>

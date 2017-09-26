@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="virtualkey_category"
+        android:title="@string/accessibility_bottom_bar_virtual_key_group_title">
+
+        <com.android.settings.accessibility.AccessibilityRadioButtonPreference
+            android:key="virtualkey_group1"
+            android:layout="@layout/accessibility_virtual_key_group_setting"
+            >
+        </com.android.settings.accessibility.AccessibilityRadioButtonPreference>
+
+        <com.android.settings.accessibility.AccessibilityRadioButtonPreference
+            android:key="virtualkey_group3"
+            android:layout="@layout/accessibility_virtual_key_group3_setting">
+        </com.android.settings.accessibility.AccessibilityRadioButtonPreference>
+
+
+        <com.android.settings.accessibility.AccessibilityRadioButtonPreference
+            android:key="virtualkey_group2"
+            android:layout="@layout/accessibility_virtual_key_group2_setting">
+        </com.android.settings.accessibility.AccessibilityRadioButtonPreference>
+
+
+
+        <com.android.settings.accessibility.AccessibilityRadioButtonPreference
+            android:key="virtualkey_group4"
+            android:layout="@layout/accessibility_virtual_key_group4_setting">
+        </com.android.settings.accessibility.AccessibilityRadioButtonPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

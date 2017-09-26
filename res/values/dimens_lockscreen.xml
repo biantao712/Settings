@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asus_shortcut_app_marginLeft">10dp</dimen>
+    <!-- Quick Access -->
+    <dimen name="asus_shortcut_choose_marginleft">28dp</dimen>
+    <dimen name="asus_shortcut_preview_marginleft">10dp</dimen>
+    <dimen name="asus_shortcut_layout_marginleft">25dp</dimen>
+    <dimen name="asus_shortcut_layout_margintop">135dp</dimen>
+    <dimen name="asus_quickaccess_switch_marginleft">30dp</dimen>
+    <dimen name="asus_quickaccess_margin_value">10dp</dimen>
+    <dimen name="asus_quickaccess_margin_value2">45dp</dimen>
+    <dimen name="asus_quickaccess_textview_marginleft">15dp</dimen>
+    <dimen name="asus_quickaccess_message_textsize">18dp</dimen>
+    <dimen name="asus_quickaccess_tap_message_textsize">13dp</dimen>
+    <dimen name="asus_shortcut_choose_margintop">30dp</dimen>
+    <dimen name="asus_quickaccess_bottomline_margintop">15dp</dimen>
+    <dimen name="asus_quickaccess_draggridview_width">300dp</dimen>
+    <dimen name="asus_quickaccess_textview_layout_width">234dp</dimen>
+
+    <!-- For fingerprint enrollment -->
+    <dimen name="asus_fingerprint_enrolling_content_margin_top">81dp</dimen> <!--78dp-->
+    <dimen name="asus_fingerprint_enrolling_continue_margin_top">60dp</dimen> <!--35dp-->
+    <dimen name="asus_fingerprint_enrolling_proggress_text_margin_top">10dp</dimen> <!--34dp-->
+    <dimen name="asus_fingerprint_enrolling_error_text_margin_top">40dp</dimen>  <!--50dp-->
+    <dimen name="asus_fingerprint_enrolling_continue_btn_inside_radius">82.335dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_btn_outside_radius">100.335dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_btn_w">175.33dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_btn_h">173.33dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_image_w">260dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_continue_image_h">260dp</dimen>
+    <dimen name="asus_fingerprint_finish_add_other_text_margin_bottom">32dp</dimen>
+    <dimen name="asus_fingerprint_decor_padding_top">0dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_content_w">141dp</dimen>
+    <dimen name="asus_fingerprint_enrolling_content_h">193dp</dimen>
+    <dimen name="asus_fingerprint_find_sensor_content_back_w">312dp</dimen>
+    <dimen name="asus_fingerprint_find_sensor_content_back_h">268dp</dimen>
+    <dimen name="asus_fingerprint_find_sensor_content_front_w">312dp</dimen>
+    <dimen name="asus_fingerprint_find_sensor_content_front_h">303.5dp</dimen>
+    <dimen name="asus_fingerprint_finish_content_w">170dp</dimen>
+    <dimen name="asus_fingerprint_finish_content_h">205dp</dimen>
+    <dimen name="asus_fingerprint_btn_w">140dp</dimen>
+    <dimen name="asus_fingerprint_btn_margin">10dp</dimen>
+    <dimen name="asus_fingerprint_btn_bottom_margin">30dp</dimen>
+    <dimen name="asus_suw_description_margin_top">0dp</dimen>
+    <!-- For setup wizard view -->
+    <dimen name="suw_common_title_text_size">24sp</dimen>
+    <dimen name="suw_common_context_text_size">16sp</dimen>
+    <dimen name="suw_common_context_padding">24dp</dimen>
+    <dimen name="asus_suw_description_margin_top">0dp</dimen>
+</resources>

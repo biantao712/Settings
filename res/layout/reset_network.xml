@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/category_divider_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:background="#f7f7f7">
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="34dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:textColor="#9e9e9e"
+                    android:typeface="sans"
+                    android:textDirection="locale"
+                    android:gravity="center_vertical"
+                    android:text="@string/backup_reset_network_desc_title" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/cnasusres_preference_dividers"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#0c0c0c"
+                android:typeface="sans"
+                android:layout_marginTop="5dp"
+                android:textDirection="locale"
+                android:text="@string/backup_reset_network_desc_one" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#0c0c0c"
+                android:typeface="sans"
+                android:layout_marginTop="5dp"
+                android:textDirection="locale"
+                android:text="@string/backup_reset_network_desc_two" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#0c0c0c"
+                android:typeface="sans"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textDirection="locale"
+                android:text="@string/backup_reset_network_desc_three" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reset_network_subscription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dip">
+
+            <LinearLayout
+                android:id="@+id/reset_network_sim1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selectable_card">
+                <TextView
+                    android:id="@+id/reset_network_sim1_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="start|center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="#0c0c0c"
+                    android:typeface="sans"
+                    android:text="@string/backup_reset_network_sim1"/>
+                <RadioButton
+                    android:id="@+id/reset_network_sim1_radio_button"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:focusable="false"
+                    android:clickable="false" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/cnasusres_preference_dividers"/>
+
+            <LinearLayout
+                android:id="@+id/reset_network_sim2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selectable_card">
+                <TextView
+                    android:id="@+id/reset_network_sim2_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="start|center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="#0c0c0c"
+                    android:typeface="sans"
+                    android:text="@string/backup_reset_network_sim2"/>
+                <RadioButton
+                    android:id="@+id/reset_network_sim2_radio_button"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:focusable="false"
+                    android:clickable="false" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/initiate_reset_network"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="18dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:typeface="sans"
+        android:text="@string/backup_reset_network_button_text"
+        android:gravity="center"
+        android:layout_gravity="bottom|center_horizontal"/>
+
+</LinearLayout>
